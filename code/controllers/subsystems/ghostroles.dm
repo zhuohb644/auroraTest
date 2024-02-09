@@ -161,6 +161,11 @@ SUBSYSTEM_DEF(ghostroles)
 			if(cant_spawn)
 				to_chat(usr, "Unable to spawn: [cant_spawn]")
 				return
+			if(S.password)
+				var/input = input(usr, "Input Password", "Ghost Spawner Password")
+				if(input != S.password)
+					to_chat(usr, SPAN_WARNING("Incorrect password"))
+					return
 			if(isnewplayer(usr))
 				var/mob/abstract/new_player/N = usr
 				N.close_spawn_windows()

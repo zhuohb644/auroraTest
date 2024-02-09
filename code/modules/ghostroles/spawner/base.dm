@@ -43,6 +43,8 @@
 	/// A lazylist of weakrefs to mobs this spawner has spawned
 	var/list/datum/weakref/spawned_mobs
 
+	var/password = null
+
 /datum/ghostspawner/New()
 	. = ..()
 	if(!jobban_job)
