@@ -13643,10 +13643,6 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/centcom/spawning)
-"aIa" = (
-/obj/machinery/door/airlock/multi_tile/glass,
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "aIi" = (
 /turf/unsimulated/wall/fakepdoor{
 	dir = 1;
@@ -35199,12 +35195,6 @@
 	icon_state = "desert"
 	},
 /area/centcom/shared_dream)
-"bRv" = (
-/obj/structure/bed/handrail{
-	dir = 8
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "bRB" = (
 /obj/effect/floor_decal/corner/paleblue/full,
 /obj/structure/railing/mapped{
@@ -35274,13 +35264,6 @@
 	},
 /turf/simulated/floor/holofloor/carpet/rubber,
 /area/horizon/holodeck/source_gym)
-"ceq" = (
-/obj/machinery/door/airlock/multi_tile/glass{
-	dir = 1;
-	name = "Cryogenics"
-	},
-/turf/simulated/floor/shuttle/white,
-/area/shuttle/scc)
 "ckG" = (
 /obj/effect/floor_decal/corner/red/full{
 	dir = 1
@@ -35632,27 +35615,6 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/horizon/holodeck/source_battlemonsters)
-"dEy" = (
-/obj/structure/table/reinforced/steel,
-/obj/item/reagent_containers/food/snacks/koisbar_clean,
-/obj/item/reagent_containers/food/snacks/koisbar_clean,
-/obj/item/reagent_containers/food/snacks/koisbar_clean,
-/obj/item/reagent_containers/food/snacks/koisbar_clean,
-/obj/item/reagent_containers/food/snacks/koisbar_clean,
-/obj/item/reagent_containers/food/snacks/koisbar_clean,
-/obj/item/reagent_containers/food/snacks/koisbar_clean,
-/obj/item/reagent_containers/food/snacks/koisbar_clean,
-/obj/item/reagent_containers/food/snacks/koisbar_clean,
-/obj/item/reagent_containers/food/snacks/koisbar_clean,
-/obj/item/reagent_containers/food/snacks/koisbar_clean,
-/obj/item/reagent_containers/food/snacks/koisbar_clean,
-/obj/item/reagent_containers/food/snacks/koisbar_clean,
-/obj/structure/closet/walllocker/secure{
-	pixel_y = 32;
-	name = "k'ois - FOR VAURCA CONSUMPTION ONLY"
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "dFd" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
@@ -35711,19 +35673,6 @@
 /obj/effect/floor_decal/spline/fancy/wood/cee,
 /turf/simulated/floor/holofloor/grass,
 /area/horizon/holodeck/source_battlemonsters)
-"dNl" = (
-/obj/structure/bed/stool/chair/shuttle{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/effect/landmark/force_spawnpoint,
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "dNo" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/secure/briefcase,
@@ -35848,19 +35797,6 @@
 /obj/structure/flora/rock,
 /turf/simulated/floor/exoplanet/barren,
 /area/centcom/shared_dream)
-"ehq" = (
-/obj/structure/bed/stool/chair/shuttle{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/effect/landmark/force_spawnpoint,
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "eiu" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -35869,13 +35805,6 @@
 /obj/item/device/flashlight/lantern,
 /turf/simulated/floor/holofloor/wood,
 /area/horizon/holodeck/source_sauna)
-"ejB" = (
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Chief Medical Officer"
-	},
-/obj/structure/bed/stool/chair/office/bridge,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "ejR" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
@@ -36116,12 +36045,6 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/simulated/floor/exoplanet/grass/grove,
 /area/centcom/shared_dream)
-"fgd" = (
-/obj/machinery/door/airlock/glass_command{
-	req_access = list(19)
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "fgU" = (
 /obj/effect/decal/fake_object/light_source/invisible{
 	light_color = "#C46518";
@@ -36138,15 +36061,6 @@
 /obj/effect/spider/stickyweb,
 /turf/simulated/floor/exoplanet/barren/raskara,
 /area/centcom/shared_dream)
-"frj" = (
-/obj/machinery/atm{
-	pixel_y = 29
-	},
-/obj/structure/bed/handrail{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "fsa" = (
 /obj/effect/mist,
 /turf/simulated/floor/exoplanet/water/shallow{
@@ -36154,12 +36068,6 @@
 	icon_state = "beachcorner"
 	},
 /area/horizon/holodeck/source_moghes)
-"fsY" = (
-/obj/item/modular_computer/console/preset/command/hop{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "ftO" = (
 /obj/effect/step_trigger/thrower/shuttle/northwest,
 /turf/template_noop,
@@ -36209,10 +36117,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/merchant)
-"fGt" = (
-/obj/random/pottedplant,
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "fHN" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
@@ -36404,15 +36308,6 @@
 /obj/structure/sign/christmas/snowman/hat,
 /turf/simulated/floor/exoplanet/snow,
 /area/centcom/shared_dream)
-"gmv" = (
-/obj/machinery/atm{
-	pixel_y = 29
-	},
-/obj/structure/bed/handrail{
-	dir = 8
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "goM" = (
 /turf/simulated/lava,
 /area/antag/ninja)
@@ -36642,19 +36537,6 @@
 /obj/structure/window/reinforced/holowindow,
 /turf/simulated/floor/holofloor/tiled,
 /area/horizon/holodeck/source_gym)
-"gZi" = (
-/obj/machinery/embedded_controller/radio/simple_docking_controller{
-	frequency = 1337;
-	id_tag = "scc_evac";
-	pixel_y = 24;
-	tag_door = "scc_shuttle_hatch"
-	},
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Corporate Liaison"
-	},
-/obj/structure/bed/stool/chair/shuttle,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "hbU" = (
 /obj/structure/bed/stool/chair/folding{
 	dir = 1
@@ -36765,12 +36647,6 @@
 	},
 /turf/unsimulated/floor,
 /area/antag/jockey)
-"hkX" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "hlt" = (
 /obj/effect/floor_decal/corner/white{
 	dir = 8
@@ -36883,15 +36759,6 @@
 /obj/structure/holostool,
 /turf/simulated/floor/holofloor/tiled,
 /area/horizon/holodeck/source_battlemonsters)
-"hJL" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/structure/bed/handrail{
-	dir = 8
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "hMP" = (
 /obj/structure/flora/grass/jungle{
 	icon_state = "bushb1"
@@ -37007,22 +36874,6 @@
 	},
 /turf/simulated/floor/exoplanet/grass/grove,
 /area/centcom/shared_dream)
-"icv" = (
-/obj/structure/table/reinforced/steel,
-/obj/item/reagent_containers/food/drinks/waterbottle{
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/food/drinks/waterbottle{
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/food/drinks/waterbottle{
-	pixel_x = -5;
-	pixel_y = 5
-	},
-/obj/structure/closet/walllocker/emerglocker/west,
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "ide" = (
 /obj/effect/decal/fake_object{
 	density = 1;
@@ -37039,13 +36890,6 @@
 	name = "overgrowth"
 	},
 /area/horizon/holodeck/source_moghes)
-"idS" = (
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Consular Officer"
-	},
-/obj/structure/bed/stool/chair/shuttle,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "ifr" = (
 /obj/structure/flora/ausbushes/palebush,
 /turf/simulated/floor/beach/sand{
@@ -37113,16 +36957,6 @@
 	name = "shallow water"
 	},
 /area/horizon/holodeck/source_konyang)
-"iiH" = (
-/obj/structure/cryofeed{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/shuttle/scc)
-"ijh" = (
-/obj/effect/decal/fake_object/light_source/invisible,
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "ipe" = (
 /obj/structure/sign/vacuum{
 	pixel_x = -32
@@ -37227,12 +37061,6 @@
 	name = "overgrowth"
 	},
 /area/horizon/holodeck/source_moghes)
-"iLQ" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "iNk" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -37419,12 +37247,6 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/horizon/holodeck/source_biesel)
-"jgE" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/shuttle/white,
-/area/shuttle/scc)
 "jhm" = (
 /obj/effect/decal/fake_object{
 	dir = 4;
@@ -37492,19 +37314,6 @@
 	icon_state = "beach"
 	},
 /area/centcom/shared_dream)
-"joB" = (
-/obj/structure/window/shuttle/scc_space_ship,
-/obj/machinery/door/blast/regular/open{
-	id = "ssc_shuttle"
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
-"joK" = (
-/obj/structure/table/standard,
-/obj/item/paper_bin,
-/obj/item/pen/black,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "jpC" = (
 /obj/effect/step_trigger/teleporter/random{
 	affect_ghosts = 1;
@@ -37644,12 +37453,6 @@
 	},
 /turf/simulated/floor/exoplanet/grass/grove,
 /area/centcom/shared_dream)
-"jQr" = (
-/obj/item/modular_computer/console/preset/civilian{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "jSv" = (
 /obj/structure/railing/mapped{
 	layer = 5.1
@@ -37676,9 +37479,6 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/horizon/holodeck/source_thunderdomecourt)
-"jTW" = (
-/turf/simulated/floor/shuttle/white,
-/area/shuttle/scc)
 "jYW" = (
 /obj/structure/table/wood,
 /obj/item/wrench,
@@ -37689,9 +37489,6 @@
 /obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/marble/dark,
 /area/horizon/holodeck/source_tribunal)
-"kcG" = (
-/turf/simulated/wall/shuttle/scc,
-/area/shuttle/scc)
 "kdV" = (
 /obj/effect/floor_decal/spline/plain,
 /turf/simulated/floor/beach/sand{
@@ -37788,10 +37585,6 @@
 	},
 /turf/simulated/floor/holofloor/carpet/rubber,
 /area/horizon/holodeck/source_basketball)
-"kqx" = (
-/obj/machinery/atmospherics/unary/engine/scc_shuttle,
-/turf/simulated/floor/airless,
-/area/shuttle/scc)
 "kub" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -37819,10 +37612,6 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/horizon/holodeck/source_emptycourt)
-"kAF" = (
-/obj/effect/decal/fake_object/light_source/invisible,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "kAJ" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 5
@@ -38264,14 +38053,6 @@
 	icon_state = "desert"
 	},
 /area/centcom/shared_dream)
-"lKS" = (
-/obj/structure/table/standard,
-/obj/item/device/megaphone/command,
-/obj/item/device/megaphone/command,
-/obj/item/device/megaphone/command,
-/obj/machinery/light,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "lLY" = (
 /obj/structure/flora/tree/dead,
 /obj/structure/flora/grass/green,
@@ -38554,9 +38335,6 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/horizon/holodeck/source_battlemonsters)
-"mAx" = (
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "mEa" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/effect/floor_decal/spline/fancy{
@@ -38593,12 +38371,6 @@
 	},
 /turf/simulated/floor/holofloor/reinforced,
 /area/horizon/holodeck/source_biesel)
-"mHT" = (
-/obj/effect/landmark{
-	name = "Observer-Start"
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "mIr" = (
 /obj/effect/decal/cleanable/cobweb2,
 /obj/effect/decal/cleanable/spiderling_remains,
@@ -38661,12 +38433,6 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/simulated/floor/exoplanet/grass/grove,
 /area/centcom/shared_dream)
-"mTo" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "mTt" = (
 /obj/effect/floor_decal/corner/red/full{
 	dir = 4
@@ -38936,13 +38702,6 @@
 	},
 /turf/simulated/floor/exoplanet/grass/grove,
 /area/centcom/shared_dream)
-"onY" = (
-/obj/structure/bed/stool/chair/office/bridge,
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Chief Engineer"
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "opa" = (
 /obj/effect/decal/fake_object{
 	dir = 4;
@@ -39040,22 +38799,6 @@
 /obj/machinery/mech_recharger,
 /turf/simulated/floor/carpet/rubber,
 /area/antag/jockey)
-"oCQ" = (
-/obj/structure/bed/stool/chair/shuttle{
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/effect/landmark/force_spawnpoint,
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "oDu" = (
 /turf/simulated/floor/beach/sand{
 	dir = 9;
@@ -39068,24 +38811,12 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/horizon/holodeck/source_courtroom)
-"oID" = (
-/obj/machinery/computer/shuttle_control/scc_transport{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "oJK" = (
 /obj/effect/floor_decal/corner{
 	dir = 1
 	},
 /turf/simulated/floor/marble/dark,
 /area/horizon/holodeck/source_trinary)
-"oNa" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "oNM" = (
 /obj/structure/dueling_table/no_collide{
 	icon_state = "bottom_right"
@@ -39150,12 +38881,6 @@
 /obj/item/flame/candle,
 /turf/simulated/floor/holofloor/wood,
 /area/horizon/holodeck/source_sauna)
-"oSP" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle/white,
-/area/shuttle/scc)
 "oTZ" = (
 /obj/item/shovel,
 /turf/simulated/floor/exoplanet/barren,
@@ -39167,15 +38892,6 @@
 /obj/structure/table/wood,
 /turf/simulated/floor/holofloor/wood,
 /area/horizon/holodeck/source_sauna)
-"oUs" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/bed/handrail{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "oUB" = (
 /obj/effect/floor_decal/corner/yellow,
 /obj/effect/floor_decal/corner{
@@ -39409,10 +39125,6 @@
 /obj/item/cell/nuclear,
 /turf/simulated/floor/carpet/rubber,
 /area/antag/jockey)
-"pEz" = (
-/obj/structure/table/standard,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "pEO" = (
 /obj/effect/floor_decal/spline/plain/corner,
 /turf/simulated/floor/exoplanet/barren/raskara,
@@ -39500,23 +39212,12 @@
 	},
 /turf/simulated/floor/exoplanet/snow,
 /area/centcom/shared_dream)
-"pVk" = (
-/obj/structure/bed/stool/chair/shuttle,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "pVx" = (
 /obj/structure/table/wood,
 /turf/simulated/floor/holofloor/beach/sand{
 	icon_state = "desert4"
 	},
 /area/horizon/holodeck/source_beach)
-"pVA" = (
-/obj/structure/bed/stool/chair/office/bridge,
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Executive Officer"
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "pYc" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 6
@@ -39568,22 +39269,6 @@
 	},
 /turf/simulated/floor/marble/dark,
 /area/horizon/holodeck/source_trinary)
-"qqw" = (
-/obj/structure/table/reinforced/steel,
-/obj/item/reagent_containers/food/drinks/waterbottle{
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/food/drinks/waterbottle{
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/food/drinks/waterbottle{
-	pixel_x = -5;
-	pixel_y = 5
-	},
-/obj/structure/closet/walllocker/emerglocker/east,
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "qrO" = (
 /obj/effect/floor_decal/corner_wide/blue{
 	dir = 1
@@ -39700,10 +39385,6 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/horizon/holodeck/source_theatre)
-"qIf" = (
-/obj/machinery/vending/snack,
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "qMv" = (
 /obj/effect/floor_decal/carpet{
 	dir = 1
@@ -39719,22 +39400,6 @@
 "qMQ" = (
 /turf/simulated/floor/tiled/white,
 /area/merchant_station)
-"qMZ" = (
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Operations Manager"
-	},
-/obj/structure/bed/stool/chair/office/bridge,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
-"qND" = (
-/obj/machinery/button/remote/blast_door{
-	id = "ssc_shuttle";
-	name = "blast door";
-	pixel_y = 25;
-	req_access = null
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "qNQ" = (
 /obj/structure/table/wood,
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -39784,14 +39449,6 @@
 	},
 /turf/space/transit/north,
 /area/template_noop)
-"qWO" = (
-/obj/machinery/light/broken,
-/obj/structure/bed/stool/chair/office/bridge,
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Head of Security"
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "qXZ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -39809,11 +39466,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/merchant)
-"rbw" = (
-/obj/machinery/recharge_station,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "rbx" = (
 /turf/simulated/floor/exoplanet/water/shallow{
 	dir = 1;
@@ -39822,13 +39474,6 @@
 	name = "coast"
 	},
 /area/horizon/holodeck/source_konyang)
-"rcJ" = (
-/obj/machinery/light,
-/obj/structure/bed/handrail{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "rdh" = (
 /obj/effect/decal{
 	anchored = 1;
@@ -39842,10 +39487,6 @@
 	},
 /turf/simulated/floor/holofloor/reinforced,
 /area/horizon/holodeck/source_biesel)
-"rdv" = (
-/obj/machinery/vending/cola,
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "reI" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/effect/floor_decal/spline/fancy,
@@ -40012,10 +39653,6 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/horizon/holodeck/source_courtroom)
-"rIZ" = (
-/obj/machinery/vending/cigarette,
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "rKO" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
@@ -40056,13 +39693,6 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/horizon/holodeck/source_chapel)
-"rZI" = (
-/obj/structure/bed/stool/chair/office/bridge,
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Research Director"
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "rZP" = (
 /turf/space/dynamic{
 	blocks_air = 1;
@@ -40090,28 +39720,6 @@
 	name = "mossy grass"
 	},
 /area/horizon/holodeck/source_konyang)
-"sgB" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1337;
-	icon_state = "door_locked";
-	id_tag = "scc_shuttle_hatch";
-	layer = 2.8;
-	name = "Ship External Access";
-	open_layer = 2.8
-	},
-/obj/machinery/door/blast/regular/open{
-	id = "ssc_shuttle";
-	dir = 4
-	},
-/obj/structure/plasticflaps/airtight,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
-"skr" = (
-/obj/machinery/computer/cryopod{
-	pixel_y = -32
-	},
-/turf/simulated/floor/shuttle/white,
-/area/shuttle/scc)
 "skt" = (
 /obj/effect/floor_decal/spline/plain/corner{
 	dir = 1
@@ -40137,12 +39745,6 @@
 	},
 /turf/simulated/floor/marble/dark,
 /area/horizon/holodeck/source_trinary)
-"ssT" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle/white,
-/area/shuttle/scc)
 "szG" = (
 /obj/structure/bonfire/fireplace,
 /obj/item/clothing/accessory/scarf/zebra{
@@ -40184,15 +39786,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/holodeck/source_biesel)
-"sLw" = (
-/obj/structure/window/shuttle/scc_space_ship,
-/obj/structure/grille,
-/obj/machinery/door/blast/regular/open{
-	id = "ssc_shuttle";
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/shuttle/scc)
 "sLS" = (
 /obj/structure/window/shuttle/scc_space_ship,
 /obj/machinery/door/firedoor,
@@ -40245,19 +39838,6 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/horizon/holodeck/source_thunderdomecourt)
-"sRl" = (
-/obj/item/modular_computer/console/preset/command/captain{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
-"sSS" = (
-/obj/machinery/vending/coffee,
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
-"sST" = (
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "sTs" = (
 /obj/effect/spider/cocoon,
 /turf/simulated/floor/exoplanet/barren/raskara,
@@ -40273,13 +39853,6 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood/yew,
 /area/centcom/shared_dream)
-"sWV" = (
-/obj/machinery/light,
-/obj/structure/bed/handrail{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "sYp" = (
 /obj/structure/bed/stool/chair/holochair{
 	dir = 4
@@ -40312,11 +39885,6 @@
 /obj/structure/grille/diagonal,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/merchant)
-"tbS" = (
-/obj/structure/table/reinforced/steel,
-/obj/structure/closet/walllocker/emerglocker/north,
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "tcP" = (
 /obj/effect/decal/fake_object{
 	icon = 'icons/misc/beach.dmi';
@@ -40560,12 +40128,6 @@
 /obj/structure/flora/grass/brown,
 /turf/simulated/floor/holofloor/snow,
 /area/horizon/holodeck/source_snowfield)
-"tKK" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "tMc" = (
 /obj/structure/shuttle_part/ccia{
 	icon_state = "7,0";
@@ -40616,12 +40178,6 @@
 	},
 /turf/simulated/floor/holofloor/grass,
 /area/horizon/holodeck/source_picnicarea)
-"uha" = (
-/obj/structure/bed/handrail{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "uhy" = (
 /turf/simulated/floor/holofloor/tiled,
 /area/horizon/holodeck/source_gym)
@@ -41000,12 +40556,6 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/horizon/holodeck/source_biesel)
-"voF" = (
-/obj/structure/table/standard,
-/obj/machinery/photocopier/faxmachine,
-/obj/machinery/light,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "vsW" = (
 /obj/effect/floor_decal/snowdrift/large{
 	dir = 4
@@ -41040,10 +40590,6 @@
 	dir = 8
 	},
 /area/horizon/holodeck/source_tribunal)
-"vyA" = (
-/obj/structure/cryofeed,
-/turf/simulated/floor/plating,
-/area/shuttle/scc)
 "vzm" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -41063,13 +40609,6 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/simulated/floor/holofloor/grass,
 /area/horizon/holodeck/source_picnicarea)
-"vBB" = (
-/obj/structure/bed/stool/chair/office/bridge,
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Captain"
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc)
 "vBJ" = (
 /turf/simulated/floor/holofloor/tiled/ramp{
 	dir = 4
@@ -41226,10 +40765,6 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/marble,
 /area/horizon/holodeck/source_trinary)
-"vYr" = (
-/obj/machinery/cryopod,
-/turf/simulated/floor/shuttle/white,
-/area/shuttle/scc)
 "vYO" = (
 /obj/effect/decal/fake_object{
 	dir = 4;
@@ -41624,22 +41159,6 @@
 	},
 /turf/simulated/floor/marble/dark,
 /area/horizon/holodeck/source_tribunal)
-"xFI" = (
-/obj/structure/bed/stool/chair/shuttle{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/effect/landmark/force_spawnpoint,
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "xHx" = (
 /obj/effect/floor_decal/corner/white/diagonal,
 /obj/effect/floor_decal/spline/plain{
@@ -41851,12 +41370,6 @@
 	name = "shallow water"
 	},
 /area/horizon/holodeck/source_konyang)
-"yfl" = (
-/obj/structure/bed/handrail{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc)
 "ygU" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -68216,9 +67729,9 @@ aaa
 aaa
 aaa
 aae
-kcG
-kcG
-kcG
+aaa
+aaa
+aaa
 aae
 aae
 aaa
@@ -68475,8 +67988,8 @@ aaa
 aae
 aae
 aae
-kcG
-kcG
+aaa
+aaa
 aae
 aae
 aae
@@ -68732,15 +68245,15 @@ aaa
 aaa
 aaa
 aae
-kqx
-kcG
-kcG
-kcG
-kcG
-kcG
-kcG
-kcG
-kcG
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aae
 aae
@@ -68989,28 +68502,28 @@ aaa
 aaa
 aaa
 aae
-kqx
-kcG
-iiH
-iiH
-iiH
-iiH
-iiH
-iiH
-kcG
-joB
-joB
-joB
-kcG
-kcG
-joB
-joB
-joB
-kcG
-kcG
-kcG
-kcG
-kcG
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aae
 aaa
@@ -69246,29 +68759,29 @@ aaa
 aaa
 aaa
 aae
-kqx
-kcG
-oSP
-oSP
-oSP
-oSP
-oSP
-oSP
-kcG
-ehq
-ehq
-ehq
-ehq
-xFI
-ehq
-ehq
-ehq
-hkX
-rdv
-icv
-fGt
-kcG
-kcG
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aae
 aae
@@ -69503,33 +69016,33 @@ aaa
 aaa
 aaa
 aae
-kqx
-kcG
-jTW
-jTW
-jTW
-jTW
-jTW
-skr
-kcG
-iLQ
-mAx
-mAx
-mAx
-mAx
-mAx
-mAx
-mAx
-mAx
-sST
-sST
-uha
-kcG
-kcG
-kcG
-kcG
-kcG
-kcG
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aaa
 aaa
@@ -69760,33 +69273,33 @@ aaa
 aaa
 aaa
 aae
-kqx
-kcG
-jTW
-ssT
-jTW
-jTW
-ssT
-jTW
-kcG
-dNl
-dNl
-dNl
-dNl
-dNl
-dNl
-dNl
-dNl
-mAx
-sST
-sST
-rcJ
-kcG
-pVk
-tKK
-mAx
-lKS
-kcG
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aaa
 aaa
@@ -70017,33 +69530,33 @@ aaa
 aaa
 aaa
 aae
-kqx
-kcG
-kcG
-kcG
-jTW
-ceq
-kcG
-kcG
-kcG
-frj
-yfl
-yfl
-yfl
-yfl
-yfl
-yfl
-yfl
-mAx
-sST
-sST
-rbw
-kcG
-idS
-mAx
-mAx
-pEz
-sLw
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aaa
 aaa
@@ -70274,33 +69787,33 @@ aaa
 aaa
 aae
 aae
-kqx
-kcG
-rIZ
-oUs
-sST
-sST
-oUs
-yfl
-aIa
-sST
-ijh
-sST
-sST
-sST
-sST
-ijh
-sST
-mAx
-sST
-sST
-rbw
-kcG
-iLQ
-mAx
-pVA
-jQr
-sLw
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aaa
 aaa
@@ -70530,34 +70043,34 @@ aaa
 aaa
 aaa
 aae
-kcG
-kcG
-kcG
-dEy
-sST
-sST
-sST
-sST
-sST
-sST
-bRv
-bRv
-bRv
-bRv
-bRv
-bRv
-bRv
-bRv
-mAx
-sST
-sST
-rbw
-kcG
-qND
-mAx
-rZI
-jQr
-sLw
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aaa
 aaa
@@ -70788,33 +70301,33 @@ aaa
 aaa
 aae
 aae
-sgB
-mAx
-sST
-sST
-sST
-sST
-sST
-uha
-kcG
-ehq
-ehq
-ehq
-ehq
-ehq
-ehq
-ehq
-ehq
-mAx
-sST
-sST
-rcJ
-kcG
-mAx
-mAx
-ejB
-sRl
-sLw
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aaa
 aaa
@@ -71045,33 +70558,33 @@ aaa
 aaa
 aaa
 mzW
-sgB
-mAx
-mAx
-mAx
-kAF
-mAx
-mAx
-sWV
-kcG
-iLQ
-mAx
-mAx
-mAx
-mHT
-mAx
-mAx
-mAx
-mAx
-mAx
-mAx
-mAx
-fgd
-mAx
-mAx
-vBB
-oID
-sLw
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aaa
 aaa
@@ -71302,33 +70815,33 @@ aaa
 aaa
 aae
 aae
-sgB
-mTo
-sST
-sST
-sST
-sST
-sST
-uha
-kcG
-dNl
-dNl
-dNl
-dNl
-dNl
-dNl
-dNl
-dNl
-mAx
-sST
-sST
-rcJ
-kcG
-mAx
-mAx
-qMZ
-fsY
-sLw
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aaa
 aaa
@@ -71558,34 +71071,34 @@ aaa
 aaa
 aaa
 aae
-kcG
-kcG
-kcG
-tbS
-sST
-sST
-sST
-sST
-sST
-aIa
-yfl
-yfl
-yfl
-yfl
-yfl
-yfl
-yfl
-yfl
-mAx
-sST
-sST
-rbw
-kcG
-mAx
-mAx
-qWO
-jQr
-sLw
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aaa
 aaa
@@ -71816,33 +71329,33 @@ aaa
 aaa
 aae
 aae
-kqx
-kcG
-sSS
-hJL
-sST
-sST
-hJL
-bRv
-sST
-sST
-ijh
-sST
-sST
-sST
-sST
-ijh
-sST
-mAx
-sST
-sST
-rbw
-kcG
-iLQ
-mAx
-onY
-jQr
-sLw
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aaa
 aaa
@@ -72073,33 +71586,33 @@ aaa
 aaa
 aaa
 aae
-kqx
-kcG
-kcG
-kcG
-jTW
-ceq
-kcG
-kcG
-kcG
-gmv
-bRv
-bRv
-bRv
-bRv
-bRv
-bRv
-bRv
-mAx
-sST
-sST
-rbw
-kcG
-gZi
-mAx
-mAx
-joK
-sLw
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aaa
 aaa
@@ -72330,33 +71843,33 @@ aaa
 aaa
 aaa
 aae
-kqx
-kcG
-jTW
-jgE
-jTW
-jTW
-jgE
-jTW
-kcG
-ehq
-ehq
-ehq
-ehq
-ehq
-ehq
-ehq
-ehq
-mAx
-sST
-sST
-rcJ
-kcG
-pVk
-mTo
-mAx
-voF
-kcG
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aaa
 aaa
@@ -72587,33 +72100,33 @@ aaa
 aaa
 aaa
 aae
-kqx
-kcG
-jTW
-jTW
-jTW
-jTW
-jTW
-skr
-kcG
-iLQ
-mAx
-mAx
-mAx
-mAx
-mAx
-mAx
-mAx
-mAx
-sST
-sST
-uha
-kcG
-kcG
-kcG
-kcG
-kcG
-kcG
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aaa
 aaa
@@ -72844,29 +72357,29 @@ aaa
 aaa
 aaa
 aae
-kqx
-kcG
-vYr
-vYr
-vYr
-vYr
-vYr
-vYr
-kcG
-dNl
-dNl
-dNl
-dNl
-oCQ
-dNl
-dNl
-dNl
-oNa
-qIf
-qqw
-fGt
-kcG
-kcG
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aae
 aae
@@ -73101,28 +72614,28 @@ aaa
 aaa
 aaa
 aae
-kqx
-kcG
-vyA
-vyA
-vyA
-vyA
-vyA
-vyA
-kcG
-joB
-joB
-joB
-kcG
-kcG
-joB
-joB
-joB
-kcG
-kcG
-kcG
-kcG
-kcG
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aae
 aaa
@@ -73358,15 +72871,15 @@ aaa
 aaa
 aaa
 aae
-kqx
-kcG
-kcG
-kcG
-kcG
-kcG
-kcG
-kcG
-kcG
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aae
 aae
@@ -73615,8 +73128,8 @@ aaa
 aae
 aae
 aae
-kcG
-kcG
+aaa
+aaa
 aae
 aae
 aae
@@ -73870,9 +73383,9 @@ aaa
 aaa
 aaa
 aae
-kcG
-kcG
-kcG
+aaa
+aaa
+aaa
 aae
 aae
 aaa

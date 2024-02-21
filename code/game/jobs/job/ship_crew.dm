@@ -42,7 +42,6 @@
 	access = list()
 	minimal_access = list()
 	outfit = /datum/outfit/job/visitor
-	blacklisted_species = list(SPECIES_VAURCA_BREEDER)
 
 /datum/outfit/job/visitor
 	name = "Off-Duty Crew Member"
@@ -50,6 +49,43 @@
 
 	uniform = /obj/item/clothing/under/color/black
 	shoes = /obj/item/clothing/shoes/sneakers/black
+
+/datum/outfit/job/visitor/post_equip(mob/living/carbon/human/H, visualsOnly)
+	if(isvaurca(H, TRUE))
+		H.equip_to_slot_or_del(new /obj/item/clothing/under/gearharness(H), slot_w_uniform)
+		H.equip_to_slot_or_del(new /obj/item/clothing/mask/gas/vaurca/filter(H), slot_wear_mask)
+		var/citizenship = H.citizenship
+		switch(citizenship)
+			if(CITIZENSHIP_BIESEL)
+				H.equip_to_slot_or_del(new /obj/item/clothing/head/vaurca_breeder/biesel(H), slot_head)
+				H.equip_to_slot_or_del(new /obj/item/storage/backpack/typec(H), slot_back)
+				H.equip_to_slot_or_del(new /obj/item/clothing/shoes/vaurca/breeder(H), slot_shoes)
+				H.equip_to_slot_or_del(new /obj/item/clothing/suit/vaurca/breeder(H), slot_wear_suit)
+			if(CITIZENSHIP_NRALAKK)
+				H.equip_to_slot_or_del(new /obj/item/clothing/head/vaurca_breeder/nralakk(H), slot_head)
+				H.equip_to_slot_or_del(new /obj/item/storage/backpack/typec/cthur(H), slot_back)
+				H.equip_to_slot_or_del(new /obj/item/clothing/shoes/vaurca/breeder/cthur(H), slot_shoes)
+				H.equip_to_slot_or_del(new /obj/item/clothing/suit/vaurca/breeder/cthur(H), slot_wear_suit)
+			if(CITIZENSHIP_IZWESKI)
+				H.equip_to_slot_or_del(new /obj/item/clothing/head/vaurca_breeder/hegemony(H), slot_head)
+				H.equip_to_slot_or_del(new /obj/item/storage/backpack/typec/klax(H), slot_back)
+				H.equip_to_slot_or_del(new /obj/item/clothing/shoes/vaurca/breeder/klax(H), slot_shoes)
+				H.equip_to_slot_or_del(new /obj/item/clothing/suit/vaurca/breeder/klax(H), slot_wear_suit)
+			if(CITIZENSHIP_ZORA)
+				H.equip_to_slot_or_del(new /obj/item/clothing/head/vaurca_breeder(H), slot_head)
+				H.equip_to_slot_or_del(new /obj/item/storage/backpack/typec(H), slot_back)
+				H.equip_to_slot_or_del(new /obj/item/clothing/shoes/vaurca/breeder(H), slot_shoes)
+				H.equip_to_slot_or_del(new /obj/item/clothing/suit/vaurca/breeder(H), slot_wear_suit)
+			if(CITIZENSHIP_KLAX)
+				H.equip_to_slot_or_del(new /obj/item/clothing/head/vaurca_breeder/klax(H), slot_head)
+				H.equip_to_slot_or_del(new /obj/item/storage/backpack/typec/klax(H), slot_back)
+				H.equip_to_slot_or_del(new /obj/item/clothing/shoes/vaurca/breeder/klax(H), slot_shoes)
+				H.equip_to_slot_or_del(new /obj/item/clothing/suit/vaurca/breeder/klax(H), slot_wear_suit)
+			if(CITIZENSHIP_CTHUR)
+				H.equip_to_slot_or_del(new /obj/item/clothing/head/vaurca_breeder/cthur(H), slot_head)
+				H.equip_to_slot_or_del(new /obj/item/storage/backpack/typec/cthur(H), slot_back)
+				H.equip_to_slot_or_del(new /obj/item/clothing/shoes/vaurca/breeder/cthur(H), slot_shoes)
+				H.equip_to_slot_or_del(new /obj/item/clothing/suit/vaurca/breeder/cthur(H), slot_wear_suit)
 
 /datum/outfit/job/visitor/passenger
 	name = "Passenger"
@@ -70,4 +106,3 @@
 	minimal_access = list()
 	outfit = /datum/outfit/job/visitor/passenger
 	blacklisted_species = null
-	blacklisted_species = list(SPECIES_VAURCA_BREEDER)

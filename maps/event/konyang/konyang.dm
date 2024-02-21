@@ -5,7 +5,7 @@
 	lobby_icons = list('icons/misc/titlescreens/lore/silicon_nightmares.dmi')
 	lobby_transitions = 0
 
-	allowed_jobs = list(/datum/job/visitor, /datum/job/passenger, /datum/job/captain, /datum/job/xo, /datum/job/hos, /datum/job/operations_manager, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/representative, /datum/job/consular)
+	allowed_jobs = list(/datum/job/visitor, /datum/job/passenger)
 
 	station_levels = list(1,2,3)
 	//admin_levels = list(4)

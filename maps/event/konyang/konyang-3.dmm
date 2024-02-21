@@ -117,6 +117,13 @@
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
 /turf/simulated/floor/plating,
 /area/point_verdant/outdoors)
+"aQ" = (
+/obj/machinery/light,
+/obj/structure/bed/handrail{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "aS" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -439,6 +446,15 @@
 /obj/effect/decal/exterior_stairs/half,
 /turf/simulated/floor/asphalt,
 /area/point_verdant/outdoors)
+"cT" = (
+/obj/structure/window/shuttle/scc_space_ship,
+/obj/structure/grille,
+/obj/machinery/door/blast/regular/open{
+	id = "ssc_shuttle";
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/point_verdant/interior/spaceport)
 "cU" = (
 /obj/machinery/door/urban,
 /turf/simulated/floor/tiled,
@@ -519,12 +535,31 @@
 /obj/machinery/door/window/westright,
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/shallow)
+"dL" = (
+/obj/structure/bed/stool/chair/shuttle{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/landmark/force_spawnpoint,
+/obj/effect/landmark{
+	name = "JoinLateCryo";
+	movable_flags = 4
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "dM" = (
 /obj/structure/road_barrier{
 	layer = 9.1
 	},
 /turf/simulated/floor/exoplanet/konyang/no_edge,
 /area/point_verdant/outdoors)
+"dP" = (
+/obj/machinery/light/broken,
+/obj/structure/bed/stool/chair/office/bridge,
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "dQ" = (
 /obj/effect/decal/road_marking{
 	dir = 1
@@ -555,6 +590,22 @@
 	},
 /turf/simulated/floor/concrete,
 /area/point_verdant/outdoors)
+"ec" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/reagent_containers/food/drinks/waterbottle{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/food/drinks/waterbottle{
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/food/drinks/waterbottle{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/structure/closet/walllocker/emerglocker/east,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "ed" = (
 /obj/machinery/door/urban{
 	dir = 4
@@ -573,6 +624,13 @@
 	},
 /turf/simulated/floor/concrete,
 /area/point_verdant/outdoors)
+"ei" = (
+/obj/structure/window/shuttle/scc_space_ship,
+/obj/machinery/door/blast/regular/open{
+	id = "ssc_shuttle"
+	},
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "el" = (
 /obj/effect/decal/road_marking/thin,
 /obj/structure/dispenser/oxygen,
@@ -632,6 +690,20 @@
 	},
 /turf/simulated/floor/roofing_tiles,
 /area/point_verdant/outdoors)
+"eC" = (
+/obj/structure/bed/stool/chair/shuttle{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/effect/landmark/force_spawnpoint,
+/obj/effect/landmark{
+	name = "JoinLateCryo";
+	movable_flags = 4
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "eD" = (
 /obj/effect/decal/curb/corner{
 	dir = 4
@@ -721,6 +793,15 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/point_verdant/outdoors)
+"fe" = (
+/obj/machinery/button/remote/blast_door{
+	id = "ssc_shuttle";
+	name = "blast door";
+	pixel_y = 25;
+	req_access = null
+	},
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "fj" = (
 /obj/effect/shuttle_landmark/point_verdant/corporate_canary{
 	dir = 1
@@ -912,6 +993,10 @@
 /obj/item/reagent_containers/glass/bucket,
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/laundromat)
+"gj" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "gn" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -1021,6 +1106,12 @@
 "hd" = (
 /turf/simulated/floor/tiled/full,
 /area/point_verdant/interior/spaceport)
+"hf" = (
+/obj/machinery/computer/cryopod{
+	pixel_y = -32
+	},
+/turf/simulated/floor/shuttle/white,
+/area/point_verdant/interior/spaceport)
 "hi" = (
 /obj/structure/ledge/quarter/corner{
 	dir = 4
@@ -1034,6 +1125,27 @@
 	},
 /turf/simulated/floor/carpet/magenta,
 /area/point_verdant/interior/hotel)
+"hq" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/structure/closet/walllocker/secure{
+	pixel_y = 32;
+	name = "k'ois - FOR VAURCA CONSUMPTION ONLY"
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "hw" = (
 /turf/simulated/floor/sidewalk,
 /area/point_verdant/outdoors)
@@ -1105,6 +1217,12 @@
 	},
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/laundromat)
+"hX" = (
+/obj/structure/table/standard,
+/obj/machinery/photocopier/faxmachine,
+/obj/machinery/light,
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "hZ" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/grille,
 /turf/simulated/floor/tiled,
@@ -1212,6 +1330,14 @@
 	},
 /turf/simulated/floor/carpet/darkblue,
 /area/point_verdant/interior/hotel)
+"iM" = (
+/obj/structure/table/standard,
+/obj/item/device/megaphone/command,
+/obj/item/device/megaphone/command,
+/obj/item/device/megaphone/command,
+/obj/machinery/light,
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "iV" = (
 /obj/structure/sign/billboard{
 	icon_state = "board-c"
@@ -1290,6 +1416,12 @@
 /obj/effect/decal/curb/corner,
 /turf/simulated/floor/roofing_tiles,
 /area/point_verdant/outdoors)
+"jH" = (
+/obj/structure/bed/handrail{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "jJ" = (
 /obj/structure/table/stone/marble,
 /obj/random/soap{
@@ -1349,6 +1481,12 @@
 /obj/structure/flora/pottedplant/bamboo,
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/offices)
+"jX" = (
+/obj/structure/bed/handrail{
+	dir = 8
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "ka" = (
 /obj/effect/decal/road_marking/no_pass{
 	dir = 4
@@ -1484,6 +1622,12 @@
 /obj/machinery/papershredder,
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/restaurant)
+"lw" = (
+/obj/effect/landmark{
+	name = "Observer-Start"
+	},
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "lx" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -1515,6 +1659,10 @@
 	},
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/offices)
+"lP" = (
+/obj/structure/bed/stool/chair/shuttle,
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "lT" = (
 /obj/structure/rod_railing{
 	dir = 10
@@ -1545,6 +1693,28 @@
 	},
 /turf/simulated/floor/concrete,
 /area/point_verdant/outdoors)
+"lY" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
+"mb" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/reagent_containers/food/drinks/waterbottle{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/food/drinks/waterbottle{
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/food/drinks/waterbottle{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/structure/closet/walllocker/emerglocker/west,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "mc" = (
 /obj/structure/neon_sign{
 	icon_state = "xt-100";
@@ -1616,6 +1786,23 @@
 	},
 /turf/simulated/floor/carpet/aquablue,
 /area/point_verdant/interior/hotel)
+"my" = (
+/obj/structure/bed/stool/chair/shuttle{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/effect/landmark/force_spawnpoint,
+/obj/effect/landmark{
+	name = "JoinLateCryo";
+	movable_flags = 4
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "mB" = (
 /obj/structure/ledge/roof,
 /turf/simulated/floor/roofing_tiles,
@@ -1751,6 +1938,10 @@
 	},
 /turf/simulated/floor/concrete,
 /area/point_verdant/outdoors)
+"nC" = (
+/obj/structure/bed/stool/chair/office/bridge,
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "nH" = (
 /obj/structure/bed/stool/chair/fancy{
 	dir = 4
@@ -1908,12 +2099,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/point_verdant/interior/offices)
-"pl" = (
-/obj/effect/shuttle_landmark/scc_transport/dock{
-	dir = 1
+"pf" = (
+/obj/machinery/atm{
+	pixel_y = 29
 	},
-/turf/simulated/floor/asphalt,
-/area/point_verdant/outdoors)
+/obj/structure/bed/handrail{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
+"pl" = (
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "pn" = (
 /obj/structure/window/reinforced,
 /turf/simulated/floor/wood,
@@ -2054,6 +2251,16 @@
 /obj/structure/undies_wardrobe,
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/laundromat)
+"qI" = (
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1337;
+	id_tag = "scc_evac";
+	pixel_y = 24;
+	tag_door = "scc_shuttle_hatch"
+	},
+/obj/structure/bed/stool/chair/shuttle,
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "qK" = (
 /obj/item/towel,
 /obj/item/towel,
@@ -2160,6 +2367,10 @@
 /obj/machinery/door/urban,
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/tailor)
+"rp" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "rq" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -2249,6 +2460,12 @@
 	},
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/spaceport)
+"rG" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "rH" = (
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled,
@@ -2276,6 +2493,15 @@
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/sidewalk/dark,
 /area/point_verdant/interior/offices)
+"rW" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/bed/handrail{
+	dir = 8
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "rY" = (
 /obj/structure/closet/crate/tool,
 /obj/effect/floor_decal/corner/grey/diagonal,
@@ -2401,6 +2627,10 @@
 	},
 /turf/simulated/floor/sidewalk,
 /area/point_verdant/outdoors)
+"to" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "tr" = (
 /obj/effect/decal/curb/corner,
 /turf/simulated/floor/asphalt,
@@ -2458,6 +2688,10 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/point_verdant/interior/offices)
+"tM" = (
+/obj/machinery/cryopod,
+/turf/simulated/floor/shuttle/white,
+/area/point_verdant/interior/spaceport)
 "tN" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
@@ -3097,6 +3331,15 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/point_verdant/interior/shallow)
+"zc" = (
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
+"ze" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "zi" = (
 /obj/effect/decal/curb/corner,
 /obj/effect/decal/curb{
@@ -3154,12 +3397,24 @@
 /obj/structure/lattice,
 /turf/simulated/open,
 /area/point_verdant/outdoors)
+"zx" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/shuttle/white,
+/area/point_verdant/interior/spaceport)
 "zF" = (
 /obj/structure/ledge/quarter/corner{
 	dir = 4
 	},
 /turf/simulated/floor/concrete,
 /area/point_verdant/outdoors)
+"zJ" = (
+/obj/item/modular_computer/console/preset/civilian{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "zL" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -3398,6 +3653,10 @@
 "Bq" = (
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/spaceport)
+"Br" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "Bt" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -3612,6 +3871,10 @@
 /obj/structure/table/wood,
 /turf/simulated/floor/carpet/darkblue,
 /area/point_verdant/interior/hotel)
+"Cv" = (
+/obj/machinery/vending/cola,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "Cw" = (
 /turf/simulated/open,
 /area/point_verdant/outdoors)
@@ -3856,6 +4119,9 @@
 	},
 /turf/simulated/floor/concrete,
 /area/point_verdant/outdoors)
+"DZ" = (
+/turf/simulated/floor/shuttle/white,
+/area/point_verdant/interior/spaceport)
 "Ea" = (
 /obj/structure/ledge/roof{
 	dir = 6
@@ -3952,6 +4218,12 @@
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/police)
+"EH" = (
+/obj/structure/bed/handrail{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "EJ" = (
 /obj/structure/ledge/roof{
 	dir = 4
@@ -3977,6 +4249,12 @@
 /obj/structure/table/stone/marble,
 /turf/simulated/floor/carpet/purple,
 /area/point_verdant/interior/offices)
+"ET" = (
+/obj/structure/cryofeed{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/point_verdant/interior/spaceport)
 "EZ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
@@ -3991,6 +4269,12 @@
 	},
 /turf/simulated/floor/sidewalk/dark,
 /area/point_verdant/interior/offices)
+"Fa" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "Fb" = (
 /obj/structure/ledge/roof{
 	dir = 9
@@ -4113,6 +4397,11 @@
 /obj/structure/undies_wardrobe,
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/tailor)
+"Gf" = (
+/obj/structure/table/reinforced/steel,
+/obj/structure/closet/walllocker/emerglocker/north,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "Gg" = (
 /turf/simulated/wall/wood,
 /area/point_verdant/interior/police)
@@ -4159,6 +4448,23 @@
 /obj/effect/decal/curb,
 /turf/simulated/floor/roofing_tiles,
 /area/point_verdant/outdoors)
+"Gt" = (
+/obj/structure/bed/stool/chair/shuttle{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/landmark/force_spawnpoint,
+/obj/effect/landmark{
+	name = "JoinLateCryo";
+	movable_flags = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "Gv" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -4223,6 +4529,10 @@
 	dir = 1
 	},
 /turf/simulated/floor/roofing_tiles,
+/area/point_verdant/outdoors)
+"Ha" = (
+/obj/machinery/atmospherics/unary/engine/scc_shuttle,
+/turf/simulated/floor/airless,
 /area/point_verdant/outdoors)
 "Hc" = (
 /obj/structure/rod_railing{
@@ -4489,6 +4799,15 @@
 /obj/machinery/atmospherics/pipe/simple/visible/blue,
 /turf/simulated/floor/plating,
 /area/point_verdant/outdoors)
+"IU" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/bed/handrail{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "IW" = (
 /obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
 	dir = 1;
@@ -4680,6 +4999,12 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/freezer,
 /area/point_verdant/interior/minimart)
+"Kr" = (
+/obj/item/modular_computer/console/preset/command/captain{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "Kv" = (
 /obj/structure/ledge/roof{
 	dir = 6
@@ -4714,6 +5039,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/point_verdant/outdoors)
+"KM" = (
+/obj/machinery/vending/snack,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
+"KP" = (
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 1;
+	name = "Cryogenics"
+	},
+/turf/simulated/floor/shuttle/white,
+/area/point_verdant/interior/spaceport)
 "KU" = (
 /obj/structure/bed/stool/chair/office/bridge/generic{
 	dir = 8
@@ -4953,6 +5289,12 @@
 	},
 /turf/simulated/floor/carpet,
 /area/point_verdant/interior/hotel)
+"MA" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle/white,
+/area/point_verdant/interior/spaceport)
 "MB" = (
 /obj/structure/table/stone/marble,
 /obj/structure/window/reinforced{
@@ -4994,6 +5336,12 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/point_verdant/outdoors)
+"MS" = (
+/obj/machinery/door/airlock/glass_command{
+	req_access = list(19)
+	},
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "MT" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -5046,6 +5394,12 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/tiled/full,
+/area/point_verdant/interior/spaceport)
+"Ne" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/shuttle/black,
 /area/point_verdant/interior/spaceport)
 "Ni" = (
 /obj/effect/decal/road_marking/center{
@@ -5256,6 +5610,10 @@
 /obj/item/paper_bin,
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/police)
+"OT" = (
+/obj/structure/cryofeed,
+/turf/simulated/floor/plating,
+/area/point_verdant/interior/spaceport)
 "OY" = (
 /obj/structure/ledge/roof{
 	dir = 1
@@ -5379,6 +5737,22 @@
 /obj/effect/floor_decal/industrial/outline/engineering,
 /turf/simulated/floor/asphalt,
 /area/point_verdant/outdoors)
+"PT" = (
+/obj/machinery/door/airlock/external{
+	frequency = 1337;
+	icon_state = "door_locked";
+	id_tag = "scc_shuttle_hatch";
+	layer = 2.8;
+	name = "Ship External Access";
+	open_layer = 2.8
+	},
+/obj/machinery/door/blast/regular/open{
+	id = "ssc_shuttle";
+	dir = 4
+	},
+/obj/structure/plasticflaps/airtight,
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "PV" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/random/dirt_75,
@@ -5547,6 +5921,12 @@
 /obj/effect/map_effect/window_spawner/full/wood,
 /turf/simulated/floor/concrete,
 /area/point_verdant/interior/hotel)
+"Ru" = (
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle/white,
+/area/point_verdant/interior/spaceport)
 "Ry" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /obj/effect/floor_decal/spline/fancy/wood/corner{
@@ -5558,6 +5938,11 @@
 /obj/machinery/mech_recharger/automobile,
 /turf/simulated/floor/concrete,
 /area/point_verdant/interior/shallow)
+"RD" = (
+/obj/machinery/recharge_station,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "RG" = (
 /obj/structure/curtain/open/shower,
 /obj/structure/toilet{
@@ -5738,6 +6123,10 @@
 /obj/machinery/light/small,
 /turf/simulated/open,
 /area/point_verdant/interior/spaceport)
+"SX" = (
+/obj/random/pottedplant,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "Ta" = (
 /turf/simulated/open,
 /area/point_verdant/interior/tailor)
@@ -5812,6 +6201,15 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/hotel)
+"TK" = (
+/obj/machinery/atm{
+	pixel_y = 29
+	},
+/obj/structure/bed/handrail{
+	dir = 8
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "TN" = (
 /obj/structure/rod_railing{
 	dir = 4
@@ -5867,6 +6265,12 @@
 /obj/effect/decal/exterior_stairs/half/center,
 /turf/simulated/floor/sidewalk/blocks,
 /area/point_verdant/outdoors)
+"Uf" = (
+/obj/structure/table/standard,
+/obj/item/paper_bin,
+/obj/item/pen/black,
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "Uh" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 4
@@ -5894,6 +6298,10 @@
 	},
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/hotel)
+"Up" = (
+/obj/machinery/vending/cigarette,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "Ur" = (
 /obj/structure/rod_railing{
 	dir = 4
@@ -6222,6 +6630,12 @@
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor/wood,
 /area/point_verdant/interior/tailor)
+"WS" = (
+/obj/item/modular_computer/console/preset/command/hop{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/black,
+/area/point_verdant/interior/spaceport)
 "WX" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
@@ -6469,6 +6883,9 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/point_verdant/outdoors)
+"Yr" = (
+/turf/simulated/wall/shuttle/scc,
+/area/point_verdant/interior/spaceport)
 "Yu" = (
 /obj/item/towel,
 /obj/item/towel,
@@ -6598,6 +7015,10 @@
 	},
 /turf/simulated/open,
 /area/point_verdant/outdoors)
+"Zx" = (
+/obj/machinery/door/airlock/multi_tile/glass,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 "ZA" = (
 /obj/effect/decal/road_marking/no_pass{
 	dir = 8
@@ -6683,6 +7104,13 @@
 /obj/effect/decal/road_marking/no_park,
 /turf/simulated/floor/airless,
 /area/point_verdant/outdoors)
+"ZU" = (
+/obj/machinery/light,
+/obj/structure/bed/handrail{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/point_verdant/interior/spaceport)
 
 (1,1,1) = {"
 ER
@@ -36898,9 +37326,9 @@ FG
 IA
 lj
 DD
-DD
-DD
-DD
+Yr
+Yr
+Yr
 DD
 DD
 DD
@@ -37157,8 +37585,8 @@ lj
 DD
 DD
 DD
-DD
-DD
+Yr
+Yr
 DD
 DD
 DD
@@ -37414,15 +37842,15 @@ lj
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Ha
+Yr
+Yr
+Yr
+Yr
+Yr
+Yr
+Yr
+Yr
 DD
 DD
 DD
@@ -37671,28 +38099,28 @@ Wi
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Ha
+Yr
+ET
+ET
+ET
+ET
+ET
+ET
+Yr
+ei
+ei
+ei
+Yr
+Yr
+ei
+ei
+ei
+Yr
+Yr
+Yr
+Yr
+Yr
 DD
 DD
 DD
@@ -37928,29 +38356,29 @@ lj
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Ha
+Yr
+Ru
+Ru
+Ru
+Ru
+Ru
+Ru
+Yr
+dL
+dL
+dL
+dL
+Gt
+dL
+dL
+dL
+lY
+Cv
+mb
+SX
+Yr
+Yr
 DD
 DD
 DD
@@ -38185,33 +38613,33 @@ lj
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Ha
+Yr
+DZ
+DZ
+DZ
+DZ
+DZ
+hf
+Yr
+ze
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+zc
+zc
+jH
+Yr
+Yr
+Yr
+Yr
+Yr
+Yr
 DD
 SU
 bD
@@ -38442,33 +38870,33 @@ lj
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Ha
+Yr
+DZ
+MA
+DZ
+DZ
+MA
+DZ
+Yr
+eC
+eC
+eC
+eC
+eC
+eC
+eC
+eC
+pl
+zc
+zc
+ZU
+Yr
+lP
+Ne
+pl
+iM
+Yr
 DD
 SU
 bD
@@ -38699,33 +39127,33 @@ Wi
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Ha
+Yr
+Yr
+Yr
+DZ
+KP
+Yr
+Yr
+Yr
+pf
+EH
+EH
+EH
+EH
+EH
+EH
+EH
+pl
+zc
+zc
+RD
+Yr
+lP
+pl
+pl
+gj
+cT
 DD
 SU
 bD
@@ -38956,33 +39384,33 @@ bE
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Ha
+Yr
+Up
+IU
+zc
+zc
+IU
+EH
+Zx
+zc
+rp
+zc
+zc
+zc
+zc
+rp
+zc
+pl
+zc
+zc
+RD
+Yr
+ze
+pl
+nC
+zJ
+cT
 DD
 gS
 bD
@@ -39212,34 +39640,34 @@ DC
 gs
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Yr
+Yr
+Yr
+hq
+zc
+zc
+zc
+zc
+zc
+zc
+jX
+jX
+jX
+jX
+jX
+jX
+jX
+jX
+pl
+zc
+zc
+RD
+Yr
+fe
+pl
+nC
+zJ
+cT
 DD
 SU
 bD
@@ -39470,33 +39898,33 @@ gs
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+PT
+pl
+zc
+zc
+zc
+zc
+zc
+jH
+Yr
+dL
+dL
+dL
+dL
+dL
+dL
+dL
+dL
+pl
+zc
+zc
+ZU
+Yr
+pl
+pl
+nC
+Kr
+cT
 DD
 SU
 bD
@@ -39726,34 +40154,34 @@ DC
 gs
 DD
 DD
+DD
+PT
 pl
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+pl
+pl
+to
+pl
+pl
+aQ
+Yr
+ze
+pl
+pl
+pl
+lw
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+MS
+pl
+pl
+nC
+zJ
+cT
 DD
 SU
 bD
@@ -39984,33 +40412,33 @@ gs
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+PT
+rG
+zc
+zc
+zc
+zc
+zc
+jH
+Yr
+eC
+eC
+eC
+eC
+eC
+eC
+eC
+eC
+pl
+zc
+zc
+ZU
+Yr
+pl
+pl
+nC
+WS
+cT
 DD
 SU
 bD
@@ -40240,34 +40668,34 @@ DC
 gs
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Yr
+Yr
+Yr
+Gf
+zc
+zc
+zc
+zc
+zc
+Zx
+EH
+EH
+EH
+EH
+EH
+EH
+EH
+EH
+pl
+zc
+zc
+RD
+Yr
+pl
+pl
+dP
+zJ
+cT
 DD
 SU
 bD
@@ -40498,33 +40926,33 @@ bE
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Ha
+Yr
+Br
+rW
+zc
+zc
+rW
+jX
+zc
+zc
+rp
+zc
+zc
+zc
+zc
+rp
+zc
+pl
+zc
+zc
+RD
+Yr
+ze
+pl
+nC
+zJ
+cT
 DD
 gS
 bD
@@ -40755,33 +41183,33 @@ RP
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Ha
+Yr
+Yr
+Yr
+DZ
+KP
+Yr
+Yr
+Yr
+TK
+jX
+jX
+jX
+jX
+jX
+jX
+jX
+pl
+zc
+zc
+RD
+Yr
+qI
+pl
+pl
+Uf
+cT
 DD
 SU
 bD
@@ -41012,33 +41440,33 @@ RP
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Ha
+Yr
+DZ
+zx
+DZ
+DZ
+zx
+DZ
+Yr
+dL
+dL
+dL
+dL
+dL
+dL
+dL
+dL
+pl
+zc
+zc
+ZU
+Yr
+lP
+rG
+pl
+hX
+Yr
 DD
 SU
 bD
@@ -41269,33 +41697,33 @@ RP
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Ha
+Yr
+DZ
+DZ
+DZ
+DZ
+DZ
+hf
+Yr
+ze
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+pl
+zc
+zc
+jH
+Yr
+Yr
+Yr
+Yr
+Yr
+Yr
 DD
 SU
 bD
@@ -41526,29 +41954,29 @@ RP
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Ha
+Yr
+tM
+tM
+tM
+tM
+tM
+tM
+Yr
+eC
+eC
+eC
+eC
+my
+eC
+eC
+eC
+Fa
+KM
+ec
+SX
+Yr
+Yr
 DD
 DD
 DD
@@ -41783,28 +42211,28 @@ RP
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Ha
+Yr
+OT
+OT
+OT
+OT
+OT
+OT
+Yr
+ei
+ei
+ei
+Yr
+Yr
+ei
+ei
+ei
+Yr
+Yr
+Yr
+Yr
+Yr
 DD
 DD
 DD
@@ -42040,15 +42468,15 @@ bE
 DD
 DD
 DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
-DD
+Ha
+Yr
+Yr
+Yr
+Yr
+Yr
+Yr
+Yr
+Yr
 DD
 DD
 DD
@@ -42297,8 +42725,8 @@ gs
 DD
 DD
 DD
-DD
-DD
+Yr
+Yr
 DD
 DD
 DD
@@ -42552,9 +42980,9 @@ DC
 DC
 gs
 DD
-DD
-DD
-DD
+Yr
+Yr
+Yr
 DD
 DD
 DD
