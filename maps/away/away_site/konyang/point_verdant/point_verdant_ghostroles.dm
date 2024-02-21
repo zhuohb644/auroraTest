@@ -53,65 +53,6 @@
 /datum/outfit/admin/konyang_ee/get_id_access()
 	return list(ACCESS_KONYANG_CORPORATE)
 
-/datum/ghostspawner/human/konyang_mayor
-	short_name = "konyang_mayor"
-	name = "Point Verdant Mayor"
-	desc = "Be the Mayor of Point Verdant. Run this show, baby."
-	tags = list("External")
-	spawnpoints = list("konyang_mayor")
-	max_count = 1
-	outfit = /datum/outfit/admin/konyang_mayor
-	possible_species = list(SPECIES_HUMAN, SPECIES_IPC, SPECIES_IPC_BISHOP, SPECIES_IPC_G1, SPECIES_IPC_G2, SPECIES_IPC_SHELL, SPECIES_IPC_XION, SPECIES_IPC_ZENGHU)
-	allow_appearance_change = APPEARANCE_PLASTICSURGERY
-	assigned_role = "Mayor"
-	special_role = "Mayor"
-	enabled = FALSE
-	password = "mayor"
-
-/datum/outfit/admin/konyang_mayor
-	name = "Point Verdant Mayor"
-	uniform = /obj/item/clothing/under/suit_jacket/really_black
-	shoes = /obj/item/clothing/shoes/laceup
-	id = /obj/item/card/id
-	back = /obj/item/storage/backpack/satchel/leather
-	r_pocket = /obj/item/storage/wallet/random
-
-/datum/outfit/admin/konyang_mayor/get_id_access()
-	return list(ACCESS_KONYANG_CORPORATE)
-
-/datum/ghostspawner/human/konyang_general
-	short_name = "konyang_general"
-	name = "Konyang Army General"
-	desc = "Command Konyang's army. Figure out what to do about all these robots."
-	tags = list("External")
-	spawnpoints = list("konyang_mayor")
-	max_count = 1
-	outfit = /datum/outfit/admin/konyang_general
-	possible_species = list(SPECIES_HUMAN, SPECIES_IPC, SPECIES_IPC_BISHOP, SPECIES_IPC_G1, SPECIES_IPC_G2, SPECIES_IPC_SHELL, SPECIES_IPC_XION, SPECIES_IPC_ZENGHU)
-	allow_appearance_change = APPEARANCE_PLASTICSURGERY
-	assigned_role = "General"
-	special_role = "General"
-	enabled = FALSE
-	password = "oohrah"
-
-/datum/outfit/admin/konyang_general
-	name = "Konyang General"
-	uniform = /obj/item/clothing/under/rank/konyang/officer
-	head = /obj/item/clothing/head/konyang/army/officer
-	shoes = /obj/item/clothing/shoes/laceup
-	id = /obj/item/card/id
-	back = /obj/item/storage/backpack/satchel/leather
-	r_pocket = /obj/item/storage/wallet/random
-	accessory = /obj/item/clothing/accessory/holster/hip
-	accessory_contents = list(/obj/item/gun/projectile/pistol/sol = 1)
-	belt = /obj/item/storage/belt/military
-	belt_contents = list(
-		/obj/item/ammo_magazine/mc9mm = 1
-	)
-
-/datum/outfit/admin/konyang_general/get_id_access()
-	return list(ACCESS_KONYANG_CORPORATE)
-
 //Police
 /datum/ghostspawner/human/konyang_cop
 	short_name = "konyang_cop"
