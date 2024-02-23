@@ -3170,6 +3170,9 @@
 	dir = 4
 	},
 /obj/random/dirt_75,
+/obj/vehicle/bike/motor/moped/police_konyang{
+	dir = 4
+	},
 /turf/simulated/floor/asphalt,
 /area/point_verdant/interior/police)
 "jU" = (
@@ -5950,14 +5953,6 @@
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled,
 /area/point_verdant/interior/offices/basement)
-"sq" = (
-/obj/effect/decal/curb,
-/obj/random/dirt_75,
-/obj/vehicle/bike/motor/moped/police_konyang{
-	dir = 4
-	},
-/turf/simulated/floor/asphalt,
-/area/point_verdant/interior/police)
 "sr" = (
 /obj/random/dirt_75,
 /obj/random/dirt_75,
@@ -6525,6 +6520,8 @@
 /obj/item/ammo_magazine/c45/revolver,
 /obj/item/ammo_magazine/c45/revolver,
 /obj/item/ammo_magazine/c45/revolver,
+/obj/item/ammo_magazine/c45/revolver,
+/obj/item/gun/projectile/revolver/konyang/police,
 /turf/simulated/floor/tiled/dark,
 /area/point_verdant/interior/police)
 "tV" = (
@@ -15972,10 +15969,6 @@
 /turf/simulated/floor/asphalt,
 /area/point_verdant/outdoors)
 "VS" = (
-/obj/structure/automobile/random{
-	dir = 8;
-	pixel_y = 12
-	},
 /obj/effect/decal/road_marking{
 	dir = 1
 	},
@@ -15986,6 +15979,9 @@
 /obj/machinery/light{
 	dir = 8;
 	pixel_x = -12
+	},
+/obj/vehicle/bike/motor/moped/police_konyang{
+	dir = 4
 	},
 /turf/simulated/floor/asphalt,
 /area/point_verdant/interior/police)
@@ -29285,7 +29281,7 @@ wr
 AN
 zJ
 lC
-sq
+xn
 kg
 kg
 wD
@@ -29542,7 +29538,7 @@ wr
 mO
 mO
 Yn
-sq
+xn
 kg
 wD
 wD
