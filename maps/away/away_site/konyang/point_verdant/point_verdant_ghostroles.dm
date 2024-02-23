@@ -41,7 +41,7 @@
 
 /datum/outfit/admin/konyang_ee
 	name = "Einstein Engines Employee"
-	uniform = /obj/item/clothing/under/sl_suit
+	uniform = /obj/item/clothing/under/rank/liaison/einstein
 	suit = /obj/item/clothing/suit/storage/liaison/ee
 	head = /obj/item/clothing/head/beret/corporate/ee
 	accessory = /obj/item/clothing/accessory/tie/corporate/ee
@@ -60,7 +60,7 @@
 	desc = "Keep the peace on the streets of Aoyama. Look the other way if no one gets hurt."
 	tags = list("External")
 	spawnpoints = list("konyang_cop")
-	max_count = 2
+	max_count = 3
 	outfit = /datum/outfit/admin/konyang_cop
 	possible_species = list(SPECIES_HUMAN, SPECIES_IPC, SPECIES_IPC_BISHOP, SPECIES_IPC_G1, SPECIES_IPC_G2, SPECIES_IPC_SHELL, SPECIES_IPC_XION, SPECIES_IPC_ZENGHU)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
@@ -86,7 +86,7 @@
 	short_name = "konyang_senior_cop"
 	name = "Point Verdant Senior Patrolman"
 	desc = "Command the uniformed officers of Aoyama in the field. Get overruled by the superintendent anyway."
-	max_count = 1
+	max_count = 2
 	assigned_role = "Konyang National Police Senior Patrolman"
 	special_role = "Konyang National Police Senior Patrolman"
 
@@ -98,6 +98,7 @@
 	assigned_role = "Konyang National Police Superintendent"
 	special_role = "Konyang National Police Superintendent"
 	outfit = /datum/outfit/admin/konyang_cop/superintendent
+	password = "hunter2"
 
 /datum/outfit/admin/konyang_cop/superintendent
 	name = "Konyang Police Superintendent"
@@ -118,6 +119,7 @@
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	assigned_role = "5-Cheung Thug"
 	special_role = "5-Cheung Thug"
+	password = "hunter2"
 
 /datum/outfit/admin/konyang_goon
 	name = "5-Cheung Thug"
@@ -137,6 +139,7 @@
 	outfit = /datum/outfit/admin/konyang_mob_boss
 	assigned_role = "5-Cheung Boss"
 	special_role = "5-Cheung Boss"
+	password = "hunter2"
 
 /datum/outfit/admin/konyang_mob_boss
 	name = "5-Cheung Boss"
