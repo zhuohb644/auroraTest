@@ -11,6 +11,7 @@
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	assigned_role = "Zeng-Hu Pharmaceuticals Corporate Personnel"
 	special_role = "Zeng-Hu Pharmaceuticals Corporate Personnel"
+	respawn_flag = null
 
 /datum/outfit/admin/konyang_zh
 	name = "Zeng-Hu Pharmaceuticals Employee"
@@ -38,6 +39,7 @@
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	assigned_role = "Einstein Engines Corporate Personnel"
 	special_role = "Einstein Engines Corporate Personnel"
+	respawn_flag = null
 
 /datum/outfit/admin/konyang_ee
 	name = "Einstein Engines Employee"
@@ -66,6 +68,7 @@
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	assigned_role = "Konyang National Police Patrolman"
 	special_role = "Konyang National Police Patrolman"
+	respawn_flag = null
 
 /datum/outfit/admin/konyang_cop
 	name = "Konyang Police Officer"
@@ -119,7 +122,7 @@
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	assigned_role = "5-Cheung Thug"
 	special_role = "5-Cheung Thug"
-	password = "hunter2"
+	respawn_flag = null
 
 /datum/outfit/admin/konyang_goon
 	name = "5-Cheung Thug"
@@ -139,7 +142,7 @@
 	outfit = /datum/outfit/admin/konyang_mob_boss
 	assigned_role = "5-Cheung Boss"
 	special_role = "5-Cheung Boss"
-	password = "hunter2"
+	respawn_flag = null
 
 /datum/outfit/admin/konyang_mob_boss
 	name = "5-Cheung Boss"
@@ -163,6 +166,7 @@
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	assigned_role = "Point Verdant Vendor"
 	special_role = "Point Verdant Vendor"
+	respawn_flag = null
 
 /datum/outfit/admin/konyang_vendor
 	name = "Konyang Vendor"
@@ -188,6 +192,7 @@
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	assigned_role = "Konyang Robotics Company Doctor"
 	special_role = "Konyang Robotics Company Doctor"
+	respawn_flag = null
 
 /datum/outfit/admin/konyang_clinic
 	name = "KRC Doctor"
@@ -212,6 +217,7 @@
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	assigned_role = "Pharmacist"
 	special_role = "Pharmacist"
+	respawn_flag = null
 
 /datum/outfit/admin/konyang_pharm
 	name = "Konyang Pharmacist"
@@ -236,6 +242,7 @@
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	assigned_role = "Bartender"
 	special_role = "Bartender"
+	respawn_flag = null
 
 /datum/outfit/admin/konyang_bar
 	name = "Konyang Bartender"
@@ -244,6 +251,9 @@
 	l_pocket = /obj/item/storage/wallet/random
 	back = /obj/item/storage/backpack/satchel
 	id = /obj/item/card/id
+
+/datum/outfit/admin/konyang_bar/get_id_access()
+	return list(ACCESS_KONYANG_VENDORS)
 
 /datum/ghostspawner/human/konyang_utility
 	short_name = "konyang_utility"
@@ -257,6 +267,7 @@
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	assigned_role = "Point Verdant Utility Worker"
 	special_role = "Point Verdant Utility Worker"
+	respawn_flag = null
 
 /datum/outfit/admin/konyang_utility
 	name = "Point Verdant Utility Worker"
@@ -281,10 +292,12 @@
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	assigned_role = "UP! Burger Employee"
 	special_role = "UP! Burger Employee"
+	respawn_flag = null
 
 /datum/outfit/admin/konyang_gwok
 	name = "UP! Burger Employee"
 	uniform = /obj/item/clothing/under/rank/konyang/burger
+	shoes = /obj/item/clothing/shoes/workboots/dark
 	suit = /obj/item/clothing/accessory/apron/chef
 	head = /obj/item/clothing/head/konyang/burger
 	id = /obj/item/card/id

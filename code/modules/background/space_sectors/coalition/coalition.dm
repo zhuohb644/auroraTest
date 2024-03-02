@@ -58,7 +58,7 @@
 
 /datum/space_sector/haneunim
 	name = SECTOR_HANEUNIM
-	description = "Located in the northern Orion Spur, the Haneunim system is home to the planet Konyang - known for being one of the most pro-synthetic planets in the Spur, and the only place where synthetics have full and equal legal rights to humanity. Einstein Engines, Zeng-Hu Pharmaceuticals and Hephaestus Industries all have a major presence in this sector, and many vessels of desperate synthetics seek to find sanctuary from the wider Spur wihtin the borders of Konyang. A wealthy and prosperous system, Haneunim has endured a period of uncertainty - seceding from the Sol Alliance and joining the Coalition of Colonies in 2462, in the hope of protection from the Solarian warlords that plagued the region."
+	description = "Located in the northern Orion Spur, the Haneunim system is home to the planet Konyang - known for being one of the most pro-synthetic planets in the Spur, and the only place where synthetics have full and equal legal rights to humanity. Einstein Engines, Zeng-Hu Pharmaceuticals and Hephaestus Industries all have a major presence in this sector, and many vessels of desperate synthetics seek to find sanctuary from the wider Spur within the borders of Konyang. A wealthy and prosperous system, Haneunim has endured a period of uncertainty - seceding from the Sol Alliance and joining the Coalition of Colonies in 2462, in the hope of protection from the Solarian warlords that plagued the region."
 	skybox_icon = "haneunim"
 	possible_exoplanets = list(/obj/effect/overmap/visitable/sector/exoplanet/barren/qixi, /obj/effect/overmap/visitable/sector/exoplanet/barren/asteroid/ice/haneunim, /obj/effect/overmap/visitable/sector/exoplanet/barren/hwanung, /obj/effect/overmap/visitable/sector/exoplanet/lava/huozhu)
 	guaranteed_exoplanets = list(/obj/effect/overmap/visitable/sector/exoplanet/konyang)
@@ -72,6 +72,13 @@
 	sector_welcome_message = 'sound/AI/welcome_konyang.ogg'
 	sector_hud_menu = 'icons/misc/hudmenu/konyang_hud.dmi'
 	sector_hud_arrow = "menu_arrow"
+
+	lobby_tracks = list(
+		'sound/music/lobby/konyang/konyang-1.ogg',
+		'sound/music/lobby/konyang/konyang-2.ogg',
+		'sound/music/lobby/konyang/konyang-3.ogg',
+		'sound/music/lobby/konyang/konyang-4.ogg'
+	)
 
 	lore_radio_stations = list(
 		"73.2 Navy Broadcasting Service" = "config/lore_radio/konyang/73.2_Navy_Broadcasting_Service.txt",
