@@ -5,6 +5,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"ah" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "ai" = (
 /obj/effect/decal/cleanable/blood/gibs/robot,
 /turf/simulated/floor/tiled,
@@ -62,6 +66,10 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_powerstation)
+"ax" = (
+/obj/structure/parking_meter,
+/turf/simulated/floor/concrete,
+/area/sn_wild)
 "az" = (
 /obj/machinery/light/broken{
 	dir = 8
@@ -109,6 +117,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"aI" = (
+/obj/machinery/door/blast/shutters/open,
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "aJ" = (
 /obj/structure/chainlink_fence{
 	dir = 8
@@ -177,6 +195,10 @@
 	},
 /turf/simulated/floor/wood,
 /area/sn_powerstation)
+"be" = (
+/obj/item/stack/material/steel/full,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "bf" = (
 /obj/structure/chainlink_fence,
 /turf/simulated/floor/asphalt,
@@ -187,16 +209,107 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"bi" = (
+/obj/item/mecha_equipment/mounted_system/rfd,
+/obj/machinery/light/broken{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/sn_wild)
+"bq" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"br" = (
+/obj/structure/table/glass,
+/obj/item/device/hand_labeler,
+/turf/simulated/floor/reinforced,
+/area/sn_wild)
+"bs" = (
+/obj/effect/decal/remains/rat,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "bt" = (
 /obj/item/device/assembly/prox_sensor{
 	pixel_x = 8
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"bu" = (
+/obj/structure/table/rack,
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
+"bw" = (
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/concrete,
+/area/sn_wild)
+"bx" = (
+/obj/effect/decal/road_marking/thin,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "bz" = (
 /obj/structure/flora/rock/konyang/small,
 /obj/effect/floor_decal/konyang_flowers,
 /turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"bA" = (
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/road_marking/thin,
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "bB" = (
 /obj/machinery/light{
@@ -205,6 +318,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"bD" = (
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "bF" = (
 /obj/item/trash/cigbutt{
 	pixel_x = 6;
@@ -212,6 +334,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"bG" = (
+/obj/structure/flora/rock/konyang/small,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"bH" = (
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
 "bI" = (
 /obj/structure/flora/tree/konyang,
 /obj/effect/floor_decal/konyang_flowers,
@@ -231,6 +363,19 @@
 	must_start_working = 1
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"bP" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/concrete,
+/area/sn_wild)
+"bR" = (
+/obj/structure/filingcabinet,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
+"bS" = (
+/turf/simulated/floor/sidewalk/dark/grid,
 /area/sn_wild)
 "bU" = (
 /obj/effect/floor_decal/industrial/outline/red,
@@ -270,6 +415,37 @@
 	},
 /turf/simulated/floor/exoplanet/water/konyang,
 /area/sn_wild)
+"ck" = (
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/obj/structure/structural_support,
+/turf/simulated/floor/concrete,
+/area/sn_wild)
+"cq" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
+"cw" = (
+/obj/structure/urban_grate,
+/turf/simulated/floor/exoplanet/sidewalk,
+/area/sn_wild)
+"cy" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/exoplanet/foundation,
+/area/sn_wild)
+"cD" = (
+/obj/machinery/door/blast/shutters/open,
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "cE" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -284,12 +460,33 @@
 /obj/item/newspaper,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"cJ" = (
+/obj/machinery/door/window/southright{
+	dir = 8
+	},
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"cO" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/device/healthanalyzer,
+/turf/simulated/floor/reinforced,
+/area/sn_wild)
 "cP" = (
 /obj/machinery/door/blast/shutters/open{
 	id = "sn_camp";
 	name = "Access Gate"
 	},
-/turf/simulated/floor/exoplanet/dirt_konyang,
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"cR" = (
+/obj/machinery/papershredder,
+/turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "cV" = (
 /obj/effect/floor_decal/corner_wide/black{
@@ -312,6 +509,10 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"dd" = (
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "df" = (
 /obj/structure/konyang_cliff{
 	icon_state = "cliff2-bottom"
@@ -328,12 +529,28 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"dj" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/table/reinforced/steel,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "dl" = (
 /obj/structure/window/reinforced,
 /obj/machinery/computer/security{
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
+/area/sn_wild)
+"dm" = (
+/obj/item/screwdriver,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"dn" = (
+/obj/effect/decal/exterior_stairs/half,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "do" = (
 /obj/effect/floor_decal/corner/brown{
@@ -350,6 +567,11 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"dq" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "ds" = (
 /turf/simulated/floor/carpet/rubber,
 /area/sn_warehouse)
@@ -360,6 +582,89 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"dA" = (
+/obj/effect/floor_decal/corner_wide/green{
+	dir = 6
+	},
+/obj/structure/table/rack,
+/obj/item/clothing/suit/storage/medical_chest_rig,
+/obj/item/clothing/suit/storage/medical_chest_rig,
+/obj/item/clothing/suit/storage/medical_chest_rig,
+/obj/item/clothing/suit/storage/medical_chest_rig,
+/obj/item/clothing/suit/storage/medical_chest_rig,
+/obj/item/clothing/suit/storage/medical_chest_rig,
+/obj/item/clothing/suit/storage/medical_chest_rig,
+/obj/item/clothing/suit/storage/medical_chest_rig,
+/obj/item/clothing/suit/storage/medical_chest_rig,
+/obj/item/clothing/suit/storage/medical_chest_rig,
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/hardhat/first_responder{
+	pixel_y = 10
+	},
+/obj/item/storage/belt/medical/first_responder,
+/obj/item/storage/belt/medical/first_responder,
+/obj/item/storage/belt/medical/first_responder,
+/obj/item/storage/belt/medical/first_responder,
+/obj/item/storage/belt/medical/first_responder,
+/obj/item/storage/belt/medical/first_responder,
+/obj/item/storage/belt/medical/first_responder,
+/obj/item/storage/belt/medical/first_responder,
+/obj/item/storage/belt/medical/first_responder,
+/obj/item/storage/belt/medical/first_responder,
+/turf/unsimulated/floor,
+/area/sn_wild)
+"dB" = (
+/obj/effect/floor_decal/corner_wide/green{
+	dir = 6
+	},
+/obj/structure/table/rack,
+/obj/item/storage/firstaid/large/trauma,
+/obj/item/storage/firstaid/large/trauma,
+/obj/item/storage/firstaid/large/o2,
+/turf/unsimulated/floor,
+/area/sn_wild)
+"dC" = (
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/road_marking/crosswalk,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"dE" = (
+/obj/item/stack/rods,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
+"dF" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/storage/toolbox/electrical,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "dI" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -376,6 +681,11 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"dL" = (
+/obj/structure/table/standard,
+/obj/item/storage/backpack/messenger,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "dT" = (
 /obj/structure/table/standard,
 /obj/item/device/flashlight/lamp{
@@ -390,6 +700,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"dV" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/random/dirt_75,
+/obj/structure/trash_pile,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "ea" = (
 /obj/structure/closet/crate/secure{
 	name = "encryption keys crate";
@@ -448,6 +764,10 @@
 /obj/machinery/light/broken,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"eb" = (
+/obj/structure/grille,
+/turf/simulated/floor/exoplanet/foundation,
+/area/sn_wild)
 "ec" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/warning{
@@ -456,6 +776,14 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_warehouse)
+"ed" = (
+/obj/structure/trash_pile,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"ef" = (
+/obj/item/stack/rods,
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
 "ei" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled,
@@ -497,6 +825,23 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"ex" = (
+/obj/machinery/light{
+	dir = 8;
+	must_start_working = 1
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
+"ez" = (
+/obj/effect/decal/road_marking,
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "eB" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -523,6 +868,13 @@
 /mob/living/simple_animal/hostile/hivebot/bomber,
 /turf/simulated/floor/asphalt,
 /area/sn_powerstation)
+"eL" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/table/standard,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "eN" = (
 /obj/structure/bed/stool/chair/office/light,
 /turf/simulated/floor/carpet/rubber,
@@ -537,6 +889,16 @@
 /obj/item/folder/white,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"eT" = (
+/obj/effect/floor_decal/corner/mauve{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/mauve{
+	dir = 5
+	},
+/obj/structure/table/rack,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "eV" = (
 /obj/effect/floor_decal/spline/plain/blue{
 	dir = 10
@@ -547,6 +909,10 @@
 /obj/item/stack/material/wood,
 /obj/effect/decal/cleanable/blood/gibs/robot,
 /turf/simulated/floor/tiled,
+/area/sn_wild)
+"eX" = (
+/obj/machinery/mech_recharger/automobile,
+/turf/simulated/floor/asphalt,
 /area/sn_wild)
 "eY" = (
 /obj/structure/table/rack,
@@ -559,6 +925,12 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
+"eZ" = (
+/obj/random/dirt_75,
+/obj/structure/table/glass,
+/obj/random/tech_supply,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "fa" = (
 /obj/effect/floor_decal/konyang_flowers,
 /obj/effect/floor_decal/konyang_flowers,
@@ -569,6 +941,9 @@
 	},
 /obj/structure/flora/tree/konyang,
 /turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"fd" = (
+/turf/simulated/floor/sidewalk/dark,
 /area/sn_wild)
 "fe" = (
 /obj/machinery/light{
@@ -603,6 +978,14 @@
 	must_start_working = 1
 	},
 /turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
+"fp" = (
+/obj/effect/landmark/corpse/konyang_cop,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"fs" = (
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/exoplanet/dirt_konyang,
 /area/sn_wild)
 "ft" = (
 /obj/structure/janitorialcart{
@@ -643,6 +1026,14 @@
 /obj/machinery/door/urban,
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"fR" = (
+/obj/structure/girder,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"fS" = (
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/sidewalk/dark/detail,
+/area/sn_wild)
 "fT" = (
 /obj/effect/decal/road_marking/thin{
 	dir = 4
@@ -650,10 +1041,27 @@
 /obj/effect/decal/road_marking/thin,
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"fW" = (
+/obj/random/dirt_75,
+/obj/structure/table/glass,
+/obj/machinery/recharger,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "fY" = (
 /obj/machinery/lapvend,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"ga" = (
+/obj/effect/decal/road_marking/center,
+/obj/random/dirt_75,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"gb" = (
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/concrete,
+/area/sn_wild)
 "gf" = (
 /obj/effect/floor_decal/spline/plain/blue{
 	dir = 1
@@ -681,6 +1089,19 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_wild)
+"gm" = (
+/obj/effect/floor_decal/corner/mauve{
+	dir = 9
+	},
+/obj/structure/table/rack,
+/obj/item/device/camera,
+/obj/item/device/camera,
+/obj/item/device/camera,
+/obj/item/device/camera,
+/obj/item/device/camera,
+/obj/item/device/camera,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "go" = (
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Operations Manager"
@@ -693,6 +1114,10 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"gr" = (
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
 "gt" = (
 /obj/machinery/telecomms/bus/preset_one,
 /turf/unsimulated/floor,
@@ -703,6 +1128,10 @@
 	id = "warehouse_gate"
 	},
 /obj/effect/decal/road_marking,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"gw" = (
+/obj/effect/decal/road_marking/crosswalk,
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
 "gx" = (
@@ -725,6 +1154,35 @@
 	dir = 1
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"gC" = (
+/obj/structure/table/standard,
+/obj/item/pen,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"gD" = (
+/obj/structure/table/rack,
+/obj/item/pipewrench,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"gE" = (
+/obj/random/dirt_75,
+/obj/item/mecha_equipment/shield,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
+"gG" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/structure/closet/crate/bin/urban,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"gI" = (
+/obj/structure/table/wood,
+/obj/random/junk,
+/obj/item/paper,
+/turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "gL" = (
 /obj/item/trash/cigbutt{
@@ -752,6 +1210,11 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_powerstation)
+"gR" = (
+/obj/item/robot_parts/robot_component/actuator,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "gU" = (
 /obj/structure/chainlink_fence{
 	layer = 9.1
@@ -764,9 +1227,23 @@
 	},
 /turf/simulated/floor/hivebot,
 /area/sn_warehouse)
+"ha" = (
+/obj/machinery/door/urban,
+/obj/effect/decal/exterior_stairs/half/center,
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
+"hd" = (
+/obj/item/mecha_equipment/quick_enter,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "hg" = (
 /turf/simulated/floor/plating,
 /area/sn_powerstation)
+"hh" = (
+/obj/machinery/pipedispenser,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "hj" = (
 /obj/structure/flora/rock/konyang/small,
 /obj/effect/step_trigger/thrower{
@@ -782,12 +1259,30 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"hm" = (
+/obj/structure/table/rack,
+/obj/random/tech_supply,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
+"hn" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "hq" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 5
 	},
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"hr" = (
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
+"ht" = (
+/obj/random/dirt_75,
+/obj/item/mech_component/sensors,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "hw" = (
 /obj/structure/bed/stool/chair/folding{
 	dir = 2
@@ -799,12 +1294,19 @@
 	name = "Access Gate";
 	id = "sn_camp"
 	},
-/turf/simulated/floor/exoplanet/dirt_konyang,
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
 /area/sn_wild)
 "hA" = (
 /obj/structure/lattice/catwalk/indoor/planks/deep,
 /obj/item/ipc_overloader/tranquil,
 /turf/simulated/floor/exoplanet/konyang/pink,
+/area/sn_wild)
+"hB" = (
+/obj/item/cell/crap,
+/turf/simulated/floor/reinforced,
 /area/sn_wild)
 "hC" = (
 /obj/structure/konyang_cliff{
@@ -818,6 +1320,12 @@
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"hF" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
 "hH" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 6
@@ -834,6 +1342,33 @@
 "hK" = (
 /mob/living/simple_animal/hostile/hivebot/bomber,
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"hQ" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 10
+	},
+/obj/structure/table/rack,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/stack/nanopaste,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/turf/unsimulated/floor,
+/area/sn_wild)
+"hS" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/sidewalk/flat,
 /area/sn_wild)
 "hU" = (
 /obj/effect/decal/road_marking/reflector{
@@ -871,6 +1406,21 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"ik" = (
+/obj/structure/bed/stool/chair/office/light,
+/obj/machinery/light_switch{
+	dir = 1;
+	pixel_y = 26;
+	pixel_x = -5
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"il" = (
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "im" = (
 /obj/item/modular_computer/console/preset/civilian{
 	dir = 1
@@ -896,12 +1446,37 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"iv" = (
+/turf/simulated/wall/r_wall,
+/area/sn_wild)
+"ix" = (
+/obj/random/dirt_75,
+/obj/item/mecha_equipment/drill_mover,
+/turf/simulated/floor/reinforced,
+/area/sn_wild)
 "iy" = (
 /obj/machinery/cryopod{
 	dir = 2
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"iz" = (
+/obj/random/junk,
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"iA" = (
+/obj/random/dirt_75,
+/obj/structure/table/glass,
+/obj/random/tech_supply,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
+"iB" = (
+/obj/structure/bed/stool/chair/office/light{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/foundation,
+/area/sn_wild)
 "iC" = (
 /obj/structure/konyang_cliff{
 	icon_state = "cliff2-bottom"
@@ -916,6 +1491,10 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"iD" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "iE" = (
 /mob/living/heavy_vehicle/premade/ripley/loader,
 /turf/simulated/floor/asphalt,
@@ -926,6 +1505,13 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_powerstation)
+"iO" = (
+/obj/effect/decal/exterior_stairs/half/right{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "iR" = (
 /obj/structure/chainlink_fence{
 	dir = 8
@@ -935,12 +1521,44 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"iT" = (
+/obj/machinery/door/blast/shutters/open,
+/obj/effect/floor_decal/industrial/loading/yellow,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "iU" = (
 /obj/machinery/light/colored/red{
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"iY" = (
+/obj/structure/chainlink_fence{
+	layer = 9.1;
+	dir = 1
+	},
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
+"iZ" = (
+/obj/machinery/autolathe{
+	desc = "Your typical Autolathe. It appears to have much more options than your regular one, however...";
+	hacked = 1;
+	name = "Modified Autolathe";
+	pixel_y = 2
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"ja" = (
+/obj/effect/floor_decal/konyang_flowers,
+/mob/living/simple_animal/hostile/ipc_zombie,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "jc" = (
 /obj/structure/lattice/catwalk/indoor/planks,
 /turf/simulated/floor/exoplanet/water/shallow/konyang,
@@ -965,6 +1583,12 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"jh" = (
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "ji" = (
 /obj/machinery/light{
 	must_start_working = 1
@@ -972,6 +1596,32 @@
 /obj/machinery/recharge_station,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
+/area/sn_wild)
+"jj" = (
+/obj/random/dirt_75,
+/obj/structure/closet/crate/weapon,
+/obj/item/gun/projectile/pistol/adhomai,
+/obj/item/gun/projectile/pistol/adhomai,
+/obj/item/gun/projectile/pistol,
+/obj/item/gun/projectile/pistol,
+/obj/item/gun/projectile/pistol/detective,
+/obj/item/gun/projectile/pistol/detective,
+/obj/item/gun/projectile/xanupistol,
+/obj/item/gun/projectile/xanupistol,
+/obj/item/gun/projectile/pistol/dominia,
+/obj/item/gun/projectile/pistol/dominia,
+/obj/item/gun/projectile/colt,
+/obj/item/gun/projectile/colt,
+/obj/item/gun/projectile/shotgun/doublebarrel/sawn,
+/obj/item/gun/projectile/shotgun/doublebarrel/sawn,
+/obj/item/gun/projectile/pistol/sol,
+/obj/item/gun/projectile/pistol/sol,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/revolver,
+/obj/item/gun/projectile/revolver/konyang/pirate,
+/obj/item/gun/projectile/revolver/konyang/police,
+/turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "jl" = (
 /obj/structure/closet,
@@ -990,6 +1640,18 @@
 /obj/effect/decal/road_marking,
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"jp" = (
+/obj/structure/table/rack,
+/obj/item/pipewrench,
+/turf/simulated/floor/reinforced,
+/area/sn_wild)
+"jt" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/ipc_zombie,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "ju" = (
 /obj/effect/landmark/corpse/konyang_soldier,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -1005,6 +1667,10 @@
 /obj/item/ammo_casing/a556/spent,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"jG" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "jH" = (
 /obj/structure/bed/stool/chair/sofa/right/beige{
 	dir = 1
@@ -1014,6 +1680,27 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"jI" = (
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/road_marking/thin,
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"jJ" = (
+/obj/random/dirt_75,
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat,
+/area/sn_wild)
+"jK" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
 "jL" = (
 /obj/effect/floor_decal/konyang_flowers,
 /obj/effect/step_trigger/thrower{
@@ -1029,6 +1716,23 @@
 	},
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"jN" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 10
+	},
+/obj/structure/table/rack,
+/obj/item/clothing/head/hardhat,
+/obj/item/clothing/head/hardhat,
+/obj/item/clothing/head/hardhat,
+/obj/item/clothing/head/hardhat,
+/obj/item/clothing/head/hardhat,
+/obj/item/clothing/head/hardhat,
+/obj/item/clothing/head/hardhat,
+/obj/item/clothing/head/hardhat,
+/obj/item/clothing/head/hardhat,
+/obj/item/clothing/head/hardhat,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "jO" = (
 /obj/machinery/optable,
 /obj/machinery/light{
@@ -1045,6 +1749,13 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"jX" = (
+/obj/random/dirt_75,
+/obj/structure/bed/stool/chair/office/light{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "jZ" = (
 /obj/machinery/door/airlock/mining{
 	name = "Office";
@@ -1052,6 +1763,11 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"kb" = (
+/obj/random/dirt_75,
+/obj/random/tech_supply,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "kd" = (
 /obj/structure/bed/stool/chair/sofa/beige{
 	dir = 1
@@ -1061,12 +1777,20 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"kh" = (
+/obj/structure/flora/rock/random,
+/turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
 "ki" = (
 /obj/item/clothing/head/cone,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"kk" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/reinforced,
 /area/sn_wild)
 "km" = (
 /obj/machinery/door/airlock/mining{
@@ -1080,6 +1804,10 @@
 "kq" = (
 /mob/living/simple_animal/hostile/hivebot/guardian,
 /turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"kr" = (
+/obj/item/storage/toolbox/mechanical,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "ks" = (
 /obj/structure/konyang_cliff{
@@ -1105,11 +1833,42 @@
 /obj/structure/flora/rock/konyang/small,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"kx" = (
+/obj/effect/decal/road_marking,
+/obj/effect/decal/road_marking/crosswalk,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"kD" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "kE" = (
 /obj/structure/chainlink_fence{
 	layer = 9.1
 	},
 /turf/simulated/floor/exoplanet/konyang/wilting,
+/area/sn_wild)
+"kG" = (
+/obj/random/dirt_75,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"kI" = (
+/obj/random/dirt_75,
+/obj/random/junk,
+/obj/effect/landmark/corpse/ipc_zombie,
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"kJ" = (
+/obj/item/storage/toolbox/mechanical,
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "kK" = (
 /turf/simulated/wall/concrete,
@@ -1146,6 +1905,18 @@
 /obj/machinery/telecomms/bus/preset_four,
 /turf/unsimulated/floor,
 /area/sn_wild)
+"kR" = (
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
+"kT" = (
+/obj/machinery/door/airlock/hatch{
+	dir = 4
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "kW" = (
 /obj/structure/flora/rock/konyang/water,
 /obj/structure/flora/bush/konyang_reeds/water,
@@ -1156,6 +1927,27 @@
 	},
 /turf/simulated/floor/exoplanet/water/konyang,
 /area/sn_wild)
+"kY" = (
+/obj/machinery/door/blast/shutters/open,
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/loading/yellow,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"kZ" = (
+/obj/structure/toilet{
+	pixel_x = -8
+	},
+/obj/structure/sink/kitchen{
+	name = "sink";
+	dir = 8;
+	pixel_x = 19
+	},
+/obj/random/dirt_75,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/white,
+/area/sn_wild)
 "la" = (
 /obj/structure/table/standard,
 /obj/item/roller,
@@ -1165,8 +1957,19 @@
 /obj/item/roller,
 /obj/item/roller,
 /obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"le" = (
+/obj/random/dirt_75,
+/obj/machinery/reagentgrinder,
+/obj/structure/table/glass,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "li" = (
 /obj/structure/flora/tree/konyang/fall,
 /turf/simulated/floor/exoplanet/konyang,
@@ -1175,6 +1978,14 @@
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/structure/railing/mapped,
 /turf/simulated/floor/exoplanet/water/konyang,
+/area/sn_wild)
+"lq" = (
+/obj/structure/railing/mapped,
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
+"lr" = (
+/obj/structure/closet/crate/bin,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "ls" = (
 /obj/effect/step_trigger/teleporter{
@@ -1238,6 +2049,12 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"lL" = (
+/obj/structure/bed/stool/padded/red{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "lM" = (
 /obj/structure/konyang_cliff{
 	icon_state = "cliff1-bottom";
@@ -1252,6 +2069,11 @@
 "lN" = (
 /obj/machinery/telecomms/server/presets/engineering,
 /turf/unsimulated/floor,
+/area/sn_wild)
+"lO" = (
+/obj/structure/table/glass,
+/obj/random/tech_supply,
+/turf/simulated/floor/foundation,
 /area/sn_wild)
 "lP" = (
 /obj/effect/landmark/corpse/ipc_zombie,
@@ -1332,6 +2154,12 @@
 /obj/random/tool,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"mf" = (
+/obj/structure/chainlink_fence{
+	dir = 8
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "mg" = (
 /obj/structure/closet/crate/tool,
 /obj/random/tool,
@@ -1352,6 +2180,16 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"mn" = (
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
+"mp" = (
+/obj/machinery/light/broken,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "mq" = (
 /obj/structure/table/standard,
 /obj/item/paper_bin,
@@ -1362,6 +2200,13 @@
 /obj/effect/decal/fake_object/light_source/invisible,
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/sn_wild)
+"mt" = (
+/obj/random/dirt_75,
+/obj/structure/table/standard,
+/obj/item/paper_bin,
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "mv" = (
 /obj/structure/shipping_container{
 	icon_state = "green2"
@@ -1371,6 +2216,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"mw" = (
+/obj/random/dirt_75,
+/obj/structure/table/standard,
+/turf/simulated/floor/exoplanet/foundation,
+/area/sn_wild)
 "mz" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/unsimulated/floor,
@@ -1397,6 +2247,15 @@
 /obj/machinery/telecomms/hub/preset,
 /turf/unsimulated/floor,
 /area/sn_wild)
+"mH" = (
+/obj/random/dirt_75,
+/obj/structure/table/standard,
+/obj/item/storage/box/fancy/matches{
+	pixel_x = -4;
+	pixel_y = 10
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "mJ" = (
 /obj/structure/table/standard,
 /obj/item/storage/box/fancy/cigpaper{
@@ -1409,6 +2268,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"mK" = (
+/obj/machinery/atm{
+	dir = 1;
+	pixel_y = 28
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "mL" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 5
@@ -1429,6 +2295,11 @@
 /obj/structure/bed/stool/chair/office/bridge,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"mX" = (
+/obj/effect/decal/curb,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete,
+/area/sn_wild)
 "mY" = (
 /mob/living/simple_animal/hostile/hivebot/bomber,
 /obj/effect/floor_decal/corner/grey/diagonal,
@@ -1441,6 +2312,10 @@
 	dir = 10
 	},
 /turf/simulated/floor/exoplanet/water/shallow/konyang,
+/area/sn_wild)
+"nb" = (
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/exoplanet/sidewalk,
 /area/sn_wild)
 "ne" = (
 /obj/structure/closet/crate/rad{
@@ -1462,11 +2337,22 @@
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/sn_wild)
+"ni" = (
+/obj/random/dirt_75,
+/obj/random/junk,
+/obj/structure/barricade/wooden,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "nj" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet/crate,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"nl" = (
+/obj/random/dirt_75,
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "no" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4;
@@ -1518,12 +2404,35 @@
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/carpet,
 /area/sn_powerstation)
+"nA" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/device/measuring_tape,
+/turf/simulated/floor/reinforced,
+/area/sn_wild)
+"nC" = (
+/obj/structure/flora/rock/konyang,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"nE" = (
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"nG" = (
+/obj/random/dirt_75,
+/obj/structure/table/glass,
+/obj/item/material/hatchet/machete/steel,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "nK" = (
 /obj/machinery/light{
 	dir = 4;
 	must_start_working = 1
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"nO" = (
+/obj/random/dirt_75,
+/obj/random/junk,
+/turf/simulated/floor/sidewalk/dark,
 /area/sn_wild)
 "nP" = (
 /obj/effect/floor_decal/spline/plain/blue{
@@ -1554,6 +2463,22 @@
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /turf/simulated/floor/reinforced,
 /area/sn_powerstation)
+"oa" = (
+/obj/effect/decal/cleanable/generic,
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"od" = (
+/obj/item/oreportal,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
+"oe" = (
+/obj/item/stack/cable_coil/pink{
+	pixel_x = 36;
+	pixel_y = 6
+	},
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "of" = (
 /obj/structure/flora/pottedplant/dead2,
 /obj/effect/floor_decal/corner_wide/black/diagonal,
@@ -1564,6 +2489,14 @@
 /obj/effect/floor_decal/corner_wide/black/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"oj" = (
+/obj/structure/flora/rock/konyang/small,
+/turf/simulated/floor/concrete,
+/area/sn_wild)
+"om" = (
+/obj/structure/bed/stool/chair/office/light,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "on" = (
 /obj/effect/floor_decal/industrial/outline/custodial,
 /obj/structure/closet/crate/trashcart,
@@ -1605,6 +2538,11 @@
 /obj/effect/landmark/corpse/ipc_zombie,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"ov" = (
+/obj/effect/decal/curb/corner,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete,
+/area/sn_wild)
 "ox" = (
 /obj/machinery/light{
 	dir = 4;
@@ -1633,6 +2571,11 @@
 /obj/machinery/light/colored/dying,
 /turf/simulated/floor/hivebot,
 /area/sn_warehouse)
+"oI" = (
+/obj/item/stack/material/steel/full,
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "oM" = (
 /obj/structure/chainlink_fence,
 /turf/simulated/floor/exoplanet/dirt_konyang,
@@ -1646,6 +2589,28 @@
 /area/sn_wild)
 "oQ" = (
 /obj/structure/fireaxecabinet/south,
+/obj/structure/closet/crate/freezer/kois/rations,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
 "oV" = (
@@ -1684,11 +2649,19 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"ph" = (
+/obj/machinery/suit_storage_unit,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "pi" = (
 /obj/effect/floor_decal/corner_wide/black/diagonal,
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"pj" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "pk" = (
 /obj/effect/landmark/corpse/ipc_zombie,
 /turf/simulated/floor/hivebot,
@@ -1715,14 +2688,31 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"pr" = (
+/obj/random/dirt_75,
+/obj/structure/table,
+/obj/item/folder/yellow,
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/foundation,
+/area/sn_wild)
 "ps" = (
 /obj/effect/floor_decal/corner_wide/black/diagonal,
 /obj/structure/flora/pottedplant/dead,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"pt" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "py" = (
 /turf/simulated/wall,
 /area/sn_powerstation)
+"pz" = (
+/turf/simulated/floor/exoplanet/sidewalk,
+/area/sn_wild)
 "pD" = (
 /obj/random/junk{
 	pixel_x = -5;
@@ -1740,7 +2730,13 @@
 	dir = 8
 	},
 /obj/effect/decal/fake_object/light_source/invisible,
-/turf/simulated/floor/exoplanet/dirt_konyang,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
+"pH" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/concrete,
 /area/sn_wild)
 "pP" = (
 /obj/structure/flora/tree/konyang,
@@ -1789,6 +2785,12 @@
 /obj/structure/table/wood,
 /turf/simulated/floor/carpet,
 /area/sn_powerstation)
+"qg" = (
+/obj/effect/floor_decal/corner_wide/green{
+	dir = 6
+	},
+/turf/unsimulated/floor,
+/area/sn_wild)
 "qj" = (
 /obj/structure/table/standard,
 /obj/item/device/megaphone/command,
@@ -1799,6 +2801,10 @@
 "qk" = (
 /obj/machinery/telecomms/bus/preset_three,
 /turf/unsimulated/floor,
+/area/sn_wild)
+"ql" = (
+/obj/structure/closet/crate/bin/urban,
+/turf/simulated/floor/sidewalk/flat,
 /area/sn_wild)
 "qm" = (
 /obj/machinery/light/colored/dying{
@@ -1813,6 +2819,13 @@
 	},
 /turf/simulated/floor/wood,
 /area/sn_powerstation)
+"qp" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/mob/living/simple_animal/hostile/ipc_zombie,
+/turf/simulated/floor/concrete,
+/area/sn_wild)
 "qq" = (
 /obj/structure/bed/stool/chair/office/light{
 	dir = 8
@@ -1837,6 +2850,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"qt" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "qu" = (
 /obj/effect/floor_decal/industrial/outline/custodial,
 /obj/structure/mopbucket,
@@ -1850,9 +2869,12 @@
 /obj/effect/floor_decal/corner/brown{
 	dir = 5
 	},
-/obj/machinery/recharge_station,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"qx" = (
+/obj/structure/urban_grate,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
 "qy" = (
 /obj/structure/table/standard,
 /obj/item/storage/box/syringes,
@@ -1862,6 +2884,13 @@
 /obj/item/vitals_monitor,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"qz" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/obj/structure/table/rack,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "qA" = (
 /obj/machinery/telecomms/server/presets/supply,
 /turf/unsimulated/floor,
@@ -1893,6 +2922,15 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_powerstation)
+"qI" = (
+/obj/random/dirt_75,
+/obj/structure/table/glass,
+/obj/item/storage/box/folders/blue{
+	pixel_x = -4;
+	pixel_y = 5
+	},
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "qJ" = (
 /obj/structure/shipping_container{
 	icon_state = "blue2"
@@ -1900,10 +2938,35 @@
 /obj/effect/overlay/container_logo/zenghu,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"qK" = (
+/mob/living/simple_animal/hostile/ipc_zombie,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
+"qL" = (
+/obj/effect/decal/road_marking,
+/obj/structure/structural_support,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"qM" = (
+/obj/structure/bed/stool/chair/folding,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"qN" = (
+/obj/effect/floor_decal/corner_wide/mauve/full{
+	dir = 8
+	},
+/obj/structure/table/rack,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "qO" = (
 /obj/random/tool,
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"qP" = (
+/obj/item/storage/box/folders,
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "qS" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 9
@@ -1924,6 +2987,19 @@
 /obj/random/tool,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"rb" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"rd" = (
+/obj/item/material/shard,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "rf" = (
 /obj/machinery/light/colored/red{
 	dir = 8
@@ -1954,6 +3030,11 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"rl" = (
+/obj/structure/urban_grate,
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
 "rn" = (
 /obj/structure/bed/stool/chair/shuttle{
 	dir = 4
@@ -1970,12 +3051,69 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"ro" = (
+/obj/item/wrench,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "rp" = (
 /obj/structure/bed/stool/chair/folding{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"rs" = (
+/obj/random/dirt_75,
+/mob/living/simple_animal/hostile/ipc_zombie,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
+"ru" = (
+/obj/random/dirt_75,
+/obj/effect/landmark/corpse/krc,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"rx" = (
+/obj/structure/table/rack,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "ry" = (
 /mob/living/simple_animal/hostile/hivebot/range/rapid,
 /obj/effect/decal/road_marking{
@@ -1989,9 +3127,19 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_wild)
+"rB" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/turf/unsimulated/floor,
+/area/sn_wild)
 "rC" = (
 /obj/structure/lattice/catwalk/indoor/planks,
 /turf/simulated/floor/exoplanet/water/konyang,
+/area/sn_wild)
+"rD" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "rI" = (
 /obj/machinery/telecomms/processor/preset_two,
@@ -2003,6 +3151,14 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"rO" = (
+/obj/structure/table/standard,
+/obj/machinery/recharger{
+	pixel_x = 7;
+	pixel_y = 9
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "rP" = (
 /mob/living/simple_animal/hostile/hivebot/range/rapid,
 /turf/simulated/floor/exoplanet/dirt_konyang,
@@ -2016,6 +3172,14 @@
 "rR" = (
 /obj/structure/flora/tree/konyang/fall,
 /turf/simulated/floor/exoplanet/konyang/pink,
+/area/sn_wild)
+"rS" = (
+/obj/structure/flora/rock/konyang/small,
+/obj/structure/chainlink_fence{
+	layer = 9.1;
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
 /area/sn_wild)
 "rT" = (
 /obj/machinery/door/airlock/mining{
@@ -2040,6 +3204,40 @@
 /obj/item/storage/toolbox/lunchbox/heart/filled,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"rY" = (
+/obj/effect/decal/road_marking/thin{
+	dir = 4
+	},
+/obj/effect/decal/road_marking/thin{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"sb" = (
+/obj/structure/table/glass,
+/obj/item/device/flashlight/lamp/off,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
+"sf" = (
+/obj/structure/table/rack,
+/obj/effect/floor_decal/corner_wide/green{
+	dir = 5
+	},
+/obj/item/deployable_kit/iv_drip,
+/obj/item/deployable_kit/iv_drip,
+/obj/item/deployable_kit/iv_drip,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "sh" = (
 /obj/machinery/door/airlock/mining{
 	name = "Fuel Storage"
@@ -2059,6 +3257,11 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"sp" = (
+/obj/structure/flora/rock/konyang/small,
+/obj/random/dirt_75,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "sr" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/landmark/corpse/konyang_soldier,
@@ -2070,6 +3273,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"su" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "sz" = (
 /obj/structure/flora/rock/konyang/small,
 /mob/living/simple_animal/hostile/hivebot/guardian,
@@ -2095,9 +3304,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/sn_wild)
+"sE" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/sidewalk,
+/area/sn_wild)
 "sG" = (
 /obj/structure/flora/bush/konyang_reeds/water,
 /turf/simulated/floor/exoplanet/water/shallow/konyang,
+/area/sn_wild)
+"sH" = (
+/obj/random/dirt_75,
+/obj/structure/flora/pottedplant/dead,
+/turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "sK" = (
 /obj/structure/table/steel,
@@ -2113,6 +3331,17 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"sL" = (
+/obj/effect/floor_decal/corner_wide/green/full{
+	dir = 1
+	},
+/obj/structure/table/rack,
+/obj/item/storage/firstaid/large,
+/obj/item/storage/firstaid/large,
+/obj/item/storage/firstaid/large/stab,
+/obj/item/defibrillator/loaded,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "sN" = (
 /obj/machinery/vending/robotics,
 /obj/random/dirt_75,
@@ -2149,11 +3378,28 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/sn_wild)
+"sW" = (
+/obj/random/dirt_75,
+/obj/random/junk,
+/turf/simulated/floor/reinforced,
+/area/sn_wild)
+"sX" = (
+/obj/item/hammer,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "sZ" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"tc" = (
+/obj/machinery/light/broken,
+/turf/simulated/floor/sidewalk/dark/grid,
+/area/sn_wild)
+"te" = (
+/obj/machinery/photocopier,
+/turf/simulated/floor/foundation,
 /area/sn_wild)
 "th" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -2222,6 +3468,13 @@
 /obj/structure/flora/bush/konyang_reeds/water,
 /turf/simulated/floor/exoplanet/water/konyang,
 /area/sn_wild)
+"tw" = (
+/obj/structure/table/steel,
+/obj/item/device/tvcamera,
+/obj/item/device/camera,
+/obj/item/device/camera_film,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "tz" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
@@ -2261,6 +3514,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"tG" = (
+/obj/machinery/recharge_station,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "tH" = (
 /turf/simulated/floor/hivebot,
 /area/sn_warehouse)
@@ -2297,6 +3554,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"tS" = (
+/obj/structure/flora/rock/konyang,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "tX" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -2304,6 +3565,10 @@
 	dir = 9
 	},
 /turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"tY" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "ub" = (
 /obj/effect/floor_decal/spline/plain/blue,
@@ -2320,6 +3585,12 @@
 	pixel_y = -18
 	},
 /turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"ui" = (
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "ul" = (
 /obj/effect/landmark/scorcher,
@@ -2338,6 +3609,30 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"uq" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "us" = (
 /obj/structure/flora/tree/konyang,
 /obj/structure/flora/rock/konyang/moss,
@@ -2350,6 +3645,14 @@
 /obj/structure/automobile/random,
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"uv" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/item/stack/cable_coil/random{
+	pixel_x = 28
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "ux" = (
 /obj/random/dirt_75,
 /obj/machinery/door/blast/shutters{
@@ -2359,6 +3662,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/sn_wild)
+"uz" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "uA" = (
 /obj/item/paper/fluff/silicon_nightmares/warehouse_1,
 /turf/simulated/floor/wood,
@@ -2367,6 +3674,18 @@
 /obj/structure/closet/secure_closet/custodial/offship,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"uD" = (
+/obj/item/paper,
+/obj/structure/barricade/wooden,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"uE" = (
+/obj/machinery/light{
+	dir = 8;
+	must_start_working = 1
+	},
+/turf/unsimulated/floor,
+/area/sn_wild)
 "uF" = (
 /obj/machinery/light{
 	must_start_working = 1
@@ -2375,6 +3694,18 @@
 /area/sn_wild)
 "uG" = (
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"uH" = (
+/obj/structure/bed/stool/chair/office/light{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"uI" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/turf/unsimulated/floor/plating,
 /area/sn_wild)
 "uL" = (
 /obj/machinery/door/airlock/mining{
@@ -2429,6 +3760,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"vc" = (
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/obj/random/junk,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "ve" = (
 /obj/effect/floor_decal/corner_wide/black{
 	dir = 5
@@ -2456,8 +3793,18 @@
 /obj/item/pen/black,
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"vk" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/grille,
+/turf/simulated/floor/exoplanet/foundation,
+/area/sn_wild)
 "vn" = (
 /turf/simulated/floor/hivebot,
+/area/sn_wild)
+"vq" = (
+/obj/structure/bed/stool/chair/wood{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "vr" = (
 /obj/structure/shipping_container{
@@ -2494,11 +3841,28 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"vB" = (
+/obj/effect/decal/curb,
+/turf/simulated/floor/concrete,
+/area/sn_wild)
 "vD" = (
 /obj/item/material/shard/phoron,
 /obj/item/material/shard/phoron,
 /obj/item/stack/rods,
 /turf/simulated/floor/tiled,
+/area/sn_wild)
+"vE" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"vF" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/bed/stool/chair/office/light{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "vH" = (
 /obj/structure/flora/rock/konyang,
@@ -2518,6 +3882,16 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"vL" = (
+/obj/machinery/papershredder{
+	pixel_x = -6
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "vM" = (
 /obj/machinery/blackbox_recorder,
 /turf/unsimulated/floor,
@@ -2533,6 +3907,17 @@
 	dir = 8
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"vT" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/material/knife/tacknife,
+/obj/item/mecha_equipment/mounted_system/plasmacutter{
+	pixel_y = -5
+	},
+/obj/item/mecha_equipment/mounted_system/plasmacutter{
+	pixel_y = 5
+	},
+/turf/simulated/floor/reinforced,
 /area/sn_wild)
 "vU" = (
 /obj/effect/step_trigger/thrower{
@@ -2560,9 +3945,21 @@
 /obj/machinery/light,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"vY" = (
+/obj/effect/floor_decal/corner/mauve{
+	dir = 5
+	},
+/obj/structure/table/rack,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "wb" = (
 /turf/simulated/floor/asphalt,
 /area/sn_powerstation)
+"wd" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "wf" = (
 /obj/machinery/light{
 	dir = 8
@@ -2622,6 +4019,17 @@
 /obj/random/junk,
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"wr" = (
+/obj/structure/table,
+/turf/simulated/floor/reinforced,
+/area/sn_wild)
+"ws" = (
+/obj/machinery/door/blast/shutters{
+	name = "Access Gate";
+	id = "sn_camp"
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "wu" = (
 /obj/effect/landmark/corpse/krc,
 /turf/simulated/floor/plating,
@@ -2632,11 +4040,27 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"ww" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/water/shallow/konyang,
+/area/sn_wild)
+"wx" = (
+/mob/living/simple_animal/hostile/ipc_zombie,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
 "wy" = (
 /mob/living/simple_animal/hostile/hivebot,
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"wz" = (
+/obj/effect/floor_decal/corner_wide/green{
+	dir = 5
+	},
+/obj/structure/table/rack,
+/obj/item/storage/firstaid/combat,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "wF" = (
 /obj/structure/shipping_container{
 	icon_state = "blue3"
@@ -2682,6 +4106,30 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"wV" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "wW" = (
 /obj/machinery/computer/cryopod{
 	pixel_y = -32
@@ -2693,11 +4141,27 @@
 /obj/machinery/telecomms/server/presets/common,
 /turf/unsimulated/floor,
 /area/sn_wild)
+"xc" = (
+/turf/simulated/floor/exoplanet/foundation,
+/area/sn_wild)
 "xd" = (
 /obj/effect/floor_decal/corner/green/diagonal,
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"xe" = (
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(19)
+	},
+/obj/item/clothing/accessory/holster/armpit/brown,
+/obj/item/clothing/accessory/holster/armpit/brown,
+/obj/item/clothing/accessory/holster/armpit/brown,
+/obj/item/clothing/accessory/holster/armpit/brown,
+/obj/item/clothing/accessory/holster/armpit/brown,
+/obj/item/clothing/accessory/holster/armpit/brown,
+/obj/item/clothing/accessory/holster/armpit/brown,
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "xi" = (
 /obj/item/trash/cigbutt{
 	pixel_x = -6;
@@ -2713,12 +4177,10 @@
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
 "xq" = (
-/obj/effect/ghostspawpoint{
-	name = "igs - infected";
-	identifier = "infected"
-	},
-/turf/simulated/floor/tiled,
-/area/sn_warehouse)
+/obj/machinery/door/urban,
+/obj/effect/decal/exterior_stairs/half/center,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "xr" = (
 /obj/structure/filingcabinet/filingcabinet{
 	pixel_x = -8;
@@ -2733,6 +4195,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"xu" = (
+/obj/random/junk,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
+"xv" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "xw" = (
 /obj/structure/chainlink_fence{
 	layer = 9.1
@@ -2741,6 +4211,13 @@
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"xx" = (
+/obj/random/dirt_75,
+/obj/structure/bed/stool/chair/office/light{
+	dir = 8
+	},
+/turf/simulated/floor/foundation,
 /area/sn_wild)
 "xz" = (
 /obj/structure/konyang_cliff{
@@ -2781,10 +4258,21 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_warehouse)
+"xG" = (
+/obj/random/dirt_75,
+/obj/structure/flora/rock/konyang,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
 "xH" = (
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/wood,
 /area/sn_powerstation)
+"xI" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/smes_coil/weak,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "xK" = (
 /obj/effect/floor_decal/konyang_flowers,
 /mob/living/simple_animal/hostile/ipc_zombie,
@@ -2795,6 +4283,10 @@
 	must_start_working = 1
 	},
 /turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"xO" = (
+/obj/item/stack/rods,
+/turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "xQ" = (
 /obj/structure/chainlink_fence,
@@ -2818,6 +4310,10 @@
 /obj/effect/decal/road_marking,
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"xT" = (
+/obj/item/material/hatchet/machete/steel,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "xU" = (
 /obj/structure/shipping_container{
 	icon_state = "red2"
@@ -2831,6 +4327,65 @@
 	},
 /mob/living/simple_animal/hostile/hivebot,
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"xX" = (
+/obj/structure/table/rack,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/unsimulated/floor/concrete,
 /area/sn_wild)
 "xY" = (
 /obj/effect/decal/road_marking{
@@ -2847,6 +4402,29 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"ya" = (
+/obj/machinery/door/blast/shutters/open{
+	id = "sn_camp";
+	name = "Access Gate"
+	},
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"yc" = (
+/obj/structure/table/wood,
+/obj/item/folder/red{
+	pixel_x = 15;
+	pixel_y = 3
+	},
+/obj/item/pen,
+/obj/random/dirt_75,
+/obj/item/material/ashtray/bronze{
+	pixel_x = 5
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "yf" = (
 /turf/simulated/wall/concrete,
 /area/sn_wild)
@@ -2855,6 +4433,14 @@
 /obj/item/trash/plate/steak,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"yi" = (
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/exoplanet/foundation,
+/area/sn_wild)
+"yj" = (
+/obj/effect/decal/curb,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "yk" = (
 /obj/structure/lattice/catwalk/indoor/planks/stairs{
 	dir = 4
@@ -2874,6 +4460,21 @@
 /obj/random/junk,
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"yp" = (
+/obj/random/dirt_75,
+/obj/item/stack/material/wood/branch,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"yq" = (
+/obj/structure/chainlink_fence{
+	dir = 8
+	},
+/obj/structure/chainlink_fence{
+	layer = 9.1;
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
 "yu" = (
 /obj/machinery/body_scanconsole{
 	dir = 8
@@ -2890,6 +4491,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"yw" = (
+/obj/structure/structural_support,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
 "yy" = (
 /obj/effect/landmark/corpse/krc,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -2920,6 +4525,25 @@
 "yH" = (
 /obj/structure/chainlink_fence,
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"yI" = (
+/obj/structure/parking_meter,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
+"yK" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/storage/toolbox/emergency,
+/obj/effect/floor_decal/industrial/warning/cee{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"yL" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/grille,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "yM" = (
 /obj/structure/table/steel,
@@ -2988,6 +4612,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"ze" = (
+/obj/item/robot_parts/robot_component/camera,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "zf" = (
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/o2,
@@ -3080,6 +4708,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"zv" = (
+/obj/item/mech_component/propulsion/spider/heavy,
+/turf/simulated/floor/sidewalk/dark/grid,
+/area/sn_wild)
+"zA" = (
+/obj/effect/floor_decal/corner_wide/dark_blue/full,
+/obj/structure/table/rack,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "zB" = (
 /obj/structure/table/steel,
 /obj/machinery/door/window{
@@ -3113,10 +4750,27 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/sn_powerstation)
+"zI" = (
+/obj/structure/chainlink_fence,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "zJ" = (
 /obj/structure/bed/stool/chair/office/light,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"zK" = (
+/obj/structure/table/standard,
+/obj/item/pen/red,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"zL" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/structure/table/rack,
+/obj/structure/fireaxecabinet/south,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "zN" = (
 /obj/random/tool,
 /turf/simulated/floor/tiled,
@@ -3161,6 +4815,17 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_warehouse)
+"zX" = (
+/obj/random/dirt_75,
+/obj/machinery/photocopier,
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"zZ" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/floor_decal/industrial/warning,
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "Aa" = (
 /obj/effect/decal/road_marking/no_park,
 /turf/simulated/floor/asphalt,
@@ -3188,6 +4853,13 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"Aj" = (
+/obj/effect/floor_decal/corner/mauve{
+	dir = 9
+	},
+/obj/structure/table/rack,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "Am" = (
 /obj/effect/decal/road_marking/thin{
 	dir = 8
@@ -3196,6 +4868,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"An" = (
+/obj/structure/table/standard,
+/obj/item/paper_bin,
+/turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "Ao" = (
 /obj/random/dirt_75,
@@ -3248,6 +4925,39 @@
 /mob/living/simple_animal/hostile/hivebotboss,
 /turf/simulated/floor/hivebot,
 /area/sn_warehouse)
+"Ax" = (
+/obj/item/pen,
+/obj/structure/closet/crate/bin,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"Az" = (
+/obj/structure/table/rack,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
+"AC" = (
+/obj/machinery/door/blast/shutters/open,
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"AE" = (
+/obj/structure/table/glass,
+/obj/item/mirror,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "AF" = (
 /obj/effect/floor_decal/corner_wide/black/diagonal,
 /obj/structure/table/standard,
@@ -3304,6 +5014,10 @@
 /obj/effect/landmark/corpse/einstein_goon,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"AW" = (
+/obj/machinery/smartfridge,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "AX" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/wall/concrete,
@@ -3334,6 +5048,13 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/hivebot,
 /area/sn_warehouse)
+"Bh" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/photocopier,
+/turf/simulated/floor/sidewalk/dark/grid,
+/area/sn_wild)
 "Bl" = (
 /obj/structure/filingcabinet/chestdrawer{
 	pixel_x = 7
@@ -3356,11 +5077,9 @@
 /turf/simulated/floor/plating,
 /area/sn_wild)
 "Bn" = (
-/obj/structure/ecd{
-	pixel_x = 16
-	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc_evac)
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
 "Bp" = (
 /obj/structure/bed/stool/chair/sofa/left/beige{
 	dir = 4
@@ -3377,6 +5096,21 @@
 /obj/effect/floor_decal/corner/green/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Bu" = (
+/obj/structure/table,
+/obj/machinery/microscope,
+/turf/simulated/floor/reinforced,
+/area/sn_wild)
+"Bv" = (
+/obj/structure/table/glass,
+/obj/item/paper_bin,
+/obj/item/pen/black,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
+"Bx" = (
+/obj/item/material/shard,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "Bz" = (
 /obj/machinery/light{
 	must_start_working = 1
@@ -3390,6 +5124,14 @@
 /obj/effect/map_effect/window_spawner/full/reinforced/grille,
 /turf/simulated/floor/tiled/full,
 /area/sn_warehouse)
+"BB" = (
+/obj/item/device/geiger,
+/turf/simulated/floor/sidewalk/dark/grid,
+/area/sn_wild)
+"BD" = (
+/obj/random/tech_supply,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "BE" = (
 /obj/effect/decal/road_marking/center{
 	dir = 8
@@ -3408,22 +5150,47 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"BF" = (
+/obj/effect/floor_decal/corner_wide/green{
+	dir = 5
+	},
+/obj/structure/table/rack,
+/obj/item/storage/firstaid/surgery,
+/obj/item/storage/firstaid/surgery,
+/turf/unsimulated/floor,
+/area/sn_wild)
+"BG" = (
+/obj/item/pen,
+/turf/simulated/floor/exoplanet/foundation,
+/area/sn_wild)
 "BJ" = (
 /obj/structure/bed/stool/chair/office/light{
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"BK" = (
+/obj/effect/decal/road_marking,
+/obj/effect/decal/curb,
+/obj/structure/closet/crate/bin/urban/dumpster,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "BP" = (
-/obj/item/gun/projectile/peac,
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(19)
+/obj/structure/chainlink_fence{
+	layer = 9.1
 	},
-/obj/item/ammo_casing/peac,
-/obj/item/ammo_casing/peac,
-/obj/effect/floor_decal/industrial/outline/security,
-/turf/simulated/floor/shuttle/dark_red,
-/area/shuttle/scc_evac)
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
+"BR" = (
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
+"BT" = (
+/obj/machinery/recharge_station,
+/obj/machinery/light/broken{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "BU" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	name = "armor cabinet";
@@ -3453,15 +5220,39 @@
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
 "BW" = (
-/obj/machinery/light{
-	must_start_working = 1
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
+"BZ" = (
+/obj/item/stack/cable_coil/random{
+	pixel_x = -11
 	},
+/obj/item/robot_parts/robot_component/radio,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"Cb" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/machinery/floodlight/randomcharge,
 /turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"Cd" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4;
+	icon_state = "warning"
+	},
+/turf/unsimulated/floor/plating,
 /area/sn_wild)
 "Ce" = (
 /obj/effect/floor_decal/corner_wide/black/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Cg" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "Ci" = (
 /obj/structure/sign/nosmoking_1{
 	pixel_y = 30
@@ -3470,6 +5261,30 @@
 /obj/effect/floor_decal/industrial/outline/firefighting_closet,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Cj" = (
+/obj/structure/flora/rock/konyang/small,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
+"Ck" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/closet/crate/large,
+/obj/structure/fireaxecabinet/west,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"Cm" = (
+/obj/random/dirt_75,
+/obj/effect/floor_decal/konyang_flowers,
+/turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"Cn" = (
+/obj/structure/bed/stool,
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
 "Co" = (
 /obj/structure/table/standard,
 /obj/item/trash/plate{
@@ -3477,6 +5292,23 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Cp" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 10
+	},
+/obj/structure/table/rack,
+/obj/item/stack/material/steel/full,
+/obj/item/stack/material/steel/full,
+/obj/item/stack/material/steel/full,
+/obj/item/stack/material/steel/full,
+/obj/item/stack/material/steel/full,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "Ct" = (
 /obj/structure/shipping_container{
 	icon_state = "green3"
@@ -3486,6 +5318,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Cv" = (
+/obj/random/dirt_75,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/papershredder,
+/turf/simulated/floor/sidewalk/dark/grid,
+/area/sn_wild)
 "Cw" = (
 /obj/machinery/telecomms/server/presets/unused,
 /turf/unsimulated/floor,
@@ -3502,15 +5342,9 @@
 /turf/simulated/floor/wood,
 /area/sn_powerstation)
 "CD" = (
-/obj/item/gun/projectile/automatic/rifle/carbine/civcarbine,
-/obj/item/gun/projectile/automatic/rifle/carbine/civcarbine,
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = list(19)
 	},
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/obj/item/ammo_magazine/a556/carbine/polymer,
 /obj/effect/floor_decal/industrial/outline/security,
 /obj/machinery/light{
 	dir = 4
@@ -3522,6 +5356,13 @@
 /obj/machinery/mech_recharger,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"CG" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/table/reinforced/steel,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "CH" = (
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/asphalt,
@@ -3545,43 +5386,13 @@
 /turf/simulated/floor/asphalt,
 /area/sn_warehouse)
 "CM" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(19)
-	},
-/obj/item/gun/projectile/leyon,
-/obj/item/gun/projectile/leyon,
-/obj/item/gun/projectile/leyon,
-/obj/item/ammo_magazine/mc10mm/leyon,
-/obj/item/ammo_magazine/mc10mm/leyon,
-/obj/item/ammo_magazine/mc10mm/leyon,
-/obj/item/ammo_magazine/mc10mm/leyon,
-/obj/item/ammo_magazine/mc10mm/leyon,
-/obj/item/ammo_magazine/mc10mm/leyon,
-/obj/item/ammo_magazine/mc10mm/leyon,
-/obj/effect/floor_decal/industrial/outline/security,
-/obj/item/gun/projectile/leyon,
-/obj/item/gun/projectile/leyon,
-/obj/item/gun/projectile/sec/lethal,
-/obj/item/gun/projectile/sec/lethal,
-/obj/item/gun/projectile/sec/lethal,
-/obj/item/gun/projectile/sec/lethal,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/turf/simulated/floor/shuttle/dark_red,
-/area/shuttle/scc_evac)
+/obj/structure/chainlink_fence,
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
+"CO" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/foundation,
+/area/sn_wild)
 "CR" = (
 /obj/structure/closet/walllocker/medical{
 	pixel_x = 32
@@ -3593,6 +5404,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"CS" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/white,
+/area/sn_wild)
+"CT" = (
+/obj/structure/girder,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "CU" = (
 /obj/effect/decal/road_marking/thin{
 	dir = 8
@@ -3609,6 +5428,12 @@
 	pixel_x = 20
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"CX" = (
+/obj/item/stack/rods,
+/obj/random/dirt_75,
+/mob/living/simple_animal/hostile/ipc_zombie,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "CY" = (
 /obj/structure/utility_pole/street/on{
@@ -3633,6 +5458,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Dd" = (
+/obj/random/dirt_75,
+/obj/item/stack/rods,
+/obj/machinery/light/broken,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "De" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled,
@@ -3640,6 +5471,11 @@
 "Df" = (
 /obj/structure/curtain/black,
 /turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
+"Dh" = (
+/obj/random/dirt_75,
+/mob/living/simple_animal/hostile/ipc_zombie,
+/turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "Di" = (
 /mob/living/carbon/human,
@@ -3662,6 +5498,12 @@
 /mob/living/simple_animal/hostile/hivebot/range/rapid,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"Do" = (
+/obj/structure/bed/stool/chair{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "Dp" = (
 /obj/structure/table/standard,
 /obj/effect/floor_decal/corner_wide/black/diagonal,
@@ -3683,6 +5525,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/water/shallow/konyang,
+/area/sn_wild)
+"Du" = (
+/obj/random/dirt_75,
+/mob/living/simple_animal/hostile/ipc_zombie,
+/turf/simulated/floor/sidewalk/dark/grid,
 /area/sn_wild)
 "Dw" = (
 /obj/machinery/light{
@@ -3740,6 +5587,15 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"DL" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
+"DM" = (
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "DO" = (
 /obj/structure/table/steel,
 /obj/item/modular_computer/laptop/preset/supply/om{
@@ -3747,6 +5603,11 @@
 	},
 /turf/simulated/floor/wood,
 /area/sn_warehouse)
+"DP" = (
+/obj/structure/bed/stool/chair,
+/obj/item/ore_radar,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "DR" = (
 /obj/effect/decal/road_marking/thin{
 	dir = 4
@@ -3802,12 +5663,36 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/sn_powerstation)
+"Ea" = (
+/obj/effect/decal/road_marking,
+/obj/structure/closet/crate/bin/urban/compact{
+	pixel_y = 9
+	},
+/obj/structure/closet/crate/bin/urban/compact,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"Eb" = (
+/obj/machinery/light/broken{
+	dir = 4
+	},
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "Ed" = (
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/asphalt,
 /area/sn_powerstation)
+"Ee" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/structure/railing/mapped,
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
 "Ef" = (
 /turf/simulated/floor/tiled,
+/area/sn_wild)
+"Eh" = (
+/obj/random/dirt_75,
+/obj/structure/flora/rock/konyang/small,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "Ei" = (
 /obj/machinery/vending/wallmed2{
@@ -3840,6 +5725,18 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Em" = (
+/obj/effect/floor_decal/corner/yellow/full{
+	dir = 4
+	},
+/obj/structure/table/rack,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "En" = (
 /obj/structure/filingcabinet/chestdrawer,
 /obj/effect/floor_decal/corner/brown{
@@ -3853,6 +5750,17 @@
 "Eo" = (
 /turf/simulated/floor/reinforced,
 /area/sn_powerstation)
+"Er" = (
+/obj/random/dirt_75,
+/obj/structure/table/standard,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"Et" = (
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/turf/simulated/floor/concrete,
+/area/sn_wild)
 "Eu" = (
 /obj/machinery/power/smes/batteryrack,
 /turf/simulated/floor/reinforced,
@@ -3862,6 +5770,13 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Ex" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/structure/closet/crate/bin/urban/dumpster,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "Ez" = (
 /obj/machinery/light{
 	dir = 8;
@@ -3872,6 +5787,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"EA" = (
+/obj/structure/flora/rock/pile/random,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "EB" = (
 /obj/effect/decal/road_marking/turn_right,
 /turf/simulated/floor/asphalt,
@@ -3978,6 +5897,11 @@
 /mob/living/simple_animal/hostile/hivebot,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"ES" = (
+/obj/structure/table/glass,
+/obj/item/mecha_equipment/light,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "ET" = (
 /obj/structure/barricade/liquid/wired{
 	dir = 4
@@ -3987,10 +5911,33 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"EV" = (
+/obj/structure/automobile,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "EW" = (
 /obj/structure/bed/stool/chair/office/light,
 /turf/simulated/floor/carpet,
 /area/sn_powerstation)
+"EX" = (
+/obj/random/dirt_75,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/bed/stool/chair/office/light{
+	dir = 4
+	},
+/turf/simulated/floor/sidewalk/dark/grid,
+/area/sn_wild)
+"Fc" = (
+/obj/machinery/light/broken{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/sn_wild)
 "Fg" = (
 /obj/item/stack/material/graphite/full,
 /obj/structure/closet/crate/rad{
@@ -4026,6 +5973,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"Fo" = (
+/obj/machinery/door/blast/shutters/open,
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/loading/yellow,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "Fr" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 1
@@ -4034,6 +5989,13 @@
 /obj/effect/landmark/corpse/krc,
 /turf/simulated/floor/wood,
 /area/sn_warehouse)
+"Fs" = (
+/obj/effect/decal/road_marking/center{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "Ft" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -4053,10 +6015,19 @@
 /obj/effect/overlay/container_logo,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"Fx" = (
+/obj/random/junk,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "Fy" = (
 /mob/living/simple_animal/hostile/hivebot/guardian,
 /turf/simulated/floor/wood,
 /area/sn_powerstation)
+"FA" = (
+/obj/machinery/door/window/westleft,
+/obj/structure/table/reinforced/steel,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "FB" = (
 /obj/item/modular_computer/console/preset/engineering{
 	dir = 4
@@ -4101,6 +6072,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"FI" = (
+/obj/item/robot_parts/robot_component/actuator,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "FK" = (
 /obj/item/modular_computer/console/preset/command/captain{
 	dir = 1
@@ -4114,6 +6089,19 @@
 	dir = 1
 	},
 /turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"FN" = (
+/obj/structure/girder,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"FO" = (
+/obj/machinery/door/urban{
+	dir = 4
+	},
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "FS" = (
 /turf/simulated/floor/shuttle/dark_blue,
@@ -4145,6 +6133,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Gh" = (
+/obj/item/towel_flat,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"Gi" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "Gj" = (
 /obj/effect/decal/road_marking{
 	dir = 1
@@ -4161,6 +6159,9 @@
 /obj/item/paper/fluff/silicon_nightmares/warehouse_3,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Gn" = (
+/turf/simulated/floor/concrete,
+/area/sn_wild)
 "Gp" = (
 /obj/structure/table/standard,
 /obj/item/storage/toolbox/lunchbox/syndicate/filled{
@@ -4174,6 +6175,10 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Gu" = (
+/obj/structure/flora/pottedplant/dead,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "Gx" = (
 /obj/machinery/light{
 	must_start_working = 1
@@ -4198,7 +6203,6 @@
 /obj/item/ammo_magazine/a556/k556,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/a556/k556,
 /turf/simulated/floor/tiled,
 /area/sn_wild)
 "Gy" = (
@@ -4259,14 +6263,25 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
-"GQ" = (
-/obj/machinery/recharge_station,
-/turf/simulated/floor/plating,
-/area/sn_warehouse)
+"GR" = (
+/obj/random/junk,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "GS" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor/wood,
 /area/sn_powerstation)
+"GU" = (
+/obj/effect/floor_decal/konyang_flowers,
+/obj/structure/chainlink_fence{
+	layer = 9.1;
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
 "GY" = (
 /obj/structure/filingcabinet/filingcabinet{
 	pixel_x = 10;
@@ -4281,6 +6296,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"He" = (
+/obj/structure/closet/crate/trashcart,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "Hf" = (
 /obj/structure/coatrack{
 	pixel_x = 8;
@@ -4305,6 +6324,11 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"Hk" = (
+/obj/structure/table/glass,
+/obj/item/device/multitool,
+/turf/simulated/floor/reinforced,
+/area/sn_wild)
 "Hu" = (
 /obj/machinery/computer/telecomms/server{
 	network = "tcommsat"
@@ -4314,14 +6338,12 @@
 /area/sn_wild)
 "Hv" = (
 /obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/under/rank/konyang,
-/obj/item/clothing/head/konyang/army,
-/obj/item/clothing/head/helmet/konyang,
-/obj/item/clothing/suit/armor/carrier/military,
-/obj/item/clothing/accessory/flagpatch/konyang,
-/obj/item/storage/belt/military,
+/obj/item/clothing/under/rank/konyang/mech_pilot,
+/obj/item/clothing/head/helmet/konyang/pilot,
 /obj/item/clothing/accessory/holster/hip,
+/obj/item/storage/belt/military,
 /obj/item/clothing/glasses/night,
+/obj/item/gun/projectile/pistol/sol,
 /obj/item/gun/projectile/pistol/sol,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/gun/projectile/automatic/rifle/konyang/k556,
@@ -4333,7 +6355,6 @@
 /obj/item/ammo_magazine/a556/k556,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/a556/k556,
 /turf/simulated/floor/tiled,
 /area/sn_wild)
 "Hw" = (
@@ -4350,6 +6371,13 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"Hz" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/recharger_backpack,
+/obj/item/recharger_backpack,
+/obj/item/recharger_backpack,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "HB" = (
 /obj/item/modular_computer/console/preset/civilian{
 	dir = 1
@@ -4357,6 +6385,19 @@
 /obj/effect/floor_decal/corner/brown/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"HC" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
+"HE" = (
+/obj/structure/table/rack,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/turf/simulated/floor/reinforced,
+/area/sn_wild)
 "HI" = (
 /obj/machinery/door/airlock/security{
 	name = "Base Access"
@@ -4376,6 +6417,10 @@
 	dir = 4
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"HL" = (
+/obj/item/mech_component/chassis/heavy,
+/turf/simulated/floor/sidewalk/dark,
 /area/sn_wild)
 "HN" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -4411,6 +6456,9 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"HZ" = (
+/turf/simulated/floor/exoplanet/sidewalk/flat,
+/area/sn_wild)
 "Ic" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/effect/floor_decal/corner/brown{
@@ -4421,6 +6469,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Ie" = (
+/obj/effect/decal/exterior_stairs/half/left{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "If" = (
 /obj/structure/flora/tree/konyang,
 /obj/effect/step_trigger/thrower{
@@ -4429,6 +6483,13 @@
 	dir = 5
 	},
 /turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"Ih" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/unsimulated/floor/plating,
 /area/sn_wild)
 "Ik" = (
 /obj/effect/decal/road_marking/thin{
@@ -4445,6 +6506,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"In" = (
+/obj/random/dirt_75,
+/obj/random/junk,
+/obj/machinery/light/broken{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/sn_wild)
 "Io" = (
 /obj/machinery/photocopier,
 /obj/effect/floor_decal/corner_wide/black/diagonal,
@@ -4455,11 +6524,44 @@
 /obj/effect/floor_decal/industrial/outline/firefighting_closet,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Is" = (
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "Iu" = (
 /mob/living/simple_animal/hostile/ipc_zombie,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"Iv" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/obj/structure/table/rack,
+/turf/unsimulated/floor,
+/area/sn_wild)
+"Ix" = (
+/obj/item/melee/ceremonial_sword{
+	desc = "A ceremonial sword issued to  Konyang navy officers as part of their dress uniform."
+	},
+/turf/simulated/floor/tiled,
+/area/sn_wild)
+"Iz" = (
+/obj/item/material/shard,
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
+"IA" = (
+/obj/effect/decal/remains/lizard,
+/obj/machinery/light/broken{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "IB" = (
 /obj/machinery/light{
 	dir = 8;
@@ -4478,6 +6580,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"IC" = (
+/obj/item/robot_parts/robot_component/armor,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"IE" = (
+/obj/machinery/light_switch{
+	dir = 1;
+	pixel_y = 26
+	},
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "IF" = (
 /obj/structure/closet/firecloset/full,
 /obj/effect/floor_decal/corner/brown{
@@ -4507,6 +6620,10 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"IL" = (
+/obj/effect/decal/road_marking/center,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "IN" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4;
@@ -4515,6 +6632,10 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/asphalt,
 /area/sn_warehouse)
+"IR" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
 "IU" = (
 /obj/structure/table/steel,
 /obj/item/storage/box/fancy/cigarettes/dromedaryco{
@@ -4523,6 +6644,11 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"IZ" = (
+/obj/random/dirt_75,
+/obj/item/mecha_equipment/mounted_system/combat/smg,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "Jc" = (
 /obj/effect/floor_decal/corner/dark_blue/diagonal,
 /obj/structure/table/stone/marble,
@@ -4553,6 +6679,10 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow/konyang,
 /area/sn_wild)
+"Jo" = (
+/obj/structure/flora/rock/pile/random,
+/turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
 "Jp" = (
 /obj/effect/floor_decal/corner_wide/black{
 	dir = 10
@@ -4569,6 +6699,10 @@
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"Jt" = (
+/obj/structure/table/rack/retail_shelf,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "Jw" = (
 /obj/machinery/door/urban{
 	dir = 8
@@ -4607,6 +6741,17 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"JC" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete,
+/area/sn_wild)
+"JD" = (
+/obj/structure/extinguisher_cabinet/east,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "JF" = (
 /obj/machinery/light{
 	dir = 4;
@@ -4621,6 +6766,13 @@
 	},
 /obj/item/modular_computer/laptop/preset/civilian,
 /turf/simulated/floor/tiled,
+/area/sn_wild)
+"JK" = (
+/obj/structure/chainlink_fence{
+	dir = 8
+	},
+/obj/structure/chainlink_fence,
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
 /area/sn_wild)
 "JL" = (
 /obj/structure/shipping_container,
@@ -4658,6 +6810,12 @@
 /obj/structure/flora/tree/konyang,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"JT" = (
+/obj/random/dirt_75,
+/mob/living/simple_animal/thinbug,
+/mob/living/simple_animal/hostile/ipc_zombie,
+/turf/simulated/floor/sidewalk/dark/grid,
+/area/sn_wild)
 "JU" = (
 /turf/simulated/wall/shuttle/scc,
 /area/shuttle/scc_evac)
@@ -4674,10 +6832,18 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"JX" = (
+/obj/structure/bed/stool,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "Kd" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"Ke" = (
+/obj/structure/firedoor_assembly,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "Kg" = (
 /obj/machinery/mecha_part_fabricator{
 	dir = 4;
@@ -4687,10 +6853,24 @@
 /obj/effect/decal/cleanable/floor_damage/random_broken,
 /turf/simulated/floor/carpet/rubber,
 /area/sn_warehouse)
+"Kh" = (
+/obj/random/dirt_75,
+/obj/random/junk,
+/obj/item/stack/rods,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "Ki" = (
 /mob/living/simple_animal/hostile/hivebot/guardian,
 /turf/simulated/floor/wood,
 /area/sn_warehouse)
+"Kk" = (
+/obj/structure/bed/stool/chair/office/light,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"Kl" = (
+/obj/random/junk,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "Kp" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet/crate/loot,
@@ -4727,10 +6907,28 @@
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
 "Ky" = (
-/obj/effect/floor_decal/industrial/warning/full,
-/obj/machinery/recharge_station,
-/turf/simulated/floor/plating,
-/area/sn_warehouse)
+/obj/item/clothing/shoes/jackboots,
+/obj/item/clothing/under/rank/konyang,
+/obj/item/clothing/head/konyang/army,
+/obj/item/clothing/head/helmet/konyang,
+/obj/item/clothing/suit/armor/carrier/military,
+/obj/item/clothing/accessory/flagpatch/konyang,
+/obj/item/storage/belt/military,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/glasses/night,
+/obj/item/gun/projectile/pistol/sol,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/gun/projectile/automatic/rifle/konyang/k556,
+/obj/item/ammo_magazine/a556/k556,
+/obj/item/card/id/syndicate{
+	access = list(218)
+	},
+/obj/item/device/radio/headset/syndicate,
+/obj/item/ammo_magazine/a556/k556,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/turf/simulated/floor/tiled,
+/area/sn_wild)
 "KC" = (
 /obj/effect/landmark/corpse/konyang_cop,
 /turf/simulated/floor/asphalt,
@@ -4774,17 +6972,8 @@
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
 "KS" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(19)
-	},
-/obj/item/gun/energy/gun,
-/obj/item/gun/energy/gun,
-/obj/effect/floor_decal/industrial/outline/security,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/shuttle/dark_red,
-/area/shuttle/scc_evac)
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
 "KU" = (
 /obj/machinery/light{
 	dir = 8;
@@ -4795,6 +6984,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"KV" = (
+/obj/structure/chainlink_fence{
+	layer = 9.1;
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
 "KW" = (
 /obj/structure/flora/bush/konyang_reeds/water,
 /obj/structure/flora/bush/konyang_reeds/water,
@@ -4810,6 +7006,15 @@
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Lc" = (
+/obj/random/junk,
+/turf/simulated/floor/exoplanet/sidewalk/flat,
+/area/sn_wild)
+"Ld" = (
+/obj/effect/decal/road_marking,
+/obj/effect/decal/curb,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "Le" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
 /obj/effect/floor_decal/corner/brown{
@@ -4838,6 +7043,16 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"Lh" = (
+/obj/machinery/light{
+	dir = 4;
+	must_start_working = 1
+	},
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "Lj" = (
 /obj/structure/flora/tree/konyang,
 /mob/living/simple_animal/hostile/hivebot,
@@ -4851,6 +7066,11 @@
 	},
 /obj/structure/flora/tree/konyang,
 /turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"Lm" = (
+/obj/item/material/shard,
+/obj/effect/map_effect/window_spawner/full/reinforced/grille,
+/turf/simulated/floor/exoplanet/foundation,
 /area/sn_wild)
 "Ln" = (
 /obj/structure/konyang_cliff{
@@ -4872,11 +7092,18 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"Lq" = (
+/obj/item/mecha_equipment/clamp,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "Lr" = (
 /obj/structure/table/steel,
 /obj/effect/floor_decal/corner_wide/black/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Lt" = (
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "Lu" = (
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/under/rank/konyang/officer,
@@ -4894,6 +7121,12 @@
 /obj/item/ammo_magazine/mc9mm,
 /turf/simulated/floor/tiled,
 /area/sn_wild)
+"Lx" = (
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat,
+/area/sn_wild)
 "Ly" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /turf/simulated/floor/plating,
@@ -4903,6 +7136,14 @@
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/one,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"LE" = (
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = 22;
+	pixel_y = 4
+	},
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "LF" = (
 /turf/simulated/floor/wood,
 /area/sn_powerstation)
@@ -4914,11 +7155,33 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"LK" = (
+/obj/machinery/door/window/southright,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"LL" = (
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_y = 1
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_y = 1;
+	pixel_x = -10
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "LM" = (
 /obj/item/modular_computer/console/preset/research{
 	dir = 1
 	},
 /turf/unsimulated/floor,
+/area/sn_wild)
+"LN" = (
+/obj/effect/landmark/scorcher,
+/turf/unsimulated/floor/plating,
 /area/sn_wild)
 "LO" = (
 /obj/machinery/photocopier,
@@ -4931,6 +7194,12 @@
 /obj/structure/flora/rock/konyang/moss,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"LS" = (
+/obj/random/dirt_75,
+/obj/structure/table,
+/obj/item/mecha_equipment/drill,
+/turf/simulated/floor/sidewalk/dark/grid,
+/area/sn_wild)
 "LV" = (
 /obj/machinery/door/airlock/mining{
 	name = "Warehouse 5";
@@ -4938,6 +7207,68 @@
 	},
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"LW" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/structure/table/rack,
+/obj/item/clothing/head/hardhat/green,
+/obj/item/clothing/head/hardhat/green,
+/obj/item/clothing/head/hardhat/orange{
+	pixel_y = 5;
+	pixel_x = 5
+	},
+/obj/item/clothing/head/hardhat/orange{
+	pixel_y = 5;
+	pixel_x = 5
+	},
+/obj/item/clothing/head/hardhat/orange{
+	pixel_y = 5;
+	pixel_x = 5
+	},
+/obj/item/clothing/head/hardhat/green,
+/obj/item/clothing/head/hardhat/red{
+	pixel_y = -5;
+	pixel_x = -5
+	},
+/obj/item/clothing/head/hardhat/red{
+	pixel_y = -5;
+	pixel_x = -5
+	},
+/obj/item/clothing/head/hardhat/red{
+	pixel_y = -5;
+	pixel_x = -5
+	},
+/obj/item/clothing/head/hardhat/white{
+	pixel_y = 5;
+	pixel_x = -5
+	},
+/obj/item/clothing/head/hardhat/white{
+	pixel_y = 5;
+	pixel_x = -5
+	},
+/obj/item/clothing/head/hardhat/white{
+	pixel_y = 5;
+	pixel_x = -5
+	},
+/obj/item/clothing/head/hardhat/white{
+	pixel_y = 5;
+	pixel_x = -5
+	},
+/obj/item/clothing/head/hardhat/dblue{
+	pixel_y = -5;
+	pixel_x = 5
+	},
+/obj/item/clothing/head/hardhat/dblue{
+	pixel_y = -5;
+	pixel_x = 5
+	},
+/obj/item/clothing/head/hardhat/dblue{
+	pixel_y = -5;
+	pixel_x = 5
+	},
+/turf/unsimulated/floor,
+/area/sn_wild)
 "LX" = (
 /obj/structure/flora/tree/konyang,
 /obj/effect/step_trigger/thrower{
@@ -4947,17 +7278,86 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"LY" = (
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(19)
+	},
+/obj/item/gun/projectile/revolver/mateba/captain,
+/obj/item/ammo_magazine/a454,
+/obj/item/ammo_magazine/a454,
+/obj/item/ammo_magazine/a454,
+/obj/item/gun/energy/disruptorpistol/magnum,
+/obj/item/gun/energy/disruptorpistol/magnum,
+/obj/item/gun/energy/disruptorpistol/magnum,
+/obj/item/gun/energy/disruptorpistol/magnum,
+/obj/item/gun/energy/disruptorpistol/magnum,
+/obj/item/gun/energy/disruptorpistol/magnum,
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
+"LZ" = (
+/obj/structure/girder,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
+"Mc" = (
+/obj/random/dirt_75,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "Md" = (
 /obj/structure/chainlink_fence{
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"Me" = (
+/obj/random/dirt_75,
+/obj/structure/closet/crate/weapon,
+/obj/item/gun/projectile/automatic/tommygun,
+/obj/item/gun/projectile/automatic/tommygun,
+/obj/item/ammo_magazine/submachinedrum,
+/obj/item/ammo_magazine/submachinedrum,
+/obj/item/gun/projectile/shotgun/pump/rifle/scope,
+/obj/item/gun/projectile/shotgun/pump/rifle/scope,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_casing/rocket,
+/obj/item/gun/launcher/rocket,
+/obj/item/gun/energy/pistol/goldendeep,
+/obj/item/gun/projectile/automatic/rifle/konyang/konyang47,
+/obj/item/gun/projectile/automatic/rifle/konyang/konyang47,
+/obj/item/gun/projectile/automatic/rifle/konyang/konyang47,
+/obj/item/gun/projectile/automatic/rifle/konyang/k556,
+/obj/item/gun/projectile/automatic/rifle/konyang/k556,
+/obj/item/gun/projectile/automatic/rifle/konyang/k556,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/obj/item/gun/projectile/automatic/rifle/konyang/pirate_rifle,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "Mg" = (
 /obj/effect/landmark/corpse/krc,
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"Mh" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "Mi" = (
 /obj/effect/decal/road_marking/thin,
 /turf/simulated/floor/asphalt,
@@ -4981,6 +7381,26 @@
 	dir = 4
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"Mr" = (
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"Mu" = (
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/turf/simulated/floor/foundation,
+/area/sn_wild)
+"Mv" = (
+/obj/random/dirt_75,
+/obj/structure/table/rack,
+/turf/simulated/floor/sidewalk/dark,
 /area/sn_wild)
 "Mw" = (
 /obj/machinery/papershredder{
@@ -5024,6 +7444,14 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/sn_wild)
+"ML" = (
+/obj/machinery/mecha_part_fabricator,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
+"MQ" = (
+/obj/item/stack/rods,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
 "MR" = (
 /obj/structure/table/steel,
 /obj/item/material/kitchen/utensil/fork/chopsticks,
@@ -5034,6 +7462,11 @@
 /obj/structure/flora/rock/konyang/water,
 /obj/structure/flora/bush/konyang_reeds/water,
 /turf/simulated/floor/exoplanet/water/shallow/konyang,
+/area/sn_wild)
+"MT" = (
+/obj/structure/table/standard,
+/obj/item/folder/red,
+/turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "MU" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -5067,6 +7500,11 @@
 /obj/machinery/autolathe,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
+"Na" = (
+/obj/random/dirt_75,
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/sidewalk/dark/grid,
+/area/sn_wild)
 "Nb" = (
 /obj/structure/table/standard,
 /obj/item/clothing/glasses/hud/health,
@@ -5097,18 +7535,16 @@
 /turf/simulated/floor/hivebot,
 /area/sn_warehouse)
 "Ni" = (
-/obj/item/gun/projectile/automatic/rifle/jingya,
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(19)
-	},
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/obj/effect/floor_decal/industrial/outline/security,
-/obj/item/gun/projectile/automatic/rifle/jingya,
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/obj/item/ammo_magazine/a556/carbine/polymer,
-/turf/simulated/floor/shuttle/dark_red,
-/area/shuttle/scc_evac)
+/obj/random/dirt_75,
+/obj/structure/table,
+/obj/item/device/t_scanner,
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
+"Nj" = (
+/obj/machinery/photocopier,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "Nk" = (
 /obj/structure/bed/stool/chair/office/light{
 	dir = 1
@@ -5125,17 +7561,42 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"No" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
+"Nq" = (
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "Nr" = (
 /obj/machinery/door/airlock/glass_mining{
 	dir = 4
 	},
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
+"Nt" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4;
+	icon_state = "warning"
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "Nw" = (
 /obj/effect/decal/road_marking/turn_right{
 	dir = 8
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"Ny" = (
+/turf/simulated/floor/reinforced,
+/area/sn_wild)
+"Nz" = (
+/turf/simulated/floor/sidewalk/dark/detail,
 /area/sn_wild)
 "NA" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -5151,6 +7612,15 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"NE" = (
+/obj/random/dirt_75,
+/obj/item/ipc_overloader/rainbow,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
+"NG" = (
+/obj/structure/flora/rock/random,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "NI" = (
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/tiled,
@@ -5206,6 +7676,10 @@
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/sn_wild)
+"NS" = (
+/obj/item/stack/material/steel/full,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "NT" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 9
@@ -5228,6 +7702,20 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"NY" = (
+/obj/random/dirt_75,
+/mob/living/simple_animal/thinbug,
+/obj/machinery/light/broken,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
+"Oa" = (
+/obj/structure/closet/crate/bin,
+/obj/random/dirt_75,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "Oc" = (
 /turf/unsimulated/wall/riveted,
 /area/sn_wild)
@@ -5240,10 +7728,8 @@
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
 "Oi" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/exoplanet/dirt_konyang,
+/obj/random/junk,
+/turf/simulated/floor/sidewalk/dark,
 /area/sn_wild)
 "Oj" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -5258,6 +7744,10 @@
 /obj/machinery/hologram/holopad/long_range,
 /obj/effect/decal/fake_object/light_source/invisible,
 /turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
+"Oo" = (
+/obj/item/pen,
+/turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "Oq" = (
 /obj/structure/filingcabinet/filingcabinet{
@@ -5274,11 +7764,35 @@
 /obj/structure/closet/crate,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"Ow" = (
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "Oz" = (
 /obj/machinery/light/colored/dying{
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
+/area/sn_wild)
+"OC" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 10
+	},
+/obj/structure/table/rack,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/turf/unsimulated/floor,
 /area/sn_wild)
 "OE" = (
 /obj/effect/decal/road_marking,
@@ -5288,6 +7802,12 @@
 	dir = 4
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"OH" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/concrete,
 /area/sn_wild)
 "OI" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -5301,6 +7821,18 @@
 	dir = 1
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"OL" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"OM" = (
+/obj/structure/table/rack,
+/obj/item/weldingtool/emergency,
+/obj/effect/floor_decal/industrial/warning/cee,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "OO" = (
 /obj/structure/barricade/liquid/wired{
@@ -5367,6 +7899,19 @@
 /obj/structure/flora/rock/konyang/small,
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/sn_wild)
+"OW" = (
+/obj/structure/closet/crate/weapon,
+/obj/item/melee/chainsword,
+/obj/item/melee/chainsword,
+/obj/item/melee/chainsword,
+/obj/item/gun/projectile/automatic/rifle/shotgun/konyang,
+/obj/item/gun/projectile/automatic/rifle/shotgun/konyang,
+/obj/item/gun/projectile/shotgun/pump/combat,
+/obj/item/gun/projectile/shotgun/pump/combat,
+/obj/item/storage/box/shotgunshells,
+/obj/item/storage/box/shotgunshells,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "OX" = (
 /obj/machinery/telecomms/processor/preset_one,
 /turf/unsimulated/floor,
@@ -5374,6 +7919,16 @@
 "OY" = (
 /obj/structure/lattice/catwalk/indoor/planks/deep,
 /turf/simulated/floor/exoplanet/konyang/pink,
+/area/sn_wild)
+"OZ" = (
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "Pd" = (
 /obj/structure/closet/secure_closet/engineering_electrical{
@@ -5387,6 +7942,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"Pe" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "Pg" = (
 /obj/structure/sink/kitchen{
 	name = "sink";
@@ -5395,10 +7957,26 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Pi" = (
+/obj/structure/closet/crate/bin/urban/compact,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
 "Pj" = (
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/asphalt,
 /area/sn_warehouse)
+"Pk" = (
+/obj/structure/urban_grate,
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
+"Pl" = (
+/obj/random/dirt_75,
+/obj/structure/closet/secure_closet/freezer,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "Pq" = (
 /obj/structure/shipping_container{
 	icon_state = "green2"
@@ -5449,15 +8027,21 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"Py" = (
+/obj/effect/decal/cleanable/generic,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "PA" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = list(19)
 	},
-/obj/item/gun/energy/rifle/laser/noctiluca,
-/obj/item/gun/energy/rifle/laser/noctiluca,
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
+"PC" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "PE" = (
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/reinforced,
@@ -5488,6 +8072,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"PK" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "PL" = (
 /obj/structure/closet/crate/tool,
 /obj/random/tool,
@@ -5499,6 +8087,10 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"PP" = (
+/obj/structure/table/reinforced/steel,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "PT" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/engineering_electrical{
@@ -5506,6 +8098,10 @@
 	},
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
+"PU" = (
+/obj/machinery/door/urban/glass_sliding/double,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "PV" = (
 /obj/machinery/light{
 	dir = 1;
@@ -5513,6 +8109,19 @@
 	must_start_working = 1
 	},
 /turf/simulated/floor/tiled,
+/area/sn_wild)
+"PW" = (
+/obj/item/stack/rods,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"PX" = (
+/obj/random/dirt_75,
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/exoplanet/sidewalk,
+/area/sn_wild)
+"PZ" = (
+/obj/structure/closet/crate/bin/urban/dumpster,
+/turf/simulated/floor/sidewalk/flat,
 /area/sn_wild)
 "Qb" = (
 /obj/effect/floor_decal/corner/brown{
@@ -5562,6 +8171,10 @@
 /obj/effect/floor_decal/corner/dark_blue/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Qt" = (
+/obj/machinery/door/urban,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "Qw" = (
 /obj/machinery/light/colored/dying{
 	dir = 1
@@ -5580,6 +8193,25 @@
 	},
 /turf/simulated/floor/exoplanet/konyang/pink,
 /area/sn_wild)
+"QB" = (
+/obj/machinery/papershredder,
+/obj/machinery/light/broken,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
+"QC" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/structure/table/rack,
+/obj/item/device/multitool,
+/turf/unsimulated/floor,
+/area/sn_wild)
+"QD" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "QE" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/landmark/corpse/konyang_soldier,
@@ -5596,6 +8228,26 @@
 /obj/item/ammo_casing/a556/spent,
 /obj/item/ammo_casing/a556/spent,
 /turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"QH" = (
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
+"QL" = (
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"QO" = (
+/obj/item/storage/secure/safe,
+/turf/simulated/wall/r_wall,
 /area/sn_wild)
 "QP" = (
 /obj/structure/shipping_container,
@@ -5650,12 +8302,23 @@
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/sn_wild)
+"Rg" = (
+/obj/structure/flora/rock/konyang,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
 "Rh" = (
 /obj/structure/bed/stool/chair/office/light{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Rm" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
 "Rn" = (
 /obj/machinery/light{
 	must_start_working = 1
@@ -5680,6 +8343,12 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/unsimulated/floor,
 /area/sn_wild)
+"Rq" = (
+/obj/machinery/door/urban/glass_sliding/double{
+	dir = 1
+	},
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "Rr" = (
 /obj/item/device/radio/phone,
 /obj/structure/table/steel,
@@ -5695,6 +8364,11 @@
 	pixel_y = 32;
 	req_access = null
 	},
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
 /obj/item/reagent_containers/blood/OMinus,
 /obj/item/reagent_containers/blood/OMinus,
 /obj/item/reagent_containers/blood/OMinus,
@@ -5726,6 +8400,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"RE" = (
+/obj/item/stack/material/glass/full,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "RI" = (
 /obj/item/reagent_containers/glass/bucket{
 	pixel_y = -9;
@@ -5762,6 +8440,13 @@
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"RP" = (
+/obj/random/dirt_75,
+/obj/machinery/light/broken{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/sn_wild)
 "RS" = (
 /obj/structure/flora/bush/konyang_reeds/water,
 /obj/effect/step_trigger/thrower{
@@ -5770,6 +8455,23 @@
 	dir = 9
 	},
 /turf/simulated/floor/exoplanet/water/konyang,
+/area/sn_wild)
+"RT" = (
+/obj/structure/table/steel,
+/obj/item/clothing/accessory/armor_plate/press,
+/obj/item/clothing/suit/armor/carrier{
+	pixel_x = -10
+	},
+/obj/item/clothing/head/helmet/security/press{
+	pixel_x = 10
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"RU" = (
+/obj/machinery/light{
+	must_start_working = 1
+	},
+/turf/unsimulated/floor/concrete,
 /area/sn_wild)
 "RV" = (
 /obj/structure/konyang_cliff{
@@ -5845,6 +8547,14 @@
 "Si" = (
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"Sk" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/clothing/head/hardhat/green{
+	pixel_y = 3
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "Sm" = (
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
@@ -5872,6 +8582,14 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/sn_powerstation)
+"St" = (
+/obj/random/junk,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"Su" = (
+/obj/structure/urban/pylon,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "Sv" = (
 /obj/effect/decal/road_marking/thin{
 	dir = 1
@@ -5896,6 +8614,20 @@
 	dir = 1
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"SA" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/soap/blue_soap,
+/obj/item/storage/belt/utility{
+	pixel_x = -18
+	},
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"SB" = (
+/obj/random/dirt_75,
+/obj/item/cell/crap,
+/turf/simulated/floor/sidewalk/dark,
 /area/sn_wild)
 "SC" = (
 /mob/living/simple_animal/hostile/hivebot/range/rapid,
@@ -5922,6 +8654,12 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"SK" = (
+/obj/structure/bed/stool/chair/office/light{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
 "SO" = (
 /obj/structure/flora/rock/konyang/water,
 /turf/simulated/floor/exoplanet/water/shallow/konyang,
@@ -5931,6 +8669,30 @@
 	dir = 5
 	},
 /turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
+"SR" = (
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
+"SV" = (
+/obj/structure/chainlink_fence,
+/obj/structure/chainlink_fence{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
+"SX" = (
+/obj/random/dirt_75,
+/obj/structure/bed/stool/chair/office/light,
+/turf/simulated/floor/exoplanet/lino,
+/area/sn_wild)
+"SY" = (
+/obj/item/stack/rods,
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
 /area/sn_wild)
 "Tb" = (
 /obj/effect/decal/road_marking{
@@ -5989,6 +8751,17 @@
 /obj/item/pen/black,
 /turf/simulated/floor/carpet/rubber,
 /area/sn_wild)
+"Tr" = (
+/obj/effect/decal/road_marking,
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/structure/closet/crate/large,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "Ts" = (
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/under/rank/konyang/mech_pilot,
@@ -6006,7 +8779,6 @@
 /obj/item/device/radio/headset/syndicate,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/a556/carbine/konyang47,
 /obj/item/ammo_magazine/a556/carbine/konyang47,
 /turf/simulated/floor/tiled,
 /area/sn_wild)
@@ -6052,6 +8824,11 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"TG" = (
+/obj/random/dirt_75,
+/obj/machinery/mecha_part_fabricator,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "TJ" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/structure/railing/mapped{
@@ -6062,6 +8839,23 @@
 "TK" = (
 /obj/structure/bed/stool/chair/office/bridge,
 /turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
+"TM" = (
+/obj/random/dirt_75,
+/obj/item/material/shard,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
+"TN" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/structure/utility_pole/street{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "TO" = (
 /obj/effect/floor_decal/corner/green/diagonal,
@@ -6075,9 +8869,24 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"TS" = (
+/obj/random/tech_supply,
+/obj/item/material/shard,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "TU" = (
 /obj/structure/utility_pole/street/on,
 /turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
+"TV" = (
+/obj/item/storage/toolbox/electrical{
+	pixel_y = 10;
+	pixel_x = -1
+	},
+/obj/item/crowbar,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "TW" = (
 /obj/machinery/door/airlock/mining{
@@ -6090,6 +8899,11 @@
 /obj/structure/closet/crate/bin/urban,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Ua" = (
+/obj/random/dirt_75,
+/obj/machinery/suit_storage_unit,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "Uc" = (
 /obj/effect/landmark{
 	name = "Observer-Start"
@@ -6101,9 +8915,43 @@
 /obj/effect/landmark/corpse/konyang_soldier,
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"Ue" = (
+/obj/random/dirt_75,
+/turf/simulated/floor/sidewalk/dark/grid,
+/area/sn_wild)
 "Un" = (
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Up" = (
+/obj/effect/decal/road_marking,
+/obj/effect/decal/curb,
+/obj/structure/closet/crate/bin,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"Ur" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
 "Uv" = (
 /obj/structure/table/rack,
 /turf/simulated/floor/plating,
@@ -6138,6 +8986,11 @@
 	},
 /turf/simulated/floor/exoplanet/water/konyang,
 /area/sn_wild)
+"UC" = (
+/obj/structure/flora/bush/konyang_reeds,
+/obj/structure/flora/rock/konyang/small,
+/turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
 "UD" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -6147,6 +9000,13 @@
 "UE" = (
 /obj/machinery/telecomms/server/presets/security,
 /turf/unsimulated/floor,
+/area/sn_wild)
+"UH" = (
+/obj/random/dirt_75,
+/obj/structure/bed/stool/chair{
+	dir = 8
+	},
+/turf/simulated/floor/sidewalk/dark/grid,
 /area/sn_wild)
 "UJ" = (
 /obj/structure/table/standard,
@@ -6160,16 +9020,20 @@
 /obj/effect/floor_decal/corner/dark_blue/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"UL" = (
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
+"UM" = (
+/obj/structure/automobile/police,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "UN" = (
 /obj/machinery/atmospherics/unary/engine,
 /turf/simulated/floor/plating{
 	temperature = 263.15
 	},
 /area/shuttle/scc_evac)
-"UR" = (
-/obj/machinery/recharge_station,
-/turf/simulated/floor/tiled,
-/area/sn_wild)
 "UV" = (
 /obj/structure/bed/stool/chair/office/bridge,
 /obj/effect/landmark/force_spawnpoint{
@@ -6199,6 +9063,18 @@
 /obj/effect/floor_decal/konyang_flowers,
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/sn_wild)
+"Va" = (
+/obj/structure/road_sign/yield{
+	pixel_x = -16
+	},
+/obj/structure/hydrant,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
+"Vb" = (
+/obj/random/dirt_75,
+/obj/item/mecha_equipment/autolathe,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "Vc" = (
 /obj/structure/bed/stool/chair/office/light{
 	dir = 4
@@ -6208,6 +9084,34 @@
 /area/sn_warehouse)
 "Vd" = (
 /turf/simulated/floor/exoplanet/water/konyang,
+/area/sn_wild)
+"Vg" = (
+/obj/structure/closet/crate/freezer/kois/rations,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/turf/simulated/floor/shuttle/dark_red,
+/area/shuttle/scc_evac)
+"Vj" = (
+/obj/structure/flora/bush/konyang_reeds,
+/obj/machinery/light/broken,
+/turf/simulated/floor/sidewalk/dark,
 /area/sn_wild)
 "Vk" = (
 /obj/effect/landmark/corpse/konyang_soldier,
@@ -6226,6 +9130,10 @@
 "Vm" = (
 /obj/machinery/telecomms/broadcaster/preset_right,
 /turf/unsimulated/floor,
+/area/sn_wild)
+"Vn" = (
+/obj/machinery/shield_capacitor,
+/turf/simulated/floor/foundation,
 /area/sn_wild)
 "Vq" = (
 /obj/structure/shipping_container{
@@ -6270,7 +9178,11 @@
 /obj/effect/shuttle_landmark/scc_evac/start{
 	dir = 4
 	},
-/turf/simulated/floor/exoplanet/dirt_konyang,
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
+"VA" = (
+/obj/machinery/optable,
+/turf/simulated/floor/sidewalk/dark,
 /area/sn_wild)
 "VB" = (
 /obj/effect/decal/road_marking{
@@ -6284,6 +9196,14 @@
 	dir = 8
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"VG" = (
+/mob/living/simple_animal/hostile/ipc_zombie,
+/turf/simulated/floor/foundation,
+/area/sn_wild)
+"VH" = (
+/obj/item/material/shard,
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
 /area/sn_wild)
 "VI" = (
 /obj/effect/floor_decal/corner/brown{
@@ -6305,6 +9225,25 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"VP" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"VS" = (
+/obj/item/pickaxe/hammer,
+/obj/item/material/shard,
+/obj/item/stack/rods,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "VY" = (
 /obj/structure/closet/walllocker/firecloset{
 	pixel_x = -30
@@ -6321,12 +9260,56 @@
 /obj/item/paper/fluff/silicon_nightmares/warehouse_2,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Wk" = (
+/obj/structure/railing/mapped,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
+"Wn" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
+"Wo" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/turf/unsimulated/floor,
+/area/sn_wild)
 "Wp" = (
 /obj/machinery/light{
 	dir = 8;
 	must_start_working = 1
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"Wq" = (
+/obj/machinery/door/blast/shutters/open{
+	id = "sn_camp";
+	name = "Access Gate"
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"Ws" = (
+/obj/random/dirt_75,
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
+"Wt" = (
+/obj/machinery/light{
+	dir = 8;
+	must_start_working = 1
+	},
+/obj/structure/bed/stool/chair/folding,
+/turf/simulated/floor/exoplanet/dirt_konyang,
 /area/sn_wild)
 "Wu" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -6343,12 +9326,38 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"Ww" = (
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/obj/random/dirt_75,
+/turf/simulated/floor/concrete,
+/area/sn_wild)
 "WE" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/road_marking{
 	dir = 4
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"WF" = (
+/obj/machinery/door/blast/shutters{
+	name = "Access Gate";
+	id = "sn_camp"
+	},
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"WG" = (
+/obj/item/weldingtool/emergency,
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
 /area/sn_wild)
 "WI" = (
 /obj/structure/filingcabinet/chestdrawer{
@@ -6359,9 +9368,47 @@
 "WJ" = (
 /turf/simulated/wall,
 /area/sn_wild)
+"WK" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
+"WQ" = (
+/obj/item/ladder_mobile,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "WR" = (
 /obj/structure/flora/rock/konyang/water,
 /turf/simulated/floor/exoplanet/water/konyang,
+/area/sn_wild)
+"WS" = (
+/obj/item/robot_parts/robot_component/diagnosis_unit,
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
+"WV" = (
+/obj/random/dirt_75,
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/exoplanet/dirt_konyang,
 /area/sn_wild)
 "WW" = (
 /obj/structure/closet/hazmat/custodial,
@@ -6391,6 +9438,10 @@
 /obj/item/stamp,
 /turf/simulated/floor/carpet/rubber,
 /area/sn_wild)
+"Xh" = (
+/obj/structure/automobile/police,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "Xi" = (
 /obj/structure/bed/stool/chair/sofa/beige{
 	dir = 1
@@ -6403,6 +9454,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Xj" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "Xk" = (
 /obj/machinery/door/airlock/mining{
 	name = "Custodial Closet"
@@ -6418,6 +9473,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"Xm" = (
+/obj/structure/chainlink_fence{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
+"Xp" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "Xq" = (
 /obj/structure/chainlink_fence,
 /turf/simulated/floor/exoplanet/konyang,
@@ -6440,6 +9507,10 @@
 /obj/effect/landmark/corpse/einstein_goon,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"Xw" = (
+/obj/structure/flora/rock/konyang/small,
+/turf/simulated/floor/asphalt,
 /area/sn_wild)
 "Xy" = (
 /obj/machinery/button/remote/blast_door{
@@ -6470,6 +9541,10 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"XD" = (
+/obj/structure/flora/bush/konyang_reeds,
+/turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
 "XE" = (
 /obj/machinery/telecomms/allinone/ship/station_relay,
 /turf/unsimulated/floor,
@@ -6490,6 +9565,23 @@
 	dir = 8
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"XK" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/structure/table/rack,
+/obj/item/stack/material/steel/full,
+/obj/item/stack/material/steel/full,
+/obj/item/stack/material/steel/full,
+/obj/item/stack/material/steel/full,
+/obj/item/stack/material/steel/full,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/turf/unsimulated/floor,
 /area/sn_wild)
 "XM" = (
 /obj/structure/flora/tree/konyang,
@@ -6563,6 +9655,17 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Yi" = (
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/road_marking/thin,
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/random/junk,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "Yl" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/warning{
@@ -6570,6 +9673,16 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_warehouse)
+"Ym" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "Yo" = (
 /obj/structure/sink{
 	pixel_y = 26
@@ -6593,6 +9706,10 @@
 "Yq" = (
 /obj/machinery/iff_beacon/horizon,
 /turf/unsimulated/floor,
+/area/sn_wild)
+"Ys" = (
+/obj/random/tech_supply,
+/turf/simulated/floor/foundation,
 /area/sn_wild)
 "Yt" = (
 /obj/structure/flora/bush/konyang_reeds/water,
@@ -6652,9 +9769,23 @@
 	},
 /turf/simulated/floor/exoplanet/water/konyang,
 /area/sn_wild)
+"YF" = (
+/obj/structure/firedoor_assembly,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "YI" = (
 /obj/machinery/telecomms/processor/preset_four,
 /turf/unsimulated/floor,
+/area/sn_wild)
+"YL" = (
+/obj/structure/table/steel,
+/obj/item/clothing/accessory/badge/press/independent,
+/obj/item/device/taperecorder,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"YO" = (
+/obj/item/storage/backpack/holding/bst,
+/turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "YP" = (
 /obj/structure/flora/rock/konyang/small,
@@ -6664,6 +9795,10 @@
 /obj/item/material/shard,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"YW" = (
+/obj/random/junk,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "YX" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled,
@@ -6704,28 +9839,54 @@
 /obj/item/ammo_casing/a556/spent,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"Zi" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/structure/closet/crate/bin/urban/dumpster,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "Zj" = (
 /mob/living/simple_animal/hostile/hivebot,
 /obj/effect/floor_decal/corner_wide/black/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Zl" = (
+/obj/item/stack/rods,
+/obj/random/dirt_75,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/sn_wild)
 "Zm" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/sn_warehouse)
-"Zs" = (
-/obj/machinery/light{
-	dir = 4;
-	must_start_working = 1
+"Zq" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
 	},
-/turf/simulated/floor/exoplanet/dirt_konyang,
+/obj/structure/table/rack,
+/obj/structure/fireaxecabinet/east,
+/obj/item/device/multitool,
+/turf/unsimulated/floor,
+/area/sn_wild)
+"Zs" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/unsimulated/floor/plating,
 /area/sn_wild)
 "Zu" = (
 /obj/effect/landmark/corpse/konyang_cop,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"Zw" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/unsimulated/floor/concrete,
 /area/sn_wild)
 "Zy" = (
 /obj/structure/lattice/catwalk/indoor/planks/deep,
@@ -6745,6 +9906,10 @@
 /obj/item/wirecutters,
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"ZA" = (
+/obj/machinery/floodlight,
+/turf/simulated/floor/sidewalk/dark,
+/area/sn_wild)
 "ZD" = (
 /obj/structure/closet/crate/bin/urban/compact{
 	pixel_x = 5;
@@ -6754,6 +9919,9 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"ZH" = (
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "ZJ" = (
 /obj/machinery/light/colored/red{
 	dir = 4
@@ -6771,6 +9939,73 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow/konyang,
 /area/sn_wild)
+"ZQ" = (
+/obj/effect/floor_decal/corner/mauve{
+	dir = 9
+	},
+/turf/unsimulated/floor,
+/area/sn_wild)
+"ZR" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
+	},
+/obj/structure/table/rack,
+/obj/item/clothing/head/helmet/security{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/helmet/security{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/helmet/security{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/helmet/security{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/helmet/security{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/helmet/security{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/helmet/security{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/helmet/security{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/helmet/security{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/helmet/security{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/helmet/security{
+	pixel_y = 10
+	},
+/obj/item/clothing/head/helmet/security{
+	pixel_y = 10
+	},
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/suit/armor/carrier/officer,
+/turf/unsimulated/floor,
+/area/sn_wild)
+"ZS" = (
+/obj/structure/table/steel,
+/obj/machinery/light_switch{
+	dir = 1;
+	pixel_y = 26
+	},
+/turf/simulated/floor/tiled/white,
+/area/sn_wild)
 "ZT" = (
 /obj/item/trash/cigbutt{
 	pixel_x = 11;
@@ -6784,6 +10019,15 @@
 	},
 /turf/simulated/floor/wood,
 /area/sn_powerstation)
+"ZV" = (
+/obj/structure/urban_grate,
+/turf/simulated/floor/exoplanet/sidewalk/blocks,
+/area/sn_wild)
+"ZW" = (
+/obj/structure/flora/bush/konyang_reeds,
+/obj/random/junk,
+/turf/simulated/floor/sidewalk/flat,
+/area/sn_wild)
 
 (1,1,1) = {"
 NQ
@@ -7806,7 +11050,7 @@ Th
 aj
 NQ
 kp
-Ef
+Ix
 Ef
 Di
 Hv
@@ -8066,7 +11310,7 @@ kp
 Lu
 Ef
 Di
-Hv
+Ky
 kp
 NQ
 "}
@@ -8580,7 +11824,7 @@ kp
 Ef
 Ef
 Di
-Hv
+Ky
 kp
 NQ
 "}
@@ -11605,45 +14849,45 @@ Sd
 Sd
 xN
 WJ
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
 pG
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
 pG
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
+mf
 WJ
 Sd
 Sd
@@ -11861,47 +15105,47 @@ Sd
 tt
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-gU
+zI
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+xv
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+BP
 Sd
 Sd
 Sd
@@ -12118,47 +15362,47 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+zI
+ZH
+Xp
+Ih
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+Gi
+uI
+ZH
+BP
 Sd
 Sd
 Sd
@@ -12375,47 +15619,47 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
+zI
+ZH
+Zs
 JU
 JU
 JU
 JU
 JU
 JU
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+uz
+ZH
+BP
 Sd
 Sd
 Sd
@@ -12632,10 +15876,10 @@ Sd
 Sd
 Sd
 tt
-oM
-We
-We
-ul
+zI
+ZH
+Zs
+LN
 UN
 JU
 iy
@@ -12646,33 +15890,33 @@ JU
 JU
 JU
 JU
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+uz
+ZH
+BP
 Sd
 Sd
 Sd
@@ -12889,10 +16133,10 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-ms
-ul
+zI
+ZH
+Pe
+LN
 UN
 JU
 iy
@@ -12906,30 +16150,30 @@ JU
 JU
 JU
 JU
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-gU
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+zZ
+ZH
+BP
 Sd
 Sd
 tt
@@ -13146,10 +16390,10 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-ul
+zI
+ZH
+Zs
+LN
 UN
 JU
 iy
@@ -13183,10 +16427,10 @@ JU
 JU
 JU
 JU
-We
-We
-We
-gU
+BW
+uz
+ZH
+BP
 Sd
 YP
 Sd
@@ -13403,10 +16647,10 @@ LQ
 Sd
 Sd
 Sd
-oM
-We
-We
-ul
+zI
+ZH
+Zs
+LN
 UN
 JU
 iy
@@ -13435,15 +16679,15 @@ FS
 nW
 FS
 JU
-XA
+LY
 wf
 ea
 vX
 JU
-We
-We
-We
-gU
+BW
+uz
+ZH
+BP
 Sd
 Sd
 Sd
@@ -13660,10 +16904,10 @@ Sd
 Sd
 Sd
 tt
-oM
-We
-We
-ul
+zI
+ZH
+Zs
+LN
 UN
 JU
 iy
@@ -13692,15 +16936,15 @@ FS
 FS
 FS
 JU
-XA
+xe
 XA
 XA
 qj
 MX
-We
-We
-We
-gU
+BW
+uz
+ZH
+BP
 Sd
 tt
 Sd
@@ -13917,10 +17161,10 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-ul
+zI
+ZH
+Zs
+LN
 UN
 JU
 iy
@@ -13954,10 +17198,10 @@ XA
 sm
 im
 MX
-We
-We
-We
-gU
+BW
+uz
+ZH
+BP
 Sd
 Sd
 Sd
@@ -14174,10 +17418,10 @@ Sd
 tt
 Sd
 tt
-oM
-We
-We
-ul
+zI
+ZH
+Zs
+LN
 UN
 JU
 iy
@@ -14211,10 +17455,10 @@ XA
 UV
 im
 MX
-We
-We
-We
-gU
+BW
+uz
+ZH
+BP
 Sd
 Sd
 Sd
@@ -14431,10 +17675,10 @@ Sd
 Sd
 tt
 Sd
-oM
-We
-We
-ul
+zI
+ZH
+Zs
+LN
 UN
 JU
 iy
@@ -14454,7 +17698,7 @@ FS
 FS
 FS
 FS
-Bn
+FS
 FS
 FS
 FS
@@ -14468,10 +17712,10 @@ XA
 mP
 FK
 MX
-We
-We
-We
-gU
+BW
+uz
+ZH
+BP
 Sd
 tt
 Sd
@@ -14688,10 +17932,10 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-ul
+zI
+ZH
+Zs
+LN
 UN
 JU
 iy
@@ -14725,10 +17969,10 @@ XA
 el
 mm
 MX
-We
-We
-We
-gU
+BW
+uz
+ZH
+BP
 Sd
 Sd
 Sd
@@ -14945,10 +18189,10 @@ Sd
 Sd
 tt
 tt
-oM
-We
-ms
-ul
+zI
+ZH
+Pe
+LN
 UN
 JU
 iy
@@ -14982,10 +18226,10 @@ XA
 go
 TD
 MX
-We
-We
-We
-gU
+BW
+uz
+ZH
+BP
 Sd
 Sd
 Sd
@@ -15202,10 +18446,10 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-ul
+zI
+ZH
+Zs
+LN
 UN
 JU
 iy
@@ -15239,10 +18483,10 @@ XA
 tn
 im
 MX
-We
-We
-We
-gU
+BW
+uz
+ZH
+BP
 Sd
 Sd
 Sd
@@ -15459,10 +18703,10 @@ Sd
 Sd
 tt
 Sd
-oM
-We
-We
-ul
+zI
+ZH
+Zs
+LN
 UN
 JU
 iy
@@ -15496,10 +18740,10 @@ XA
 Hy
 im
 MX
-We
-We
-We
-gU
+BW
+uz
+ZH
+BP
 Sd
 Sd
 Sd
@@ -15716,10 +18960,10 @@ Sd
 tt
 Sd
 tt
-oM
-We
-We
-ul
+zI
+ZH
+Zs
+LN
 UN
 JU
 iy
@@ -15753,10 +18997,10 @@ XA
 XA
 mq
 MX
-We
-We
-We
-gU
+BW
+uz
+ZH
+BP
 Sd
 Sd
 Sd
@@ -15973,10 +19217,10 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-ul
+zI
+ZH
+Zs
+LN
 UN
 JU
 iy
@@ -15988,7 +19232,7 @@ Sm
 Sm
 Sm
 Sm
-Sm
+Vg
 JU
 Xu
 Xu
@@ -16010,10 +19254,10 @@ gO
 ea
 YA
 JU
-We
-We
-We
-gU
+BW
+uz
+ZH
+BP
 Sd
 Sd
 Sd
@@ -16230,20 +19474,20 @@ Sd
 tt
 Sd
 Sd
-oM
-We
-We
-ul
+zI
+ZH
+Zs
+LN
 UN
 JU
 iy
 gy
 JU
 BU
-KS
-BP
-Ni
-CM
+CD
+PA
+PA
+PA
 CD
 PA
 JU
@@ -16267,10 +19511,10 @@ JU
 JU
 JU
 JU
-We
-We
-We
-gU
+BW
+uz
+ZH
+BP
 Sd
 Sd
 LQ
@@ -16487,10 +19731,10 @@ Sd
 Sd
 Sd
 tt
-oM
-We
-We
-ul
+zI
+ZH
+Zs
+LN
 UN
 JU
 iy
@@ -16504,30 +19748,30 @@ JU
 JU
 JU
 JU
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
 Vy
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+uz
+ZH
+BP
 Sd
 Sd
 Sd
@@ -16744,47 +19988,47 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
+zI
+ZH
+Zs
 JU
 JU
 JU
 JU
 JU
 JU
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+uz
+ZH
+BP
 Sd
 tt
 Sd
@@ -17001,47 +20245,47 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+zI
+ZH
+Zs
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+BW
+uz
+ZH
+BP
 Sd
 Sd
 Sd
@@ -17258,47 +20502,47 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-gU
+zI
+ZH
+HC
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Cd
+Nt
+Cd
+Cd
+Cd
+DL
+ZH
+BP
 Sd
 Sd
 Sd
@@ -17515,7 +20759,8 @@ We
 We
 We
 We
-oM
+zI
+ZH
 We
 We
 We
@@ -17553,17 +20798,16 @@ We
 We
 We
 We
-We
-ms
-gU
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
 Sd
 Sd
 Yd
@@ -17775,53 +21019,53 @@ WJ
 WJ
 WJ
 WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+xv
+xv
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+WJ
+qN
+Aj
+gm
+ZQ
+rB
+ZR
+Iv
+zA
+WJ
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
 Sd
 FL
 Sd
@@ -18028,56 +21272,56 @@ We
 We
 We
 We
-hz
-We
-We
+WF
+VD
+VD
 cP
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+VD
+VD
+pt
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+pt
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+rb
+ZH
+WJ
+vY
+eo
+eo
+eo
+eo
+eo
+Xj
+qz
+WJ
 Sd
 Sd
 FL
@@ -18285,56 +21529,56 @@ We
 We
 We
 We
-hz
-We
-We
-cP
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+ws
+uG
+uG
+Wq
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+Gj
+ZH
+WJ
+eT
+eo
+eo
+eo
+eo
+eo
+eo
+qz
+WJ
 Sd
 FL
 Yd
@@ -18542,57 +21786,57 @@ We
 We
 We
 We
-hz
-ms
-We
-cP
-We
-We
-Zs
-We
-We
-We
-We
-We
-Zs
-We
-We
-We
-We
-We
-We
-Zs
-We
-We
-We
-We
-We
-We
-Zs
-We
-We
-We
-We
-We
-We
-Zs
-We
-We
-We
-We
-We
-We
-We
-gU
+ws
+PK
+uG
+Wq
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+Gj
+ZH
+WJ
+vY
+eo
+eo
+eo
+eo
+eo
+eo
+qz
+WJ
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
 FL
 FL
 tt
@@ -18800,55 +22044,55 @@ We
 We
 We
 hz
-We
-We
-cP
-We
-BW
+qr
+qr
+ya
+qr
+qr
+Lh
+qr
+qr
+qr
+qr
+qr
+Lh
+qr
+qr
+qr
+qr
+qr
+qr
+Lh
+qr
+qr
+qr
+qr
+qr
+qr
+Lh
+qr
+qr
+qr
+qr
+qr
+qr
+Lh
+qr
+qr
+qr
+qr
+gB
+ZH
+eo
+Xj
+eo
+eo
+eo
+eo
+eo
+eo
+eo
 WJ
-Oi
-We
-We
-We
-BW
-WJ
-Oi
-We
-We
-We
-We
-BW
-WJ
-Oi
-We
-We
-We
-We
-BW
-WJ
-Oi
-We
-We
-We
-We
-BW
-WJ
-Oi
-We
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
 Sd
 FL
 tt
@@ -19060,52 +22304,52 @@ WJ
 zB
 tq
 WJ
-We
-We
-iq
-We
-We
-We
-We
-We
-iq
-We
-We
-We
-We
-We
-We
-iq
-We
-We
-We
-We
-We
-We
-iq
-We
-We
-We
-We
-We
-We
-iq
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+uG
+bM
+WJ
+Zw
+ZH
+ZH
+ZH
+RU
+WJ
+Zw
+ZH
+ZH
+ZH
+ZH
+RU
+WJ
+Zw
+ZH
+ZH
+ZH
+ZH
+RU
+WJ
+Zw
+ZH
+ZH
+ZH
+ZH
+RU
+WJ
+Zw
+ZH
+ZH
+ZH
+ZH
+ZH
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+hQ
+WJ
 FL
 yA
 Sd
@@ -19317,53 +22561,53 @@ WJ
 eN
 nv
 HI
+uG
+uG
+ex
+ZH
+We
+We
+We
+We
+iq
 We
 We
 We
 We
 We
+ZH
+iq
+qM
+qM
 We
+qM
+qM
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-yA
+Wt
+qM
+ZH
+eo
+eo
+eo
+eo
+uE
+eo
+eo
+eo
+eo
+eo
+ZH
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+OC
+WJ
+FL
 Sd
 Sd
 Sd
@@ -19574,6 +22818,10 @@ WJ
 nv
 nv
 WJ
+uG
+uG
+Az
+bu
 We
 We
 We
@@ -19584,42 +22832,38 @@ We
 We
 We
 We
+ZH
 We
+qM
+qM
 We
+qM
+qM
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+qM
+qM
+ZH
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+ZH
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+Cp
+WJ
 FL
 Sd
 Sd
@@ -19831,6 +23075,10 @@ WJ
 WJ
 WJ
 WJ
+uG
+uG
+xX
+rx
 We
 We
 We
@@ -19841,42 +23089,38 @@ We
 We
 We
 We
+ZH
 We
+qM
+qM
 We
+qM
+qM
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-yA
+qM
+qM
+ZH
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+ZH
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+jN
+WJ
 FL
 tt
 Sd
@@ -20085,7 +23329,13 @@ Sd
 Sd
 Sd
 Sd
-oM
+zI
+ZH
+ZH
+uG
+uG
+ZH
+ZH
 We
 We
 We
@@ -20096,44 +23346,38 @@ We
 We
 We
 We
+ZH
 We
+qM
+qM
 We
+qM
+qM
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-gU
-Sd
-Sd
-Sd
-Sd
-Sd
-LQ
-Sd
-FL
+qM
+qM
+ZH
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+xv
+eo
+Xj
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+WJ
 Sd
 Sd
 Sd
@@ -20342,7 +23586,13 @@ Sd
 Sd
 Sd
 Sd
-oM
+zI
+ZH
+ZH
+uG
+uG
+Az
+bu
 We
 We
 We
@@ -20353,6 +23603,7 @@ We
 We
 We
 We
+ZH
 We
 We
 We
@@ -20362,35 +23613,28 @@ We
 We
 We
 We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-yA
-yA
+ZH
+eo
+eo
+eo
+eo
+eo
+eo
+Xj
+eo
+eo
+eo
+ZH
+WJ
+sf
+eo
+eo
+eo
+eo
+eo
+eo
+LW
+WJ
 Sd
 Sd
 tt
@@ -20599,55 +23843,55 @@ Sd
 Sd
 tt
 Sd
-oM
+zI
+ZH
+Xh
+uG
+uG
+xX
+rx
+We
+We
+We
+We
+We
 We
 We
 We
 We
 ms
+ZH
 We
+qM
+qM
 We
+qM
+qM
 We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-tt
-Sd
-Sd
-tt
-Sd
-FL
-Sd
+qM
+qM
+ZH
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+ZH
+WJ
+BF
+eo
+eo
+eo
+eo
+eo
+eo
+zL
+WJ
 Sd
 tt
 Sd
@@ -20856,7 +24100,13 @@ Sd
 Sd
 Sd
 Sd
-oM
+zI
+ZH
+ZH
+uG
+uG
+ZH
+ZH
 We
 We
 We
@@ -20867,44 +24117,38 @@ We
 We
 We
 We
+ZH
 We
+qM
+qM
 We
+qM
+qM
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-yA
-Sd
+qM
+qM
+ZH
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+ZH
+WJ
+wz
+eo
+eo
+eo
+eo
+eo
+Xj
+QC
+WJ
 Sd
 Sd
 Sd
@@ -21113,13 +24357,13 @@ Sd
 tt
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+ZH
+uG
+uG
+Az
+bu
 PH
 Vv
 Vv
@@ -21130,38 +24374,38 @@ Vv
 Vv
 Vv
 aV
+ZH
 We
+qM
+qM
 We
+qM
+qM
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-tt
-FL
-FL
-tt
+qM
+qM
+ZH
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+ZH
+WJ
+sL
+dB
+dA
+qg
+Wo
+XK
+Zq
+Em
+WJ
 Sd
 Sd
 tt
@@ -21370,13 +24614,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+ZH
+uG
+uG
+xX
+rx
 NR
 jm
 We
@@ -21387,39 +24631,39 @@ We
 We
 We
 yF
+ZH
 We
+qM
+qM
 We
+qM
+qM
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-gU
+qM
+qM
+ZH
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+Xj
+eo
+eo
+ZH
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
 Sd
-Sd
-Sd
-LQ
-LQ
-yA
-yA
-Sd
-tt
 Sd
 Sd
 Sd
@@ -21627,13 +24871,13 @@ Sd
 Sd
 tt
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+Xh
+uG
+uG
+ZH
+ZH
 NR
 yf
 MF
@@ -21644,37 +24888,37 @@ We
 We
 ji
 AX
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+xv
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+xv
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+BP
 Sd
 Sd
 Sd
 Sd
 Sd
-tt
-yA
+Sd
+FL
 Sd
 Sd
 Sd
@@ -21884,13 +25128,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+ZH
+uG
+uG
+ZH
+ZH
 NR
 Bm
 We
@@ -21901,30 +25145,30 @@ We
 We
 We
 yF
-We
-We
-We
+ZH
+eo
+eo
+eo
+eo
+ZH
+eo
+eo
+eo
+eo
+ZH
 WJ
+nv
+nv
 WJ
+nv
+nv
 WJ
-Df
+nv
+nv
 WJ
-WJ
-WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ZH
+ZH
+BP
 Sd
 Sd
 Sd
@@ -22141,13 +25385,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+ZH
+uG
+uG
+ZH
+ZH
 NR
 We
 We
@@ -22158,30 +25402,30 @@ We
 We
 We
 yF
-We
-We
+ZH
+eo
+eo
+eo
+eo
+ZH
+eo
+eo
+eo
+eo
+ZH
 WJ
+IR
+kR
+Wk
+nv
+kR
+Wk
+nv
+kR
 WJ
-nv
-nv
-nv
-nv
-nv
-WJ
-WJ
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ZH
+ZH
+BP
 Sd
 Sd
 Sd
@@ -22398,13 +25642,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+ZH
+uG
+uG
+ZH
+ZH
 NR
 We
 We
@@ -22415,30 +25659,30 @@ We
 We
 ji
 AX
-We
-We
+ZH
+eo
+eo
+eo
+eo
+ZH
+eo
+eo
+eo
+eo
+ZH
 WJ
-MJ
-HQ
-vg
-vg
-vg
-eV
-fo
+lq
+Bn
+Wk
+lq
+Bn
+Wk
+lq
+Bn
 WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ZH
+ZH
+BP
 Sd
 tt
 tt
@@ -22655,13 +25899,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-ms
-We
-We
+zI
+ZH
+Xh
+uG
+PK
+ZH
+ZH
 NR
 We
 We
@@ -22675,27 +25919,27 @@ yF
 We
 We
 WJ
-nv
-gj
-TK
-nv
-TK
-zr
-nv
+WJ
+WJ
+Df
+WJ
+WJ
 WJ
 We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-gU
+ZH
+WJ
+lq
+Bn
+Wk
+lq
+Bn
+Wk
+Ee
+Bn
+WJ
+ZH
+ZH
+BP
 Sd
 Sd
 Sd
@@ -22912,13 +26156,13 @@ tt
 Sd
 tt
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+ZH
+uG
+uG
+ZH
+ZH
 NR
 cb
 We
@@ -22930,29 +26174,29 @@ We
 We
 yF
 We
-We
+WJ
 WJ
 nv
-To
 nv
 nv
 nv
-ub
 nv
 WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+WJ
+ZH
+WJ
+lq
+Bn
+Wk
+lq
+Bn
+Wk
+lq
+Bn
+WJ
+ZH
+ZH
+BP
 Sd
 Sd
 Sd
@@ -23169,13 +26413,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+ZH
+uG
+uG
+ZH
+ZH
 NR
 yf
 MF
@@ -23187,29 +26431,29 @@ We
 ji
 AX
 We
-We
 WJ
 MJ
-gf
-TK
-Ok
-TK
-lz
+HQ
+vg
+vg
+vg
+eV
 fo
 WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ZH
+WJ
+lq
+Bn
+Wk
+lq
+Bn
+Wk
+lq
+Bn
+WJ
+ZH
+ZH
+BP
 Sd
 Sd
 Sd
@@ -23426,13 +26670,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+EV
+uG
+YL
+ZH
+ZH
 NR
 ns
 We
@@ -23443,30 +26687,30 @@ We
 We
 We
 yF
-ms
 We
 WJ
 nv
-To
+gj
+TK
 nv
-nv
-nv
-ub
+TK
+zr
 nv
 WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ZH
+WJ
+nv
+nv
+Wk
+nv
+nv
+Wk
+nv
+nv
+WJ
+ZH
+ZH
+BP
 Sd
 tt
 Sd
@@ -23683,13 +26927,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+ZH
+uG
+RT
+ZH
+ZH
 NR
 We
 We
@@ -23701,29 +26945,29 @@ We
 We
 yF
 We
-We
 WJ
 nv
-gj
-TK
+To
 nv
-TK
-zr
+nv
+nv
+ub
 nv
 WJ
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ZH
+WJ
+FA
+dj
+WJ
+FA
+CG
+WJ
+FA
+CG
+WJ
+ZH
+ZH
+BP
 Sd
 Sd
 Sd
@@ -23940,13 +27184,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+ZH
+uG
+tw
+ZH
+ZH
 NR
 We
 We
@@ -23957,30 +27201,30 @@ We
 We
 ji
 AX
-We
-We
+ms
 WJ
 MJ
-SQ
-AG
-Xd
-nP
-sT
+gf
+TK
+Ok
+TK
+lz
 fo
 WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ZH
+WJ
+JX
+nv
+nv
+Cn
+nv
+nv
+Cn
+ZH
+WJ
+ZH
+ZH
+BP
 Sd
 Sd
 Sd
@@ -24197,13 +27441,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+ZH
+uG
+uG
+ZH
+ZH
 NR
 We
 We
@@ -24215,29 +27459,29 @@ We
 We
 yF
 We
-We
-WJ
 WJ
 nv
+To
 nv
 nv
 nv
+ub
 nv
 WJ
+ZH
 WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ZH
+Wn
+nv
+nv
+Ur
+nv
+nv
+Ur
+WJ
+ZH
+ZH
+BP
 Sd
 Sd
 Sd
@@ -24454,13 +27698,13 @@ tt
 tt
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+ZH
+uG
+uG
+ZH
+ZH
 sR
 xC
 We
@@ -24472,29 +27716,29 @@ We
 We
 yF
 We
-We
-We
 WJ
+nv
+gj
+TK
+nv
+TK
+zr
+nv
 WJ
+ZH
 WJ
+ZH
+Jt
+nv
+nv
+WK
+nv
+nv
+WK
 WJ
-WJ
-WJ
-WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ZH
+ZH
+BP
 Sd
 tt
 Sd
@@ -24711,13 +27955,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+ZH
+uG
+uG
+ZH
+ZH
 NR
 yf
 Qk
@@ -24729,29 +27973,29 @@ Sa
 oB
 yF
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-gU
+WJ
+MJ
+SQ
+AG
+Xd
+nP
+sT
+fo
+WJ
+ZH
+WJ
+ZH
+nv
+nv
+nv
+nv
+nv
+IR
+ZH
+WJ
+ZH
+ZH
+BP
 Sd
 Sd
 Sd
@@ -24968,13 +28212,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+zI
+ZH
+ZH
+uG
+uG
+ZH
+ZH
 NR
 Bm
 We
@@ -24986,29 +28230,29 @@ kO
 oB
 yF
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+WJ
+WJ
+nv
+nv
+nv
+nv
+nv
+WJ
+WJ
+ZH
+WJ
+cq
+cq
+Hz
+ZH
+ZH
+wV
+wV
+uq
+WJ
+ZH
+ZH
+BP
 Sd
 Sd
 Sd
@@ -25225,13 +28469,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-ms
-We
-We
-We
+zI
+ZH
+ZH
+PK
+uG
+ZH
+ZH
 XX
 sZ
 sZ
@@ -25244,28 +28488,28 @@ lZ
 ki
 We
 We
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
 We
+ZH
 We
+WJ
+WJ
+WJ
+kT
+WJ
+WJ
+WJ
+WJ
 We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ZH
+ZH
+BP
 Sd
 Sd
 tt
@@ -25482,47 +28726,47 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+zI
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+xv
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+xv
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+xv
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+ZH
+BP
 Sd
 Sd
 Sd
@@ -25740,45 +28984,45 @@ Sd
 Sd
 xN
 WJ
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
+Ow
 WJ
 Sd
 Sd
@@ -40008,7 +43252,7 @@ Sd
 Sd
 Sd
 Sd
-FX
+Sd
 FX
 FX
 FX
@@ -40257,15 +43501,15 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+yq
+Xm
+Xm
+Xm
+Xm
+Xm
+Xm
+Xm
+SV
 Sd
 Sd
 Sd
@@ -40514,15 +43758,15 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+KV
+iv
+iv
+vk
+vk
+vk
+iv
+iv
+CM
 Sd
 Sd
 Sd
@@ -40771,24 +44015,24 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
+KV
+QO
+Oa
+jj
+Lt
+Lt
+cR
+vk
+CM
 Sd
 Sd
 Sd
 Sd
 Sd
-tt
+Sd
+Sd
+Sd
+Sd
 Sd
 Sd
 Sd
@@ -41028,26 +44272,26 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
+KV
+vk
+Me
+hn
+hn
+PC
+Lt
+vk
+BR
+Xm
+Xm
+Xm
+Xm
+Xm
+Xm
+Xm
+Xm
+Xm
+Xm
+JK
 Sd
 Sd
 Sd
@@ -41285,26 +44529,26 @@ Sd
 Sd
 Sd
 Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+KV
+vk
+YO
+Gh
+hn
+PC
+Lt
+iv
+vk
+iv
+iv
+vk
+Lm
+iv
+iv
+iv
+iv
+iv
+BR
+CM
 Sd
 Sd
 Sd
@@ -41542,26 +44786,26 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+KV
+vk
+OW
+We
+CO
+PC
+PC
+ha
+Lt
+Lt
+SK
+Lt
+Lt
+Lt
+kG
+CO
+mw
+vk
+BR
+CM
 Sd
 Sd
 Sd
@@ -41799,47 +45043,47 @@ Sd
 Sd
 Sd
 YP
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+KV
+QO
+Lt
+Lt
+xc
+Lt
+Lt
+iv
+mK
+yi
+Fx
+Lt
+vE
+Oo
+PC
+SX
+Er
+vk
+BR
+CM
 Sd
 Sd
 Sd
 Sd
 tt
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
 Sd
 Sd
 tt
@@ -42056,46 +45300,46 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-tt
+GU
+vk
+Lt
+Lt
+Lt
+SR
+zX
+Nj
+Lt
+Lt
+Lt
+Py
+An
+uH
+Lt
+zK
+Er
+vk
+BR
+CM
+BR
+ZV
+BR
+BR
+BR
+BR
+BR
+BR
+ef
+VH
+BR
+BR
+BR
+HZ
+HZ
+hS
+BR
+We
+We
+We
 Sd
 Sd
 Sd
@@ -42313,46 +45557,46 @@ Sd
 YP
 Sd
 Sd
+KV
+iv
+eL
+jG
+gC
+pr
+mt
+MT
+rO
+PC
+PC
+vE
+vE
+vE
+Lt
+Ax
+LL
+vk
+BR
+CM
+Tr
+Mh
+Mh
+Mh
+TN
+Mh
+Mh
+Mh
+Mh
+TN
+Ym
+VP
+BR
+BR
 Sd
 Sd
+BR
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
 Sd
 Sd
 Sd
@@ -42570,46 +45814,46 @@ Sd
 Sd
 Sd
 Sd
+KV
+iv
+Lt
+yp
+Lt
+SK
+Lt
+iB
+cy
+oa
+PC
+Lt
+Lt
+iv
+iv
+iv
+iv
+iv
+BR
+CM
+BK
+Kl
+We
+We
+We
+hn
+bq
+hn
+We
+We
+bq
+OZ
+BR
+Sd
+Th
 Sd
 Sd
+UC
 Sd
-Sd
-Sd
-Sd
-Sd
-YP
-Sd
-Sd
-Sd
-YP
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
+We
 Sd
 Sd
 Sd
@@ -42827,47 +46071,47 @@ Sd
 Sd
 Sd
 Sd
+KV
+xq
+PC
+PC
+qP
+Lt
+Lt
+BG
+xc
+Lt
+Oo
+hn
+PC
+xq
+Lc
+HZ
+HZ
+BR
+ef
+BR
+Up
+hn
+hn
+hn
+We
+We
+hn
+WV
+hn
+We
+bq
+OZ
+BR
+We
 Sd
-tt
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-YP
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
 Sd
 Sd
-Sd
+We
+lS
+We
 Sd
 tt
 Sd
@@ -43084,47 +46328,47 @@ tt
 Sd
 Sd
 Sd
+KV
+iv
+Mc
+PC
+Lt
+Lt
+Lt
+GR
+Lt
+rd
+xO
+ed
+Cg
+xq
+HZ
+hS
+HZ
+BR
+BR
+BR
+Ld
+bx
+nE
+bx
+We
+bx
+nE
+We
+We
+nE
+nE
+bD
+BR
+We
 Sd
-tt
+We
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
+fs
+We
 Sd
 Sd
 Sd
@@ -43341,48 +46585,48 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-YP
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
+rS
+iv
+iv
+vk
+vk
+vk
+iv
+iv
+iv
+iv
+eb
+vk
+iv
+iv
+HZ
+hS
+hS
+BR
+We
+We
+ez
+jI
+Mr
+bA
+QL
+Yi
+QL
+bq
+We
+nE
+nE
+bD
+BR
+We
+We
+We
+We
+We
+We
+We
+We
+We
 Sd
 Sd
 Sd
@@ -43598,104 +46842,104 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+iY
+QH
+Pk
+QH
+QH
+QH
+QH
+QH
+QH
+SY
+Iz
+QH
+QH
+QH
+Lx
+Lx
+jJ
+QH
+oo
+oo
+BR
+BR
+BR
+BR
+BR
+BR
+BR
+nE
 We
-jo
-uG
-zR
-uG
-Gj
 We
-Sd
-tt
-Sd
-Sd
-Sd
+We
+nE
+We
+We
+We
+lS
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+kx
+gw
+rY
+gw
+dC
+We
+We
+We
+We
+We
+We
 ym
+We
+We
+We
+We
+Sd
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
+We
+We
+We
 Sd
 Sd
 Sd
@@ -43881,80 +47125,80 @@ Sd
 Sd
 Sd
 Sd
-tt
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
+nE
+nE
+nE
+nE
+nE
+nE
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+uG
+uG
+uG
+VD
+VD
+VD
 We
-jo
+uG
 uG
 zR
 uG
-Gj
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+uG
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+We
+We
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+uG
+uG
+uG
+VD
+VD
+VD
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
 Sd
 Sd
 Sd
@@ -44139,80 +47383,80 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-YP
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+nE
+nE
+bG
+nE
+nE
+nE
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
 We
-jo
+uG
+uG
+uG
+uG
+uG
 uG
 zR
 uG
-Gj
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+We
+We
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+We
+uG
+uG
+uG
+uG
+We
+We
+We
+We
+UM
+We
+fp
+We
+We
+We
 Sd
 tt
 Sd
@@ -44396,78 +47640,78 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+IL
+IL
+IL
+IL
+IL
+IL
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+uG
 We
-jo
+uG
+Yx
+Yx
+Yx
+Yx
+uG
 uG
 zR
 uG
-Gj
+uG
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
 We
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+uG
+We
+uG
+Yx
+Yx
+Yx
+Yx
+We
+We
+We
+ul
+ul
+ul
+ul
+We
 Sd
 Sd
 Sd
@@ -44653,79 +47897,79 @@ YP
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
+nE
+nE
+nE
+nE
+nE
+nE
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
 We
-jo
+uG
+uG
+uG
+uG
+uG
+uG
 uG
 zR
 uG
-Gj
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
 We
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+We
+uG
+uG
+uG
+uG
+uG
+We
+We
+We
+ul
+ul
+ul
+We
+We
+We
 Sd
 Sd
 tt
@@ -44911,79 +48155,79 @@ Sd
 Sd
 Sd
 Sd
-tt
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-We
-We
-jo
+ui
+ui
+ui
+ui
+ui
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+uG
+uG
+uG
+qr
+qr
+qr
+qr
+uG
 uG
 zR
 uG
-Gj
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+uG
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+qr
+uG
+uG
+uG
+qr
+qr
+qr
+qr
+We
+fp
+We
+We
+We
+We
+We
+We
+We
+We
 Sd
 Sd
 Sd
@@ -45167,27 +48411,27 @@ Sd
 Sd
 Sd
 Sd
+We
+We
+We
+We
+We
+Sd
+We
+lS
+We
+We
+We
+We
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
+lS
+We
+We
+We
 We
 We
 jo
@@ -45196,51 +48440,51 @@ zR
 uG
 Gj
 We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
 Sd
 Sd
 Sd
+We
+We
+We
+We
+We
+We
+We
+We
+We
+We
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
 DY
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
+We
+We
+We
 Sd
 Sd
 Sd
@@ -45494,8 +48738,8 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
+We
+We
 Sd
 Sd
 Sd
@@ -45751,8 +48995,8 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
+We
+We
 Sd
 Sd
 Sd
@@ -46007,11 +49251,11 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-tt
-Sd
+sE
+We
+We
+We
+uG
 Sd
 tt
 Sd
@@ -46254,22 +49498,22 @@ YP
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+sE
+yj
+WV
+Cb
+iv
+iv
+iv
+iv
+iv
+iv
+cw
+uG
+We
+We
+We
+pz
 Sd
 Sd
 Sd
@@ -46475,7 +49719,7 @@ Rr
 WJ
 uG
 uG
-uG
+CH
 uG
 uG
 uG
@@ -46510,23 +49754,23 @@ Sd
 YP
 YP
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+XD
+PX
+Zi
+Ex
+gG
+iv
+dF
+ro
+kJ
+Sk
+iv
+sE
+uG
+uG
+We
+We
+pz
 Sd
 Sd
 Sd
@@ -46767,23 +50011,23 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+XD
+nb
+iv
+iv
+iv
+iv
+lL
+BZ
+be
+gR
+Fo
+OL
+uG
+uG
+uG
+uG
+pz
 Sd
 Sd
 Sd
@@ -46982,7 +50226,7 @@ Sd
 Sd
 Sd
 WJ
-UR
+Ef
 Ef
 NI
 Ef
@@ -46997,7 +50241,7 @@ uG
 uG
 uG
 uG
-uG
+CH
 uG
 uG
 uG
@@ -47024,51 +50268,51 @@ Sd
 Sd
 Sd
 Sd
+XD
+Th
+iv
+yK
+Ck
+OM
+RE
+bq
+wd
+dq
+iT
+nE
+uG
+uG
+uG
+uG
+pz
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Jo
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
+Sd
 Sd
 Sd
 YP
-Sd
-Sd
-Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Th
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
 Sd
 li
 Sd
@@ -47247,7 +50491,7 @@ ip
 uG
 uG
 uG
-uG
+CH
 uG
 uG
 uG
@@ -47283,46 +50527,46 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+iv
+SA
+kr
+IC
+FI
+Eh
+Zl
+dV
+kY
+QD
+uG
+uG
+uG
+uG
+uG
+VD
+uG
+uG
+VD
+VD
+uG
+uG
+VD
+uG
+uG
+VD
+VD
+VD
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+We
+We
+We
+uG
+uG
 Sd
 Sd
 Sd
@@ -47538,50 +50782,50 @@ Sd
 Sd
 Sd
 Sd
+We
 Sd
-Sd
-Sd
-Sd
-Sd
-Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Th
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-YP
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+iv
+gD
+oI
+iz
+bq
+We
+oe
+xI
+iv
+rl
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
 Sd
 Sd
 Sd
@@ -47794,51 +51038,51 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Xq
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-YP
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-YP
+We
+We
+pz
+iv
+uv
+CX
+WS
+bq
+rD
+rD
+TV
+iv
+sE
+uG
+uG
+Yx
+Yx
+Yx
+Yx
+Yx
+ga
+ga
+Yx
+Yx
+Yx
+ga
+ga
+ga
+ga
+Yx
+Yx
+Yx
+ga
+ga
+ga
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+Yx
+uG
+uG
+Gj
 Sd
 Sd
 Sd
@@ -48023,7 +51267,7 @@ uG
 uG
 uG
 uG
-uG
+CH
 uG
 uG
 uG
@@ -48049,54 +51293,54 @@ Sd
 Sd
 Sd
 Sd
+We
+We
 Sd
+pz
+pz
+iv
+iO
+jt
+Ie
+lr
+nE
+We
+pj
+AC
+OL
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+kD
+kD
+kD
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+ts
+uG
+Gj
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Xq
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-DY
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-YP
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-YP
-YP
 Sd
 Sd
 Sd
@@ -48306,55 +51550,55 @@ Sd
 Sd
 Sd
 Sd
+We
 Sd
-Sd
-YP
-Sd
-Sd
-YP
-Sd
-Sd
-Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-DY
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Th
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-bI
-Sd
-Sd
-Sd
-Sd
+OV
+iv
+FO
+iv
+iv
+cJ
+iv
+PP
+ze
+nE
+yF
+cD
+St
+uG
+uG
+uG
+uG
+uG
+qr
+qr
+qr
+uG
+uG
+uG
+uG
+qr
+uG
+uG
+uG
+uG
+uG
+uG
+uG
 Sd
 Sd
 Sd
 Sd
 Sd
+uG
+uG
+uG
+uG
+ts
+uG
+uG
+KS
 Sd
-Sd
-Sd
-Sd
-Sd
-YP
 Sd
 Sd
 Sd
@@ -48562,55 +51806,55 @@ Sd
 Sd
 Sd
 Sd
+We
+Sd
+Sd
+We
+iv
+jh
+qt
+PC
+PC
+iv
+iZ
+He
+nE
+WG
+aI
+QD
+uG
+uG
+uG
+KS
+KS
+KS
+KS
+We
+We
+We
+fs
+fs
+We
+We
+We
+We
+We
+We
 Sd
 Sd
 Sd
-Sd
-YP
-Sd
-YP
+FX
+FX
 Sd
 Sd
-Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Th
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Dn
-Sd
-Sd
-Sd
+KS
+Va
+gw
+gw
+gw
+gw
+gw
+qx
 Sd
 YP
 Sd
@@ -48819,55 +52063,55 @@ Sd
 Sd
 Sd
 YP
+We
 Sd
 Sd
 Sd
+iv
+dL
+xT
+kI
+PC
+iv
+iv
+yL
+yL
+iv
+iv
+cw
+uG
+uG
+Xw
+uG
+We
+We
+We
+We
+Rg
+KS
+gr
+gr
+gr
+KS
+We
+We
 Sd
 Sd
+YP
+Sd
+FX
+FX
+FX
+FX
 Sd
 Sd
-Sd
-Sd
-Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-bI
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
+KS
+jo
+uG
+ts
+uG
+uG
+KS
 Sd
 YP
 Sd
@@ -49043,7 +52287,7 @@ uG
 uG
 uG
 uG
-uG
+CH
 uG
 uG
 uG
@@ -49076,55 +52320,55 @@ Sd
 Sd
 Sd
 Sd
+We
+Sd
+We
+Sd
+yL
+Pl
+ru
+dm
+Lt
+iv
+vL
+yc
+sH
+vq
+yL
+pz
+uG
+uG
+KS
+KS
+KS
+KS
+We
+KS
+KS
+KS
+KS
+KS
+KS
+KS
+KS
+KS
+KS
+UZ
 Sd
 Sd
+FX
+FX
+FX
+FX
+aT
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+KS
+jo
+uG
+Fs
+uG
+Gj
+KS
 Sd
 Sd
 Sd
@@ -49333,55 +52577,55 @@ Sd
 Sd
 Sd
 Sd
+We
 Sd
 Sd
 Sd
+fR
+Kk
+jX
+We
+PC
+iv
+ik
+gI
+Dh
+Dh
+iv
+pz
+oj
+Gn
+Gn
+Gn
+bw
+bw
+bw
+Gn
+Gn
+Gn
+Gn
+Gn
+Gn
+Gn
+KS
+Gn
+Gn
+Gn
+Gn
 Sd
+YP
+kh
+FX
+FX
+FX
 Sd
-Sd
-Sd
-Sd
-Sd
-Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
+KS
+jo
+uG
+Fs
+uG
+uG
+We
 Sd
 Sd
 Sd
@@ -49589,56 +52833,56 @@ yf
 Sd
 Sd
 Sd
+We
 Sd
 Sd
+We
+Sd
+iv
+vE
+mH
+vF
+ni
+Qt
+uD
+tY
+Dh
+Mc
+LK
+dn
+Gn
+Gn
+bw
+bw
+bw
+WJ
+WJ
+CT
+WJ
+WJ
+CT
+CT
+DM
+WJ
+CT
+WJ
+WJ
+KS
+KS
+KS
+KS
 Sd
 Sd
+FX
+FX
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+jo
+kD
+Fs
+uG
+uG
+We
 Sd
 Sd
 Sd
@@ -49846,56 +53090,56 @@ gU
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-YP
-Sd
-Sd
-Sd
-Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Th
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
 Sd
 We
 Sd
 Sd
+iv
+iv
+iv
+iv
+yL
+iv
+iv
+yL
+fR
+iv
+iv
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+BB
+fd
+il
+bR
+fd
+fd
+fd
+fd
+hm
+hm
+WJ
+WJ
+WJ
+WJ
+KS
+DM
+Sd
+Sd
+Sd
+Sd
+KS
+jo
+kD
+Fs
+uG
+uG
+We
 Sd
 Sd
 Sd
@@ -50114,45 +53358,45 @@ Sd
 Sd
 Sd
 Xq
+We
+Gn
+WJ
+cO
+Fc
+Bu
+wr
+jp
+HE
+bi
+Hk
+Ke
+bS
+DM
+Mu
+xx
+iD
+fd
+TS
+DM
+DM
+fS
+WJ
+fd
+Dd
+WJ
+KS
+KS
+KS
+PW
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
+KS
+uG
+kD
+ts
+uG
+We
+We
 Sd
 Sd
 Sd
@@ -50360,7 +53604,7 @@ gU
 Sd
 Sd
 Sd
-Sd
+We
 Sd
 Sd
 Sd
@@ -50371,45 +53615,45 @@ Sd
 Sd
 Sd
 Xq
+We
+Gn
+WJ
+nA
+zv
+LS
+UH
+Na
+Na
+Ue
+fd
+Ke
+bS
+DM
+WJ
+fW
+iA
+fd
+fd
+QB
+CT
+fS
+CT
+bs
+nO
+PU
+DM
+DM
+fd
+We
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
+KS
+uG
+uG
+ts
+uG
+We
+We
 Sd
 Sd
 Sd
@@ -50619,7 +53863,7 @@ Sd
 Sd
 Sd
 Sd
-Sd
+We
 Sd
 Sd
 Sd
@@ -50628,45 +53872,45 @@ Sd
 Sd
 Sd
 Xq
+We
+Gn
+CT
+Ny
+Ue
+Na
+JT
+Na
+EX
+Cv
+Bh
+CT
+fd
+DM
+DM
+qI
+Mv
+fd
+xu
+te
+AE
+Nz
+DM
+Bx
+DM
+Rq
+hr
+DM
+DM
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+fd
+KS
+uG
+uG
+ts
+uG
+We
+We
 Sd
 Sd
 Sd
@@ -50875,8 +54119,8 @@ We
 Sd
 Th
 Sd
-Sd
-Sd
+We
+We
 Sd
 Sd
 Sd
@@ -50885,46 +54129,46 @@ Sd
 Th
 Sd
 Xq
+We
+We
+DM
+Ny
+iD
+Ni
+Du
+Ue
+bS
+bS
+tc
+WJ
+IE
+DM
+CT
+eZ
+Mv
+iD
+DM
+om
+Bv
+fd
+DM
+Ys
+ah
+WJ
+iD
+DM
+We
+DM
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-JR
+EA
+Gn
+uG
+uG
+ts
+uG
+We
+We
+YP
 YP
 YP
 Sd
@@ -51133,7 +54377,7 @@ Sd
 Th
 Sd
 Sd
-Sd
+We
 Sd
 Sd
 Sd
@@ -51142,45 +54386,45 @@ Sd
 Sd
 Sd
 Xq
-Sd
-YP
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
+WJ
+vT
+hB
+RP
+sW
+kk
+RP
+ix
+br
+WJ
+fd
+dE
+VG
+DM
+Nz
+fd
+CT
+sb
+lO
+mp
+WJ
+ph
+Ua
+WJ
+Ws
+gr
+We
+We
+We
+We
+DM
+jo
+kD
+Fs
+uG
+We
+We
 Sd
 Sd
 YP
@@ -51390,7 +54634,7 @@ We
 Sd
 Sd
 Sd
-Sd
+We
 Sd
 Sd
 YP
@@ -51399,45 +54643,45 @@ Sd
 Sd
 Sd
 Xq
-Sd
+We
+We
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+JD
+fd
+fd
+Oi
+qK
+fd
+fd
+LE
+Oi
+Gu
+WJ
+WJ
+WJ
+WJ
+jK
+We
+We
+We
 YP
-Sd
-Sd
-Sd
-Sd
-YP
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+DM
+uG
+kD
+Fs
+uG
+We
+We
 Sd
 Sd
 Sd
@@ -51656,45 +54900,45 @@ Sd
 Sd
 Sd
 Xq
+We
+We
+OV
+We
+Th
 Sd
-YP
+fd
+fd
+ah
+ah
+gE
+WJ
+WJ
+WJ
+fd
+DM
+WJ
+WJ
+WJ
+WJ
+CT
+WJ
+WJ
+KS
+KS
+KS
+KS
+We
+We
+We
 Sd
-Sd
-Sd
-Sd
-YP
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
+We
+KS
+uG
+kD
+Fs
+uG
+uG
+We
 Sd
 Sd
 Sd
@@ -51903,8 +55147,8 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
+We
+We
 Sd
 Sd
 Sd
@@ -51914,44 +55158,44 @@ Sd
 Sd
 Xq
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-YP
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
+fd
+We
+iD
+iD
+Th
+Cm
+iD
+iD
+DM
+WJ
+DP
+Vb
+iD
+SB
+WJ
+PZ
+KS
+KS
+KS
+KS
+KS
+We
+UZ
+ja
+We
+We
+We
+We
+We
+Gn
+jo
+kD
+Fs
+uG
+Gj
+We
 Sd
 Sd
 Sd
@@ -52160,7 +55404,7 @@ Sd
 Sd
 Sd
 Sd
-Sd
+We
 Sd
 Sd
 Sd
@@ -52171,43 +55415,43 @@ Sd
 Sd
 Xq
 Sd
-YP
 Sd
-Sd
-Sd
-Sd
-YP
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
+We
+We
+We
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+DM
+WJ
+sX
+TG
+IZ
+NY
+WJ
+ql
+jK
+jK
+jK
+WJ
+yw
+KS
+KS
+KS
+DM
+We
+We
+fs
+fs
+ax
+jo
+kD
+Fs
+uG
+Gj
 Sd
 Sd
 Sd
@@ -52417,8 +55661,8 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
+We
+We
 Sd
 Sd
 Sd
@@ -52429,42 +55673,42 @@ Sd
 Xq
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Th
-Sd
-Sd
-Sd
-Sd
+fd
+We
+fd
+WJ
+hd
+HL
+VA
+IA
+iD
+DM
+AW
+fd
+TM
+iD
+kb
+WJ
+KS
+jK
+jK
+ah
+KS
+KS
+KS
+DM
+DM
+DM
+We
+NG
+fs
+fs
+qx
+uG
+kD
+Fs
+uG
+uG
 Sd
 Sd
 Sd
@@ -52674,8 +55918,8 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
+We
+We
 Sd
 Sd
 Sd
@@ -52686,42 +55930,42 @@ Sd
 Xq
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
+fd
+WJ
+Vn
+Nq
+mn
+vc
+Nq
+DM
+DM
+fd
+TG
+NE
+ht
+WJ
+KS
+jK
+jK
+jK
+WJ
+KS
+DM
+ah
+ah
+KS
+KS
+We
+We
+We
+yI
+uG
+kD
+Fs
+uG
+uG
 Sd
 Sd
 Sd
@@ -52931,7 +56175,7 @@ Sd
 Sd
 Sd
 YP
-Sd
+We
 Sd
 Sd
 Sd
@@ -52943,42 +56187,42 @@ Sd
 Xq
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
+fd
+WJ
+ES
+vc
+mn
+Nq
+Kh
+DM
+DM
+fd
+fd
+fd
+ZA
+WJ
+KS
+ah
+rs
+jK
+LZ
+KS
+KS
+ah
+jK
+Cj
+KS
+We
+We
+We
+DM
+uG
+uG
+ts
+uG
+uG
 Sd
 Sd
 Sd
@@ -53187,7 +56431,7 @@ gU
 Sd
 Sd
 Sd
-YP
+OV
 Sd
 Sd
 Sd
@@ -53199,43 +56443,43 @@ Sd
 Sd
 Xq
 Sd
+We
+We
+We
+We
+WJ
+hh
+le
+nG
+nl
+WQ
+od
+WJ
+DM
+ML
+DM
+ZA
+WJ
+Ws
+Ws
+jK
+jK
+WJ
+ck
+OH
+OH
+qp
+ov
+Ww
+No
+OH
+OH
+UL
+We
+uG
+ts
+uG
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-tt
 Sd
 Sd
 Th
@@ -53444,8 +56688,8 @@ gU
 Sd
 Sd
 Sd
-Sd
-Sd
+We
+We
 Sd
 Sd
 Sd
@@ -53455,43 +56699,43 @@ Sd
 Sd
 Sd
 Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
+We
+EA
+We
+We
+We
+WJ
+WJ
+WJ
+WJ
+WJ
+iD
+WJ
+WJ
+DM
+DM
+hr
+fd
+WJ
+Ws
+gr
+Pi
+Cj
+Rg
+pH
+ww
+ww
+ww
+vB
+Rm
+ww
+ww
+ww
+mX
+We
+We
+uG
+uG
 Sd
 Sd
 Sd
@@ -53697,12 +56941,12 @@ er
 lx
 uG
 uG
-SG
+We
+We
+We
+We
 Sd
-Sd
-Sd
-Sd
-Sd
+We
 Sd
 Sd
 Sd
@@ -53712,43 +56956,43 @@ Th
 Sd
 Sd
 Xq
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
+We
+OV
+We
+KS
+uG
+uG
+WJ
+ZS
+CS
+WJ
+BT
+Ys
+fd
+hr
+Vj
+WJ
+jK
+KS
+KS
+KS
+WJ
+Is
+su
+bP
+hF
+bH
+Et
+bP
+JC
+JC
+gb
+We
+uG
+uG
+uG
 Sd
 Sd
 Sd
@@ -53954,12 +57198,12 @@ uG
 ts
 uG
 uG
-SG
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
+We
+We
+We
+We
 Sd
 Sd
 Sd
@@ -53969,44 +57213,44 @@ Sd
 Sd
 Sd
 Xq
+We
+We
+We
+We
+We
+KS
+uG
+uG
+WJ
+kZ
+In
+WJ
+tG
+DM
+BD
+hr
+dd
+VS
+KS
+KS
+gr
+gr
+We
+KS
+We
+VD
+VD
+VD
+VD
+uG
+VD
+uG
+uG
+We
+uG
+We
+uG
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
 Sd
 Sd
 Sd
@@ -54211,11 +57455,11 @@ uG
 ts
 uG
 uG
-SG
+We
+We
+We
 Sd
-Sd
-Sd
-Sd
+We
 Sd
 Sd
 Sd
@@ -54228,40 +57472,40 @@ Sd
 Xq
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-DY
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
+We
+KS
+uG
+kD
+WJ
+WJ
+WJ
+WJ
+WJ
+NS
+DM
+fd
+fd
+WJ
+KS
+jK
+ZW
+gr
+WJ
+Ea
+uG
+Su
+uG
+uG
+kD
+kD
+kD
+uG
+uG
+uG
+uG
+We
 Sd
 Sd
 Sd
@@ -54486,39 +57730,39 @@ Xq
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
+KS
+nC
+kD
+kD
+uG
+uG
+We
+WJ
+Do
+DM
+Eb
+Lq
+FN
+KS
+KS
+wx
+KS
+We
+jo
+uG
+eX
+uG
+uG
+kD
+kD
+kD
+uG
+uG
+uG
+uG
+We
 Sd
 Sd
 Sd
@@ -54744,41 +57988,41 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
+uG
+kD
+sp
+uG
+uG
+We
+WJ
+WJ
+YF
+WJ
+WJ
+WJ
+MQ
+Cj
+KS
+KS
+WJ
+qL
+uG
+uG
+uG
+uG
+kD
+kD
+kD
+uG
+uG
+We
+We
+We
+We
+We
+We
 Sd
 tt
 Sd
@@ -55001,41 +58245,41 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+KS
+jK
+KS
+We
+uG
+uG
+KS
+KS
+KS
+KS
+KS
+KS
+KS
+KS
+KS
+KS
+KS
+We
+jo
+uG
+uG
+kD
+uG
+uG
+uG
+uG
+uG
+uG
+We
+We
+We
+We
+tS
+We
 Sd
 Sd
 Sd
@@ -55258,41 +58502,41 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+Rg
+KS
+jK
+KS
+KS
+uG
+uG
+nC
+uG
+We
+We
+uG
+uG
+We
+KS
+KS
+We
+We
+jo
+kD
+eX
+kD
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+We
+We
+We
+We
 Sd
 Sd
 Sd
@@ -55514,42 +58758,42 @@ Xq
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
+We
+We
+We
+KS
+jK
+jK
+jK
+EA
+uG
+uG
+YW
+St
+uG
+kD
+KS
+tS
+We
+We
+KS
+KS
+uG
+uG
+Su
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+We
+We
+We
+We
+We
+We
 Sd
 Sd
 Sd
@@ -55771,41 +59015,41 @@ Xq
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
+We
+KS
+KS
+xG
+jK
+hn
+We
+We
+We
+uG
+kD
+uG
+We
+We
+KS
+We
+We
+KS
+KS
+qr
+qr
+qr
+uG
+qr
+uG
+qr
+qr
+uG
+We
+We
+We
+EA
+We
 Sd
 Sd
 Sd
@@ -56029,40 +59273,40 @@ Sd
 Sd
 Sd
 Sd
-YP
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+KS
+KS
+KS
+KS
+We
+KS
+KS
+jK
+KS
+We
+KS
+We
+KS
+KS
+KS
+KS
+KS
+KS
+KS
+We
+KS
+qx
+KS
+KS
+We
+KS
+We
+We
+We
+We
+We
+We
 Sd
 Sd
 Sd
@@ -56287,7 +59531,16 @@ Sd
 Sd
 Sd
 Sd
-YP
+Sd
+We
+We
+We
+We
+We
+KS
+KS
+KS
+KS
 Sd
 Sd
 Sd
@@ -56298,26 +59551,17 @@ Sd
 Sd
 Sd
 Sd
+We
+We
+We
+We
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-DY
-Sd
+We
+We
+EA
+We
+We
 Sd
 Sd
 Sd
@@ -56542,7 +59786,14 @@ Xq
 Sd
 Sd
 Sd
-YP
+Sd
+Sd
+Sd
+Sd
+We
+We
+We
+We
 Sd
 Sd
 Sd
@@ -56558,23 +59809,16 @@ Sd
 Sd
 Sd
 Sd
+We
+We
 Sd
 Sd
 Sd
 Sd
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
-Sd
-Sd
+We
+We
+We
 Sd
 Sd
 Sd
@@ -59851,7 +63095,7 @@ CF
 Un
 Fi
 az
-Ky
+CF
 AZ
 yV
 Un
@@ -61393,7 +64637,7 @@ FD
 bB
 CF
 GH
-Ky
+CF
 bB
 CF
 GH
@@ -63690,7 +66934,7 @@ xA
 nt
 Uv
 Si
-GQ
+Si
 nt
 nt
 nt
@@ -65193,7 +68437,7 @@ Si
 Si
 mv
 Si
-oV
+Si
 tH
 tH
 tH
@@ -65456,7 +68700,7 @@ Si
 Si
 vr
 Si
-oV
+Si
 Si
 Si
 Si
@@ -66214,7 +69458,7 @@ Sd
 tt
 nt
 Si
-oV
+Si
 sO
 tH
 Si
@@ -66231,7 +69475,7 @@ tH
 tH
 mv
 Si
-oV
+Si
 Si
 Si
 Si
@@ -66483,7 +69727,7 @@ tH
 tH
 Si
 Si
-eD
+tH
 tH
 Si
 Xl
@@ -67516,7 +70760,7 @@ Si
 Si
 Si
 Si
-oV
+Si
 Si
 Si
 wF
@@ -68269,7 +71513,7 @@ Xq
 Sd
 Sd
 nt
-eD
+tH
 tH
 Si
 SF
@@ -68283,7 +71527,7 @@ tH
 SF
 Mj
 Si
-eD
+tH
 tH
 tH
 Xl
@@ -68802,7 +72046,7 @@ tj
 Un
 Si
 Si
-oV
+Si
 Si
 Si
 tH
@@ -69304,7 +72548,7 @@ tj
 Si
 Si
 Un
-xq
+Un
 Un
 Si
 Si
