@@ -76,6 +76,13 @@
 	. = ..()
 	color = "#5d6363"
 
+/obj/item/clothing/head/fedora/dark
+	name = "grey fedora"
+
+/obj/item/clothing/head/fedora/dark/Initialize()
+	. = ..()
+	color = "#404040"
+
 /obj/item/clothing/head/top_hat
 	name = "top hat"
 	icon_state = "tophat"

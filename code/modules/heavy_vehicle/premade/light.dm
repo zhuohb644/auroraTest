@@ -141,3 +141,6 @@
 	h_l_hand = /obj/item/mecha_equipment/mounted_system/plasmacutter
 	h_r_hand = /obj/item/mecha_equipment/clamp
 	h_r_shoulder = /obj/item/mecha_equipment/mounted_system/flarelauncher
+
+/mob/living/heavy_vehicle/premade/light/recon/konyang
+	e_color = COLOR_PALE_BLUE_GRAY
