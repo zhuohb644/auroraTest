@@ -19,7 +19,7 @@
 
 /datum/ghostspawner/human/infected/post_spawn(mob/user)
 	. = ..()
-	renegades.add_antagonist(user.mind) //for aooc
+	renegades.add_antagonist(user.mind, do_not_equip = TRUE) //for aooc
 	user.faction = "hivebot" //so the other zombies don't kill our zombies
 
 /datum/outfit/admin/infected_soldier
@@ -46,6 +46,7 @@
 
 /datum/ghostspawner/human/infected/cop
 	name = "Infected Police"
+	short_name = "infected_cop"
 	max_count = 6
 
 	outfit = /datum/outfit/admin/infected_cop
@@ -72,7 +73,8 @@
 
 /datum/ghostspawner/human/infected/worker
 	name = "Infected Civilian"
-	max_count = 0
+	short_name = "infected_civ"
+	max_count = 15
 
 	outfit = /datum/outfit/admin/infected_civ
 	assigned_role = "KRC Warehouse Staff"
@@ -90,3 +92,28 @@
 /datum/outfit/admin/infected_civ/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	if(prob(15))
 		H.equip_to_slot_or_del(new /obj/item/material/twohanded/fireaxe, slot_back)
+
+/datum/ghostspawner/human/infected/tank
+	short_name = "infected_tank"
+	name = "Infected Industrial IPC"
+	max_count = 1
+	assigned_role = "Heavy Industrial IPC"
+	special_role = "Heavy Industrial IPC"
+	possible_species = list(SPECIES_IPC_G2)
+	outfit = /datum/outfit/admin/infected_tank
+
+/datum/ghostspawner/human/infected/tank/post_spawn(mob/user)
+	. = ..()
+	var/mob/living/carbon/human/H = user
+	if(istype(H))
+		H.mutations |= HULK
+		H.AddComponent(/datum/component/armor, list(melee = ARMOR_MELEE_VERY_HIGH, bullet = ARMOR_BALLISTIC_RIFLE, laser = ARMOR_LASER_RIFLE))
+
+/datum/outfit/admin/infected_tank
+	glasses = /obj/item/clothing/glasses/thermal/aviator
+	uniform = /obj/item/clothing/under/syndicate
+	suit = /obj/item/clothing/suit/storage/toggle/trench/grey
+	head = /obj/item/clothing/head/fedora/dark
+	back = /obj/item/storage/backpack/satchel/leather
+	shoes = /obj/item/clothing/shoes/laceup
+

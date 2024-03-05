@@ -1850,6 +1850,7 @@
 /obj/effect/floor_decal/corner/brown{
 	dir = 5
 	},
+/obj/machinery/recharge_station,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
 "qy" = (
@@ -2711,6 +2712,13 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"xq" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected";
+	identifier = "infected"
+	},
+/turf/simulated/floor/tiled,
+/area/sn_warehouse)
 "xr" = (
 /obj/structure/filingcabinet/filingcabinet{
 	pixel_x = -8;
@@ -4190,6 +4198,7 @@
 /obj/item/ammo_magazine/a556/k556,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/a556/k556,
 /turf/simulated/floor/tiled,
 /area/sn_wild)
 "Gy" = (
@@ -4250,6 +4259,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"GQ" = (
+/obj/machinery/recharge_station,
+/turf/simulated/floor/plating,
+/area/sn_warehouse)
 "GS" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor/wood,
@@ -4301,12 +4314,14 @@
 /area/sn_wild)
 "Hv" = (
 /obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/under/rank/konyang/mech_pilot,
-/obj/item/clothing/head/helmet/konyang/pilot,
-/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/under/rank/konyang,
+/obj/item/clothing/head/konyang/army,
+/obj/item/clothing/head/helmet/konyang,
+/obj/item/clothing/suit/armor/carrier/military,
+/obj/item/clothing/accessory/flagpatch/konyang,
 /obj/item/storage/belt/military,
+/obj/item/clothing/accessory/holster/hip,
 /obj/item/clothing/glasses/night,
-/obj/item/gun/projectile/pistol/sol,
 /obj/item/gun/projectile/pistol/sol,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/gun/projectile/automatic/rifle/konyang/k556,
@@ -4318,6 +4333,7 @@
 /obj/item/ammo_magazine/a556/k556,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/a556/k556,
 /turf/simulated/floor/tiled,
 /area/sn_wild)
 "Hw" = (
@@ -4711,28 +4727,10 @@
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
 "Ky" = (
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/under/rank/konyang,
-/obj/item/clothing/head/konyang/army,
-/obj/item/clothing/head/helmet/konyang,
-/obj/item/clothing/suit/armor/carrier/military,
-/obj/item/clothing/accessory/flagpatch/konyang,
-/obj/item/storage/belt/military,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/clothing/glasses/night,
-/obj/item/gun/projectile/pistol/sol,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/gun/projectile/automatic/rifle/konyang/k556,
-/obj/item/ammo_magazine/a556/k556,
-/obj/item/card/id/syndicate{
-	access = list(218)
-	},
-/obj/item/device/radio/headset/syndicate,
-/obj/item/ammo_magazine/a556/k556,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/turf/simulated/floor/tiled,
-/area/sn_wild)
+/obj/effect/floor_decal/industrial/warning/full,
+/obj/machinery/recharge_station,
+/turf/simulated/floor/plating,
+/area/sn_warehouse)
 "KC" = (
 /obj/effect/landmark/corpse/konyang_cop,
 /turf/simulated/floor/asphalt,
@@ -6009,6 +6007,7 @@
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/a556/carbine/konyang47,
+/obj/item/ammo_magazine/a556/carbine/konyang47,
 /turf/simulated/floor/tiled,
 /area/sn_wild)
 "Tx" = (
@@ -6167,6 +6166,10 @@
 	temperature = 263.15
 	},
 /area/shuttle/scc_evac)
+"UR" = (
+/obj/machinery/recharge_station,
+/turf/simulated/floor/tiled,
+/area/sn_wild)
 "UV" = (
 /obj/structure/bed/stool/chair/office/bridge,
 /obj/effect/landmark/force_spawnpoint{
@@ -8063,7 +8066,7 @@ kp
 Lu
 Ef
 Di
-Ky
+Hv
 kp
 NQ
 "}
@@ -8577,7 +8580,7 @@ kp
 Ef
 Ef
 Di
-Ky
+Hv
 kp
 NQ
 "}
@@ -46979,7 +46982,7 @@ Sd
 Sd
 Sd
 WJ
-Ef
+UR
 Ef
 NI
 Ef
@@ -59848,7 +59851,7 @@ CF
 Un
 Fi
 az
-CF
+Ky
 AZ
 yV
 Un
@@ -61390,7 +61393,7 @@ FD
 bB
 CF
 GH
-CF
+Ky
 bB
 CF
 GH
@@ -63687,7 +63690,7 @@ xA
 nt
 Uv
 Si
-Si
+GQ
 nt
 nt
 nt
@@ -65190,7 +65193,7 @@ Si
 Si
 mv
 Si
-Si
+oV
 tH
 tH
 tH
@@ -65453,7 +65456,7 @@ Si
 Si
 vr
 Si
-Si
+oV
 Si
 Si
 Si
@@ -66211,7 +66214,7 @@ Sd
 tt
 nt
 Si
-Si
+oV
 sO
 tH
 Si
@@ -66228,7 +66231,7 @@ tH
 tH
 mv
 Si
-Si
+oV
 Si
 Si
 Si
@@ -66480,7 +66483,7 @@ tH
 tH
 Si
 Si
-tH
+eD
 tH
 Si
 Xl
@@ -67513,7 +67516,7 @@ Si
 Si
 Si
 Si
-Si
+oV
 Si
 Si
 wF
@@ -68266,7 +68269,7 @@ Xq
 Sd
 Sd
 nt
-tH
+eD
 tH
 Si
 SF
@@ -68280,7 +68283,7 @@ tH
 SF
 Mj
 Si
-tH
+eD
 tH
 tH
 Xl
@@ -68799,7 +68802,7 @@ tj
 Un
 Si
 Si
-Si
+oV
 Si
 Si
 tH
@@ -69301,7 +69304,7 @@ tj
 Si
 Si
 Un
-Un
+xq
 Un
 Si
 Si

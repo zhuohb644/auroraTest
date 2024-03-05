@@ -174,7 +174,7 @@
 /obj/item/mech_component/chassis/combat/konyang/prebuild()
 	. = ..()
 	QDEL_NULL(cell)
-	cell = new /obj/item/cell/hyper(src)
+	cell = new /obj/item/cell/infinite(src)
 	mech_armor = new /obj/item/robot_parts/robot_component/armor/mech/combat(src)
 
 /mob/living/heavy_vehicle/premade/konyang
