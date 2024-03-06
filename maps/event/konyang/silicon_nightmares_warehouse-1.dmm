@@ -423,9 +423,9 @@
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "bV" = (
-/obj/item/melee/ceremonial_sword{
-	desc = "A ceremonial sword issued to  Konyang navy officers as part of their dress uniform.";
-	name = "konyang officer ceremonial sword"
+/obj/item/material/sword/katana{
+	desc = "A traditional looking sword optionally worn by members of the Konyang Navy as part of their dress uniform. Although most are blunted, a few sharp examples are allowed to slip through the cracks.";
+	name = "konyang naval officer's sword"
 	},
 /turf/simulated/floor/tiled,
 /area/sn_wild)
@@ -3378,6 +3378,79 @@
 /obj/item/clothing/suit/armor/carrier/military,
 /obj/item/clothing/suit/armor/carrier/military,
 /obj/item/clothing/suit/armor/carrier/military,
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_x = 10
+	},
+/obj/item/clothing/accessory/armor_plate/military/navy{
+	pixel_x = 10
+	},
+/obj/item/clothing/head/helmet/konyang/navy{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/head/helmet/konyang/navy{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/head/helmet/konyang/navy{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/head/helmet/konyang/navy{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/head/helmet/konyang/navy{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/head/helmet/konyang/navy{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/head/helmet/konyang/navy{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/head/helmet/konyang/navy{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/head/helmet/konyang/navy{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/clothing/head/helmet/konyang/navy{
+	pixel_y = 10;
+	pixel_x = 10
+	},
 /turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "pX" = (
@@ -4607,32 +4680,32 @@
 /turf/simulated/floor/reinforced,
 /area/sn_warehouse)
 "vy" = (
-/obj/item/melee/chainsword,
-/obj/item/material/sword/dao,
-/obj/item/material/sword/dao,
-/obj/item/material/sword/katana,
-/obj/item/material/sword/katana,
-/obj/item/material/sword/longsword,
-/obj/item/melee/chainsword,
 /obj/structure/closet/crate/weapon/alt{
 	name = "swords crate";
 	desc = "A weapons crate. This one is spray-painted with an Exclusionist half-angle on it."
 	},
+/obj/item/material/sword/dao,
+/obj/item/material/sword/dao,
+/obj/item/material/sword/dao,
+/obj/item/material/sword/dao,
+/obj/item/material/sword/dao,
+/obj/item/material/sword/katana,
+/obj/item/material/sword/katana,
+/obj/item/material/sword/katana,
+/obj/item/material/sword/katana,
+/obj/item/material/sword/katana,
+/obj/item/material/sword/katana,
+/obj/item/material/sword/dao,
 /obj/item/melee/chainsword,
 /obj/item/melee/chainsword,
-/obj/item/material/twohanded/pike/halberd,
-/obj/item/material/twohanded/pike/halberd,
-/obj/item/melee/ceremonial_sword/marine,
-/obj/item/melee/ceremonial_sword/marine,
-/obj/item/melee/energy/sword/knife/sol,
-/obj/item/melee/energy/sword/knife/sol,
-/obj/item/melee/energy/sword/knife/sol,
-/obj/item/melee/energy/sword/knife/sol,
-/obj/item/melee/energy/sword/knife/sol,
-/obj/item/melee/energy/sword/knife/sol,
+/obj/item/melee/chainsword,
+/obj/item/melee/chainsword,
 /obj/item/melee/energy/sword/pirate/generic,
 /obj/item/melee/energy/sword/pirate/generic,
-/obj/item/melee/energy/sword/pirate/generic,
+/obj/item/melee/energy/sword/knife/sol,
+/obj/item/melee/energy/sword/knife/sol,
+/obj/item/melee/energy/sword/knife/sol,
+/obj/item/melee/energy/sword/knife/sol,
 /turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "vA" = (
@@ -5332,6 +5405,27 @@
 /obj/item/ammo_magazine/a556/k556,
 /obj/item/ammo_magazine/a556/k556,
 /obj/item/ammo_magazine/a556/k556,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
 /turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "yD" = (
@@ -8446,6 +8540,10 @@
 /obj/item/gun/projectile/shotgun/pump,
 /obj/item/storage/box/shotgunshells,
 /obj/item/storage/box/shotgunshells,
+/obj/item/storage/box/shotgunshells,
+/obj/item/storage/box/shotgunshells,
+/obj/item/storage/box/shotgunshells,
+/obj/item/storage/box/shotgunshells,
 /turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "Ll" = (
@@ -8736,6 +8834,34 @@
 /area/sn_wild)
 "MD" = (
 /obj/structure/closet/crate/freezer,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
 /turf/simulated/floor/exoplanet/lino,
 /area/sn_wild)
 "MF" = (
