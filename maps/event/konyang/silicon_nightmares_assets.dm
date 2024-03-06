@@ -287,3 +287,23 @@
 				apc.update_icon()
 			src.visible_message(SPAN_NOTICE("The power station fades into silence, the machinery's lights flickering off as power is severed."))
 
+/datum/shuttle/autodock/ferry/supply/konyang
+	name = "OX Supply Shuttle"
+	location = 1
+	shuttle_area = /area/supply/dock
+	dock_target = "cargo_shuttle"
+	waypoint_station = "nav_cargo_shuttle_dock"
+	waypoint_offsite = "nav_cargo_shuttle_start"
+
+/obj/effect/shuttle_landmark/supply/konyang/start
+	name = "SCCV Horizon Cargo Dock"
+	landmark_tag = "nav_cargo_shuttle_start"
+	base_turf = /turf/unsimulated/floor/plating
+	base_area = /area/centcom
+
+/obj/effect/shuttle_landmark/supply/konyang/dock
+	name = "Planetary Docking Site"
+	landmark_tag = "nav_cargo_shuttle_dock"
+	docking_controller = "cargo_shuttle_dock"
+	base_turf = /turf/simulated/floor/plating
+	base_area = /area/sn_wild

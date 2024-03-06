@@ -1,4 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ac" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "ae" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 10
@@ -207,6 +213,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"bD" = (
+/obj/structure/chainlink_fence,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "bF" = (
 /obj/item/trash/cigbutt{
 	pixel_x = 6;
@@ -228,6 +238,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"bL" = (
+/obj/machinery/light{
+	dir = 8;
+	must_start_working = 1
+	},
+/turf/unsimulated/floor,
+/area/sn_wild)
 "bM" = (
 /obj/machinery/light{
 	must_start_working = 1
@@ -269,6 +286,82 @@
 	},
 /turf/simulated/floor/exoplanet/water/konyang,
 /area/sn_wild)
+"cl" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
+"cm" = (
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
+"cq" = (
+/obj/machinery/door/blast/shutters/open{
+	id = "sn_camp";
+	name = "Access Gate"
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"cu" = (
+/obj/structure/table/rack,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight/maglight,
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/device/flashlight{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "cE" = (
 /obj/effect/step_trigger/thrower{
 	icon_state = "dir_arrow";
@@ -283,12 +376,25 @@
 /obj/item/newspaper,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"cH" = (
+/obj/machinery/door/blast/shutters{
+	name = "Access Gate";
+	id = "sn_camp"
+	},
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "cP" = (
 /obj/machinery/door/blast/shutters/open{
 	id = "sn_camp";
 	name = "Access Gate"
 	},
-/turf/simulated/floor/exoplanet/dirt_konyang,
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
 /area/sn_wild)
 "cV" = (
 /obj/effect/floor_decal/corner_wide/black{
@@ -326,6 +432,11 @@
 	pixel_y = -16
 	},
 /turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"dk" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/floor_decal/industrial/warning,
+/turf/unsimulated/floor/plating,
 /area/sn_wild)
 "dl" = (
 /obj/structure/window/reinforced,
@@ -390,63 +501,8 @@
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
 "ea" = (
-/obj/structure/closet/crate/secure{
-	name = "encryption keys crate";
-	req_access = list(19)
-	},
-/obj/item/device/encryptionkey/cargo_spare,
-/obj/item/device/encryptionkey/cargo_spare,
-/obj/item/device/encryptionkey/cargo_spare,
-/obj/item/device/encryptionkey/cargo_spare,
-/obj/item/device/encryptionkey/cargo_spare,
-/obj/item/device/encryptionkey/cargo_spare,
-/obj/item/device/encryptionkey/cargo_spare,
-/obj/item/device/encryptionkey/cargo_spare,
-/obj/item/device/encryptionkey/cargo_spare,
-/obj/item/device/encryptionkey/cargo_spare,
-/obj/item/device/encryptionkey/sci_spare,
-/obj/item/device/encryptionkey/sci_spare,
-/obj/item/device/encryptionkey/sci_spare,
-/obj/item/device/encryptionkey/sci_spare,
-/obj/item/device/encryptionkey/sci_spare,
-/obj/item/device/encryptionkey/sci_spare,
-/obj/item/device/encryptionkey/sci_spare,
-/obj/item/device/encryptionkey/sci_spare,
-/obj/item/device/encryptionkey/sci_spare,
-/obj/item/device/encryptionkey/sci_spare,
-/obj/item/device/encryptionkey/med_spare,
-/obj/item/device/encryptionkey/med_spare,
-/obj/item/device/encryptionkey/med_spare,
-/obj/item/device/encryptionkey/med_spare,
-/obj/item/device/encryptionkey/med_spare,
-/obj/item/device/encryptionkey/med_spare,
-/obj/item/device/encryptionkey/med_spare,
-/obj/item/device/encryptionkey/med_spare,
-/obj/item/device/encryptionkey/med_spare,
-/obj/item/device/encryptionkey/med_spare,
-/obj/item/device/encryptionkey/sec_spare,
-/obj/item/device/encryptionkey/sec_spare,
-/obj/item/device/encryptionkey/sec_spare,
-/obj/item/device/encryptionkey/sec_spare,
-/obj/item/device/encryptionkey/sec_spare,
-/obj/item/device/encryptionkey/sec_spare,
-/obj/item/device/encryptionkey/sec_spare,
-/obj/item/device/encryptionkey/sec_spare,
-/obj/item/device/encryptionkey/sec_spare,
-/obj/item/device/encryptionkey/sec_spare,
-/obj/item/device/encryptionkey/service_spare,
-/obj/item/device/encryptionkey/service_spare,
-/obj/item/device/encryptionkey/service_spare,
-/obj/item/device/encryptionkey/service_spare,
-/obj/item/device/encryptionkey/service_spare,
-/obj/item/device/encryptionkey/service_spare,
-/obj/item/device/encryptionkey/service_spare,
-/obj/item/device/encryptionkey/service_spare,
-/obj/item/device/encryptionkey/service_spare,
-/obj/item/device/encryptionkey/service_spare,
-/obj/machinery/light/broken,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc_evac)
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "ec" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/warning{
@@ -522,6 +578,16 @@
 /mob/living/simple_animal/hostile/hivebot/bomber,
 /turf/simulated/floor/asphalt,
 /area/sn_powerstation)
+"eK" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8;
+	must_start_working = 1
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "eN" = (
 /obj/structure/bed/stool/chair/office/light,
 /turf/simulated/floor/carpet/rubber,
@@ -536,6 +602,22 @@
 /obj/item/folder/white,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"eR" = (
+/obj/machinery/door/blast/shutters/open{
+	id = "sn_camp";
+	name = "Access Gate"
+	},
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"eS" = (
+/obj/structure/chainlink_fence{
+	layer = 9.1
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "eV" = (
 /obj/effect/floor_decal/spline/plain/blue{
 	dir = 10
@@ -611,6 +693,10 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"fv" = (
+/obj/structure/bed/stool,
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
 "fy" = (
 /obj/effect/landmark/corpse/ipc_zombie,
 /turf/simulated/floor/plating,
@@ -763,6 +849,12 @@
 	},
 /turf/simulated/floor/hivebot,
 /area/sn_warehouse)
+"gZ" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "hg" = (
 /turf/simulated/floor/plating,
 /area/sn_powerstation)
@@ -798,12 +890,36 @@
 	name = "Access Gate";
 	id = "sn_camp"
 	},
-/turf/simulated/floor/exoplanet/dirt_konyang,
+/turf/simulated/floor/asphalt,
 /area/sn_wild)
 "hA" = (
 /obj/structure/lattice/catwalk/indoor/planks/deep,
 /obj/item/ipc_overloader/tranquil,
 /turf/simulated/floor/exoplanet/konyang/pink,
+/area/sn_wild)
+"hB" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/turf/simulated/floor/carpet/rubber,
 /area/sn_wild)
 "hC" = (
 /obj/structure/konyang_cliff{
@@ -858,6 +974,14 @@
 /obj/item/storage/belt/security/full,
 /turf/simulated/floor/tiled,
 /area/sn_wild)
+"if" = (
+/obj/machinery/light{
+	dir = 8;
+	must_start_working = 1
+	},
+/obj/structure/bed/stool/chair/folding,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "ih" = (
 /obj/structure/closet/crate/rad{
 	name = "emergency fuel supply"
@@ -876,6 +1000,12 @@
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"in" = (
+/obj/machinery/door/airlock/hatch{
+	dir = 4
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "ip" = (
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled,
@@ -895,6 +1025,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"ix" = (
+/obj/machinery/status_display/supply_display{
+	pixel_y = -32
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "iy" = (
 /obj/machinery/cryopod{
 	dir = 2
@@ -940,6 +1076,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"iW" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
+"ja" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "jc" = (
 /obj/structure/lattice/catwalk/indoor/planks,
 /turf/simulated/floor/exoplanet/water/shallow/konyang,
@@ -1045,6 +1193,9 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"jX" = (
+/turf/space,
+/area/sn_wild)
 "jZ" = (
 /obj/machinery/door/airlock/mining{
 	name = "Office";
@@ -1159,12 +1310,22 @@
 	},
 /turf/simulated/floor/exoplanet/water/konyang,
 /area/sn_wild)
+"kZ" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/structure/railing/mapped,
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
 "la" = (
 /obj/structure/table/standard,
 /obj/item/roller,
 /obj/item/roller{
 	pixel_y = 4
 	},
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
 /obj/item/roller,
 /obj/item/roller,
 /obj/item/roller,
@@ -1183,8 +1344,8 @@
 /obj/effect/step_trigger/teleporter{
 	icon = 'icons/obj/stationobjs.dmi';
 	icon_state = "portal";
-	teleport_x = 66;
-	teleport_y = 40;
+	teleport_x = 69;
+	teleport_y = 41;
 	teleport_z = 1;
 	name = "Teleporter - One Way";
 	desc = "This portal will teleport you to the event area - it is one-way only, so make sure you've got your gear and character set up before going through!";
@@ -1432,6 +1593,12 @@
 /obj/structure/bed/stool/chair/office/bridge,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"mX" = (
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
 "mY" = (
 /mob/living/simple_animal/hostile/hivebot/bomber,
 /obj/effect/floor_decal/corner/grey/diagonal,
@@ -1527,6 +1694,30 @@
 	must_start_working = 1
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"nL" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/clothing/accessory/holster/hip,
+/turf/simulated/floor/carpet/rubber,
 /area/sn_wild)
 "nP" = (
 /obj/effect/floor_decal/spline/plain/blue{
@@ -1637,6 +1828,12 @@
 /obj/machinery/light/colored/dying,
 /turf/simulated/floor/hivebot,
 /area/sn_warehouse)
+"oL" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "oM" = (
 /obj/structure/chainlink_fence,
 /turf/simulated/floor/exoplanet/dirt_konyang,
@@ -1650,6 +1847,28 @@
 /area/sn_wild)
 "oQ" = (
 /obj/structure/fireaxecabinet/south,
+/obj/structure/closet/crate/freezer/kois/rations,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
+/obj/item/reagent_containers/food/snacks/koisbar_clean,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
 "oV" = (
@@ -1667,6 +1886,12 @@
 	},
 /turf/simulated/floor/wood,
 /area/sn_warehouse)
+"pa" = (
+/obj/machinery/status_display/supply_display{
+	pixel_y = 32
+	},
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "pb" = (
 /turf/simulated/floor/asphalt,
 /area/sn_warehouse)
@@ -1724,6 +1949,15 @@
 /obj/structure/flora/pottedplant/dead,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"pw" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "py" = (
 /turf/simulated/wall,
 /area/sn_powerstation)
@@ -1744,7 +1978,7 @@
 	dir = 8
 	},
 /obj/effect/decal/fake_object/light_source/invisible,
-/turf/simulated/floor/exoplanet/dirt_konyang,
+/turf/unsimulated/floor/concrete,
 /area/sn_wild)
 "pP" = (
 /obj/structure/flora/tree/konyang,
@@ -1923,6 +2157,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"qW" = (
+/obj/structure/table/rack/retail_shelf,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "qZ" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/random/tool,
@@ -1958,6 +2196,12 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"rl" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "rn" = (
 /obj/structure/bed/stool/chair/shuttle{
 	dir = 4
@@ -2045,6 +2289,13 @@
 /obj/item/storage/toolbox/lunchbox/heart/filled,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"sa" = (
+/obj/machinery/light{
+	dir = 8;
+	must_start_working = 1
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "sh" = (
 /obj/machinery/door/airlock/mining{
 	name = "Fuel Storage";
@@ -2076,6 +2327,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"su" = (
+/obj/effect/floor_decal/spline/plain/blue,
+/obj/item/modular_computer/console/preset/supply{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
 "sz" = (
 /obj/structure/flora/rock/konyang/small,
 /mob/living/simple_animal/hostile/hivebot/guardian,
@@ -2161,6 +2419,10 @@
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/sn_wild)
+"tc" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
 "th" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -2170,6 +2432,19 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/sn_powerstation)
+"ti" = (
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(19)
+	},
+/obj/item/clothing/accessory/holster/armpit/brown,
+/obj/item/clothing/accessory/holster/armpit/brown,
+/obj/item/clothing/accessory/holster/armpit/brown,
+/obj/item/clothing/accessory/holster/armpit/brown,
+/obj/item/clothing/accessory/holster/armpit/brown,
+/obj/item/clothing/accessory/holster/armpit/brown,
+/obj/item/clothing/accessory/holster/armpit/brown,
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "tj" = (
 /obj/structure/shipping_container,
 /turf/simulated/floor/plating,
@@ -2328,9 +2603,13 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"ug" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "ul" = (
 /obj/effect/landmark/scorcher,
-/turf/simulated/floor/exoplanet/dirt_konyang,
+/turf/unsimulated/floor/plating,
 /area/sn_wild)
 "uo" = (
 /obj/structure/table/standard,
@@ -2526,6 +2805,13 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"vL" = (
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "vM" = (
 /obj/machinery/blackbox_recorder,
 /turf/unsimulated/floor,
@@ -2569,6 +2855,12 @@
 /obj/machinery/light,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"vY" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "wb" = (
 /turf/simulated/floor/asphalt,
 /area/sn_powerstation)
@@ -2662,6 +2954,9 @@
 "wL" = (
 /obj/machinery/recharge_station,
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
 "wP" = (
@@ -2883,6 +3178,48 @@
 /obj/random/junk,
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"yp" = (
+/obj/structure/table/rack,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "yu" = (
 /obj/machinery/body_scanconsole{
 	dir = 8
@@ -2987,6 +3324,14 @@
 /mob/living/simple_animal/hostile/hivebot,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"za" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/table/reinforced/steel,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "zb" = (
 /obj/machinery/computer/telecomms/traffic,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -3128,6 +3473,58 @@
 /obj/structure/bed/stool/chair/office/light,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"zL" = (
+/obj/structure/table/rack,
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/obj/item/shovel/gadpathur{
+	desc = "A standard-issue Konyang Army entrenching tool. Sharpened edges make this tool/weapon equally adept at breaking earth and collarbones."
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "zN" = (
 /obj/random/tool,
 /turf/simulated/floor/tiled,
@@ -3368,11 +3765,14 @@
 /turf/simulated/floor/plating,
 /area/sn_wild)
 "Bn" = (
-/obj/structure/ecd{
-	pixel_x = 16
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc_evac)
+/obj/effect/shuttle_landmark/supply/konyang/dock{
+	dir = 1
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "Bp" = (
 /obj/structure/bed/stool/chair/sofa/left/beige{
 	dir = 4
@@ -3465,10 +3865,8 @@
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
 "BW" = (
-/obj/machinery/light{
-	must_start_working = 1
-	},
-/turf/simulated/floor/exoplanet/dirt_konyang,
+/obj/structure/railing/mapped,
+/turf/unsimulated/floor/concrete,
 /area/sn_wild)
 "Ce" = (
 /obj/effect/floor_decal/corner_wide/black/diagonal,
@@ -3482,6 +3880,10 @@
 /obj/effect/floor_decal/industrial/outline/firefighting_closet,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Cl" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
 "Co" = (
 /obj/structure/table/standard,
 /obj/item/trash/plate{
@@ -4034,6 +4436,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"Fq" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "Fr" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 1
@@ -4268,6 +4676,20 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"GP" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/obj/item/ammo_magazine/submachinemag,
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
 "GQ" = (
 /obj/machinery/recharge_station,
 /turf/simulated/floor/plating,
@@ -4290,6 +4712,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Ha" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/unsimulated/floor,
+/area/sn_wild)
 "Hf" = (
 /obj/structure/coatrack{
 	pixel_x = 8;
@@ -4498,6 +4924,10 @@
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"II" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "IJ" = (
 /obj/machinery/light/broken{
 	dir = 1
@@ -4532,6 +4962,22 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"IY" = (
+/obj/machinery/light{
+	must_start_working = 1
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
+"Jb" = (
+/obj/machinery/door/blast/shutters{
+	name = "Access Gate";
+	id = "sn_camp"
+	},
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "Jc" = (
 /obj/effect/floor_decal/corner/dark_blue/diagonal,
 /obj/structure/table/stone/marble,
@@ -4545,6 +4991,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Jg" = (
+/obj/machinery/atm{
+	dir = 1;
+	pixel_y = 28
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/shuttle/scc_evac)
 "Jm" = (
 /obj/structure/flora/bush/konyang_reeds/water,
 /obj/effect/step_trigger/thrower{
@@ -4740,6 +5193,13 @@
 /obj/machinery/recharge_station,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"KA" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/recharger_backpack,
+/obj/item/recharger_backpack,
+/obj/item/recharger_backpack,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "KC" = (
 /obj/effect/landmark/corpse/konyang_cop,
 /turf/simulated/floor/asphalt,
@@ -4794,6 +5254,19 @@
 	},
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
+"KT" = (
+/obj/structure/table/rack,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/obj/item/melee/baton,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "KU" = (
 /obj/machinery/light{
 	dir = 8;
@@ -4804,6 +5277,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"KV" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4;
+	icon_state = "warning"
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "KW" = (
 /obj/structure/flora/bush/konyang_reeds/water,
 /obj/structure/flora/bush/konyang_reeds/water,
@@ -4819,6 +5300,15 @@
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Ld" = (
+/obj/structure/chainlink_fence{
+	dir = 8
+	},
+/obj/structure/chainlink_fence{
+	layer = 9.1
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "Le" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
 /obj/effect/floor_decal/corner/brown{
@@ -4886,6 +5376,16 @@
 /obj/effect/floor_decal/corner_wide/black/diagonal,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Lt" = (
+/obj/machinery/light{
+	dir = 4;
+	must_start_working = 1
+	},
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "Lu" = (
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/under/rank/konyang/officer,
@@ -4903,6 +5403,13 @@
 /obj/item/ammo_magazine/mc9mm,
 /turf/simulated/floor/tiled,
 /area/sn_wild)
+"Lw" = (
+/obj/machinery/atm{
+	dir = 4;
+	pixel_x = 16
+	},
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "Ly" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /turf/simulated/floor/plating,
@@ -5033,6 +5540,10 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
+"MM" = (
+/obj/structure/bed/stool,
+/turf/unsimulated/floor/concrete,
 /area/sn_wild)
 "MR" = (
 /obj/structure/table/steel,
@@ -5250,10 +5761,10 @@
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
 "Oi" = (
-/obj/machinery/light{
-	dir = 1
+/obj/structure/chainlink_fence{
+	dir = 8
 	},
-/turf/simulated/floor/exoplanet/dirt_konyang,
+/turf/unsimulated/floor/concrete,
 /area/sn_wild)
 "Oj" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -5269,6 +5780,22 @@
 /obj/effect/decal/fake_object/light_source/invisible,
 /turf/simulated/floor/carpet/rubber,
 /area/sn_wild)
+"On" = (
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(19)
+	},
+/obj/item/gun/projectile/revolver/mateba/captain,
+/obj/item/ammo_magazine/a454,
+/obj/item/ammo_magazine/a454,
+/obj/item/ammo_magazine/a454,
+/obj/item/gun/energy/disruptorpistol/magnum,
+/obj/item/gun/energy/disruptorpistol/magnum,
+/obj/item/gun/energy/disruptorpistol/magnum,
+/obj/item/gun/energy/disruptorpistol/magnum,
+/obj/item/gun/energy/disruptorpistol/magnum,
+/obj/item/gun/energy/disruptorpistol/magnum,
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "Oq" = (
 /obj/structure/filingcabinet/filingcabinet{
 	pixel_x = 10;
@@ -5405,6 +5932,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Pi" = (
+/obj/structure/table/steel,
+/obj/item/clothing/accessory/badge/press/independent,
+/obj/item/device/taperecorder,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "Pj" = (
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/asphalt,
@@ -5533,6 +6066,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"Qc" = (
+/obj/item/modular_computer/console/preset/supply{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "Qd" = (
 /obj/machinery/light{
 	must_start_working = 1
@@ -5619,6 +6158,10 @@
 /obj/item/reagent_containers/food/snacks/donkpocket/takoyaki/warm,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"QS" = (
+/obj/structure/automobile/police,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "QU" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
@@ -5710,6 +6253,11 @@
 /obj/item/reagent_containers/blood/OMinus,
 /obj/item/reagent_containers/blood/OMinus,
 /obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
 "Rx" = (
@@ -5730,6 +6278,10 @@
 /obj/structure/closet/crate/bin/filled,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"RC" = (
+/obj/structure/railing/mapped,
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
 "RD" = (
 /obj/machinery/door/airlock/mining{
 	name = "Warehouse 5";
@@ -5773,6 +6325,13 @@
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"RQ" = (
+/obj/structure/table/steel,
+/obj/item/clothing/suit/armor/carrier{
+	pixel_x = -10
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "RS" = (
 /obj/structure/flora/bush/konyang_reeds/water,
 /obj/effect/step_trigger/thrower{
@@ -5838,6 +6397,13 @@
 "Sd" = (
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"Se" = (
+/obj/structure/table/steel,
+/obj/item/device/tvcamera,
+/obj/item/device/camera,
+/obj/item/device/camera_film,
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "Sf" = (
 /obj/structure/table/steel,
 /obj/item/storage/box/fancy/cigarettes/rugged{
@@ -5883,6 +6449,18 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/sn_powerstation)
+"Sr" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
+"Su" = (
+/obj/machinery/door/window/westleft,
+/obj/structure/table/reinforced/steel,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "Sv" = (
 /obj/effect/decal/road_marking/thin{
 	dir = 1
@@ -5933,6 +6511,13 @@
 	},
 /turf/simulated/floor/exoplanet/konyang,
 /area/sn_wild)
+"SN" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 "SO" = (
 /obj/structure/flora/rock/konyang/water,
 /turf/simulated/floor/exoplanet/water/shallow/konyang,
@@ -5940,6 +6525,12 @@
 "SQ" = (
 /obj/effect/floor_decal/spline/plain/blue{
 	dir = 5
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/sn_wild)
+"SV" = (
+/obj/machinery/status_display/supply_display{
+	pixel_y = 32
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/sn_wild)
@@ -6102,6 +6693,10 @@
 /obj/structure/closet/crate/bin/urban,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"Ub" = (
+/obj/structure/bed/stool/chair/folding,
+/turf/simulated/floor/exoplanet/dirt_konyang,
+/area/sn_wild)
 "Uc" = (
 /obj/effect/landmark{
 	name = "Observer-Start"
@@ -6282,7 +6877,7 @@
 /obj/effect/shuttle_landmark/scc_evac/start{
 	dir = 4
 	},
-/turf/simulated/floor/exoplanet/dirt_konyang,
+/turf/unsimulated/floor/plating,
 /area/sn_wild)
 "VB" = (
 /obj/effect/decal/road_marking{
@@ -6354,6 +6949,13 @@
 	dir = 4
 	},
 /turf/simulated/floor/asphalt,
+/area/sn_wild)
+"WB" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/table/reinforced/steel,
+/turf/unsimulated/floor/concrete,
 /area/sn_wild)
 "WE" = (
 /obj/effect/decal/road_marking,
@@ -6494,6 +7096,16 @@
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/water/shallow/konyang,
+/area/sn_wild)
+"XI" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4;
+	must_start_working = 1
+	},
+/turf/unsimulated/floor/plating,
 /area/sn_wild)
 "XJ" = (
 /obj/structure/automobile/random{
@@ -6647,6 +7259,10 @@
 /obj/machinery/light,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
+"YB" = (
+/obj/structure/automobile,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "YC" = (
 /obj/machinery/light{
 	dir = 1;
@@ -6729,11 +7345,7 @@
 /turf/simulated/floor/carpet/rubber,
 /area/sn_warehouse)
 "Zs" = (
-/obj/machinery/light{
-	dir = 4;
-	must_start_working = 1
-	},
-/turf/simulated/floor/exoplanet/dirt_konyang,
+/turf/unsimulated/floor/plating,
 /area/sn_wild)
 "Zu" = (
 /obj/effect/landmark/corpse/konyang_cop,
@@ -6757,6 +7369,37 @@
 "Zz" = (
 /obj/item/wirecutters,
 /turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"ZA" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4;
+	icon_state = "warning"
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
+"ZB" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/obj/item/shovel/gadpathur,
+/turf/unsimulated/floor/concrete,
 /area/sn_wild)
 "ZD" = (
 /obj/structure/closet/crate/bin/urban/compact{
@@ -6797,6 +7440,13 @@
 	},
 /turf/simulated/floor/wood,
 /area/sn_powerstation)
+"ZX" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/unsimulated/floor/plating,
+/area/sn_wild)
 
 (1,1,1) = {"
 NQ
@@ -11618,45 +12268,45 @@ Sd
 Sd
 xN
 WJ
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
 pG
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
 pG
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
+Oi
 WJ
 Sd
 Sd
@@ -11874,47 +12524,47 @@ Sd
 tt
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-gU
+bD
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+II
+ea
+ea
+ea
+ea
+ea
+ea
+eS
 Sd
 Sd
 Sd
@@ -12131,47 +12781,47 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+bD
+ea
+gZ
+SN
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+Fq
+ea
+eS
 Sd
 Sd
 Sd
@@ -12388,47 +13038,47 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
+bD
+ea
+rl
 JU
 JU
 JU
 JU
 JU
 JU
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+cl
+ea
+eS
 Sd
 Sd
 Sd
@@ -12645,9 +13295,9 @@ Sd
 Sd
 Sd
 tt
-oM
-We
-We
+bD
+ea
+rl
 ul
 UN
 JU
@@ -12659,33 +13309,33 @@ JU
 JU
 JU
 JU
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+cl
+ea
+eS
 Sd
 Sd
 Sd
@@ -12902,9 +13552,9 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-ms
+bD
+ea
+ZX
 ul
 UN
 JU
@@ -12919,30 +13569,30 @@ JU
 JU
 JU
 JU
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-gU
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+dk
+ea
+eS
 Sd
 Sd
 tt
@@ -13159,9 +13809,9 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
+bD
+ea
+rl
 ul
 UN
 JU
@@ -13196,10 +13846,10 @@ JU
 JU
 JU
 JU
-We
-We
-We
-gU
+Zs
+cl
+ea
+eS
 Sd
 YP
 Sd
@@ -13416,9 +14066,9 @@ LQ
 Sd
 Sd
 Sd
-oM
-We
-We
+bD
+ea
+rl
 ul
 UN
 JU
@@ -13448,15 +14098,15 @@ FS
 nW
 FS
 JU
-XA
+On
 wf
-ea
+XA
 vX
 JU
-We
-We
-We
-gU
+Zs
+cl
+ea
+eS
 Sd
 Sd
 Sd
@@ -13673,9 +14323,9 @@ Sd
 Sd
 Sd
 tt
-oM
-We
-We
+bD
+ea
+rl
 ul
 UN
 JU
@@ -13705,15 +14355,15 @@ FS
 FS
 FS
 JU
-XA
+ti
 XA
 XA
 qj
 MX
-We
-We
-We
-gU
+Zs
+cl
+ea
+eS
 Sd
 tt
 Sd
@@ -13930,9 +14580,9 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
+bD
+ea
+rl
 ul
 UN
 JU
@@ -13965,12 +14615,12 @@ JU
 EG
 XA
 sm
-im
+TD
 MX
-We
-We
-We
-gU
+Zs
+cl
+ea
+eS
 Sd
 Sd
 Sd
@@ -14187,9 +14837,9 @@ Sd
 tt
 Sd
 tt
-oM
-We
-We
+bD
+ea
+rl
 ul
 UN
 JU
@@ -14224,10 +14874,10 @@ XA
 UV
 im
 MX
-We
-We
-We
-gU
+Zs
+cl
+ea
+eS
 Sd
 Sd
 Sd
@@ -14444,9 +15094,9 @@ Sd
 Sd
 tt
 Sd
-oM
-We
-We
+bD
+ea
+rl
 ul
 UN
 JU
@@ -14461,13 +15111,13 @@ JU
 Fl
 JU
 JU
-wi
+Jg
 FS
 FS
 FS
 FS
 FS
-Bn
+FS
 FS
 FS
 FS
@@ -14481,10 +15131,10 @@ XA
 mP
 FK
 MX
-We
-We
-We
-gU
+Zs
+cl
+ea
+eS
 Sd
 tt
 Sd
@@ -14701,9 +15351,9 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
+bD
+ea
+rl
 ul
 UN
 JU
@@ -14738,10 +15388,10 @@ XA
 el
 mm
 MX
-We
-We
-We
-gU
+Zs
+cl
+ea
+eS
 Sd
 Sd
 Sd
@@ -14958,9 +15608,9 @@ Sd
 Sd
 tt
 tt
-oM
-We
-ms
+bD
+ea
+ZX
 ul
 UN
 JU
@@ -14975,7 +15625,7 @@ JU
 sP
 sP
 JU
-wi
+FS
 FS
 FS
 FS
@@ -14993,12 +15643,12 @@ JU
 XA
 XA
 go
-TD
+Qc
 MX
-We
-We
-We
-gU
+Zs
+cl
+ea
+eS
 Sd
 Sd
 Sd
@@ -15215,9 +15865,9 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
+bD
+ea
+rl
 ul
 UN
 JU
@@ -15247,15 +15897,15 @@ FS
 FS
 FS
 JU
-XA
+pa
 XA
 tn
 im
 MX
-We
-We
-We
-gU
+Zs
+cl
+ea
+eS
 Sd
 Sd
 Sd
@@ -15472,9 +16122,9 @@ Sd
 Sd
 tt
 Sd
-oM
-We
-We
+bD
+ea
+rl
 ul
 UN
 JU
@@ -15509,10 +16159,10 @@ XA
 Hy
 im
 MX
-We
-We
-We
-gU
+Zs
+cl
+ea
+eS
 Sd
 Sd
 Sd
@@ -15729,9 +16379,9 @@ Sd
 tt
 Sd
 tt
-oM
-We
-We
+bD
+ea
+rl
 ul
 UN
 JU
@@ -15766,10 +16416,10 @@ XA
 XA
 mq
 MX
-We
-We
-We
-gU
+Zs
+cl
+ea
+eS
 Sd
 Sd
 Sd
@@ -15986,9 +16636,9 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
+bD
+ea
+rl
 ul
 UN
 JU
@@ -16018,15 +16668,15 @@ FS
 bX
 FS
 JU
-XA
+Lw
 gO
-ea
+XA
 YA
 JU
-We
-We
-We
-gU
+Zs
+cl
+ea
+eS
 Sd
 Sd
 Sd
@@ -16037,8 +16687,8 @@ Sd
 tt
 Sd
 Sd
-FL
 Sd
+FL
 Sd
 tt
 Sd
@@ -16243,9 +16893,9 @@ Sd
 tt
 Sd
 Sd
-oM
-We
-We
+bD
+ea
+rl
 ul
 UN
 JU
@@ -16280,10 +16930,10 @@ JU
 JU
 JU
 JU
-We
-We
-We
-gU
+Zs
+cl
+ea
+eS
 Sd
 Sd
 LQ
@@ -16294,11 +16944,11 @@ Sd
 Sd
 tt
 Sd
-FL
 Sd
-tt
 Sd
-Th
+yA
+Sd
+Sd
 Sd
 Sd
 Sd
@@ -16500,9 +17150,9 @@ Sd
 Sd
 Sd
 tt
-oM
-We
-We
+bD
+ea
+rl
 ul
 UN
 JU
@@ -16517,30 +17167,30 @@ JU
 JU
 JU
 JU
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
 Vy
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+cl
+ea
+eS
 Sd
 Sd
 Sd
@@ -16551,9 +17201,9 @@ Sd
 Sd
 Sd
 Sd
-yA
 Sd
 Sd
+FL
 Sd
 tt
 Sd
@@ -16757,47 +17407,47 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
+bD
+ea
+rl
 JU
 JU
 JU
 JU
 JU
 JU
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+cl
+ea
+eS
 Sd
 tt
 Sd
@@ -16808,11 +17458,11 @@ tt
 Sd
 Sd
 Sd
-FL
-tt
 Sd
-tt
-Th
+Sd
+yA
+Sd
+Sd
 Sd
 Sd
 Sd
@@ -17014,47 +17664,47 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+bD
+ea
+rl
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+cl
+ea
+eS
 Sd
 Sd
 Sd
@@ -17064,11 +17714,11 @@ Sd
 Sd
 Sd
 Sd
-tt
-yA
 Sd
 Sd
 Sd
+Sd
+FL
 tt
 Sd
 Sd
@@ -17271,61 +17921,61 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-FL
+bD
+ea
+iW
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+ZA
+KV
+ZA
+ZA
+ZA
+ac
+ix
+WJ
+Oi
+Oi
+Oi
+Oi
+Oi
+pG
+Oi
+Oi
+Oi
+Oi
+pG
+Ld
 Sd
 tt
-Sd
 Sd
 Sd
 Sd
@@ -17528,7 +18178,8 @@ We
 We
 We
 We
-oM
+bD
+ea
 We
 We
 We
@@ -17565,25 +18216,24 @@ We
 We
 We
 We
-We
-We
-ms
-gU
+ea
+gZ
+eK
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+ja
+Fq
+eS
 Sd
-Sd
-Sd
-Sd
-Sd
+FL
 tt
-Sd
-Sd
-Sd
-Sd
-Yd
-tt
-Sd
-Sd
-Sd
 Sd
 Sd
 Sd
@@ -17788,58 +18438,58 @@ WJ
 WJ
 WJ
 WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+II
+II
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+rl
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+cl
+eS
 Sd
 FL
-Sd
-Sd
-tt
 Sd
 Sd
 tt
@@ -18041,63 +18691,63 @@ We
 We
 We
 We
-hz
-We
-We
+Jb
+VD
+VD
 cP
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+VD
+VD
+Sr
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+Sr
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+VD
+pw
+ea
+rl
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+cl
+eS
 Sd
 FL
 tt
-tt
-Sd
-Sd
 Sd
 Sd
 Sd
@@ -18299,61 +18949,61 @@ We
 We
 We
 hz
-We
-We
-cP
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+uG
+uG
+cq
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+Gj
+ea
+rl
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+cl
+eS
 Sd
 FL
-Yd
-Sd
-Sd
-Sd
 Sd
 Sd
 Sd
@@ -18556,62 +19206,62 @@ We
 We
 We
 hz
-ms
-We
-cP
-We
-We
+ug
+uG
+cq
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+uG
+Gj
+ea
+Bn
 Zs
-We
-We
-We
-We
-We
 Zs
-We
-We
-We
-We
-We
-We
 Zs
-We
-We
-We
-We
-We
-We
 Zs
-We
-We
-We
-We
-We
-We
 Zs
-We
-We
-We
-We
-We
-We
-We
-gU
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+cl
+eS
 Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
 FL
-FL
 tt
-Sd
-tt
-Sd
 Sd
 Sd
 Sd
@@ -18812,63 +19462,63 @@ We
 We
 We
 We
-hz
-We
-We
-cP
-We
-BW
-WJ
-Oi
-We
-We
-We
-BW
-WJ
-Oi
-We
-We
-We
-We
-BW
-WJ
-Oi
-We
-We
-We
-We
-BW
-WJ
-Oi
-We
-We
-We
-We
-BW
-WJ
-Oi
-We
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-tt
-Sd
-Sd
+cH
+qr
+qr
+eR
+qr
+qr
+Lt
+qr
+qr
+qr
+qr
+qr
+Lt
+qr
+qr
+qr
+qr
+qr
+qr
+Lt
+qr
+qr
+qr
+qr
+qr
+qr
+Lt
+qr
+qr
+qr
+qr
+qr
+qr
+Lt
+qr
+qr
+qr
+qr
+gB
+ea
+rl
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+cl
+eS
 Sd
 Sd
 FL
-tt
-Sd
-Sd
-tt
-Sd
 Sd
 Sd
 Sd
@@ -19073,59 +19723,59 @@ WJ
 zB
 tq
 WJ
-We
-We
-iq
-We
-We
-We
-We
-We
-iq
-We
-We
-We
-We
-We
-We
-iq
-We
-We
-We
-We
-We
-We
-iq
-We
-We
-We
-We
-We
-We
-iq
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+uG
+bM
+WJ
+vY
+ea
+ea
+ea
+IY
+WJ
+vY
+ea
+ea
+ea
+ea
+IY
+WJ
+vY
+ea
+ea
+ea
+ea
+IY
+WJ
+vY
+ea
+ea
+ea
+ea
+IY
+WJ
+vY
+ea
+ea
+ea
+ea
+ea
+rl
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+cl
+eS
 Sd
 FL
-yA
-Sd
-Sd
-Sd
-Sd
-Sd
+tt
 Sd
 Sd
 Sd
@@ -19330,59 +19980,59 @@ WJ
 eN
 nv
 HI
+uG
+uG
+sa
+ea
+We
+We
+We
+We
+iq
 We
 We
 We
 We
 We
+ea
+iq
+Ub
+Ub
 We
+Ub
+Ub
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+if
+Ub
+ea
+eo
+eo
+eo
+eo
+bL
+eo
+eo
+eo
+eo
+eo
+ea
+rl
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+Zs
+cl
+eS
 Sd
 tt
-Sd
-Sd
-Sd
-Sd
-Sd
-tt
-yA
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
+FL
 Sd
 Sd
 Sd
@@ -19587,6 +20237,10 @@ WJ
 nv
 nv
 WJ
+uG
+uG
+KT
+zL
 We
 We
 We
@@ -19597,49 +20251,45 @@ We
 We
 We
 We
+ea
 We
+Ub
+Ub
 We
+Ub
+Ub
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+Ub
+Ub
+ea
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+ea
+iW
+XI
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+oL
+ac
+eS
+Sd
 Sd
 tt
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-FL
-Sd
-Sd
-tt
-Sd
-Sd
-Sd
 Sd
 Sd
 Sd
@@ -19844,6 +20494,10 @@ WJ
 WJ
 WJ
 WJ
+uG
+uG
+cu
+yp
 We
 We
 We
@@ -19854,46 +20508,42 @@ We
 We
 We
 We
+ea
 We
+Ub
+Ub
 We
+Ub
+Ub
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-Sd
-yA
-FL
-tt
-Sd
-Sd
+Ub
+Ub
+ea
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+ea
+ix
+WJ
+cm
+cm
+cm
+cm
+cm
+vL
+cm
+cm
+cm
+cm
+vL
+eS
 Sd
 Sd
 Sd
@@ -20098,7 +20748,13 @@ Sd
 Sd
 Sd
 Sd
-oM
+bD
+ea
+ea
+uG
+uG
+ea
+ea
 We
 We
 We
@@ -20109,50 +20765,44 @@ We
 We
 We
 We
+ea
 We
+Ub
+Ub
 We
+Ub
+Ub
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-gU
+Ub
+Ub
+ea
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+II
+ea
+eS
 Sd
 Sd
 Sd
 Sd
 Sd
-LQ
-Sd
-FL
 Sd
 Sd
 Sd
-tt
 Sd
 Sd
+Sd
+Sd
+Sd
+LX
 Sd
 Sd
 Sd
@@ -20355,7 +21005,13 @@ Sd
 Sd
 Sd
 Sd
-oM
+bD
+ea
+ea
+uG
+uG
+KT
+zL
 We
 We
 We
@@ -20366,6 +21022,7 @@ We
 We
 We
 We
+ea
 We
 We
 We
@@ -20375,40 +21032,33 @@ We
 We
 We
 We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-gU
+ea
+eo
+eo
+eo
+eo
+eo
+eo
+Ha
+eo
+eo
+eo
+ea
+ea
+eS
 Sd
 Sd
 Sd
 Sd
 Sd
 Sd
-yA
-yA
 Sd
 Sd
-tt
 Sd
 Sd
+Sd
+Sd
+LX
 Sd
 Sd
 Sd
@@ -20612,58 +21262,58 @@ Sd
 Sd
 tt
 Sd
-oM
+bD
+ea
+QS
+uG
+uG
+cu
+yp
+We
+We
+We
+We
+We
 We
 We
 We
 We
 ms
+ea
 We
+Ub
+Ub
 We
+Ub
+Ub
 We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
-Sd
-tt
+Ub
+Ub
+ea
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+ea
+ea
+eS
 Sd
 Sd
-tt
-Sd
-FL
 Sd
 Sd
-tt
 Sd
+Sd
+Sd
+Sd
+Sd
+jX
+LX
 Sd
 Sd
 Sd
@@ -20869,7 +21519,13 @@ Sd
 Sd
 Sd
 Sd
-oM
+bD
+ea
+ea
+uG
+uG
+ea
+ea
 We
 We
 We
@@ -20880,47 +21536,41 @@ We
 We
 We
 We
+ea
 We
+Ub
+Ub
 We
+Ub
+Ub
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+Ub
+Ub
+ea
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+ea
+ea
+eS
 Sd
 Sd
 Sd
 Sd
 Sd
-tt
-yA
 Sd
 Sd
 Sd
 Sd
+Sd
+FL
 Sd
 Sd
 Sd
@@ -21126,13 +21776,13 @@ Sd
 tt
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+ea
+uG
+uG
+KT
+zL
 PH
 Vv
 Vv
@@ -21143,40 +21793,40 @@ Vv
 Vv
 Vv
 aV
+ea
 We
+Ub
+Ub
 We
+Ub
+Ub
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+Ub
+Ub
+ea
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+ea
+ea
+eS
 Sd
 Sd
 Sd
 Sd
-tt
+Sd
+Sd
+Sd
+Sd
+Sd
 FL
-FL
-tt
-Sd
-Sd
 tt
 Sd
 Sd
@@ -21383,13 +22033,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+ea
+uG
+uG
+cu
+yp
 NR
 jm
 We
@@ -21400,39 +22050,39 @@ We
 We
 We
 yF
+ea
 We
+Ub
+Ub
 We
+Ub
+Ub
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-gU
+Ub
+Ub
+ea
+eo
+eo
+eo
+eo
+eo
+eo
+eo
+Ha
+eo
+eo
+ea
+ea
+eS
 Sd
 Sd
 Sd
-LQ
-LQ
-yA
-yA
 Sd
-tt
+Sd
+Sd
+Sd
+FL
+Yd
 Sd
 Sd
 Sd
@@ -21640,13 +22290,13 @@ Sd
 Sd
 tt
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+QS
+uG
+uG
+ea
+ea
 NR
 WJ
 MF
@@ -21657,37 +22307,37 @@ We
 We
 ji
 AX
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+II
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+II
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+eS
 Sd
 Sd
 Sd
 Sd
 Sd
-tt
-yA
+Sd
+FL
 Sd
 Sd
 Sd
@@ -21897,13 +22547,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+ea
+uG
+uG
+ea
+ea
 NR
 Bm
 We
@@ -21914,30 +22564,30 @@ We
 We
 We
 yF
-We
-We
-We
+ea
+eo
+eo
+eo
+eo
+ea
+eo
+eo
+eo
+eo
+ea
 WJ
+nv
+nv
 WJ
+nv
+nv
 WJ
-Df
+nv
+nv
 WJ
-WJ
-WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ea
+ea
+eS
 Sd
 Sd
 Sd
@@ -22154,13 +22804,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+ea
+uG
+uG
+ea
+ea
 NR
 We
 We
@@ -22171,30 +22821,30 @@ We
 We
 We
 yF
-We
-We
+ea
+eo
+eo
+eo
+eo
+ea
+eo
+eo
+eo
+eo
+ea
 WJ
+tc
+mX
+BW
+nv
+mX
+BW
+nv
+mX
 WJ
-nv
-nv
-nv
-nv
-nv
-WJ
-WJ
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ea
+ea
+eS
 Sd
 Sd
 Sd
@@ -22411,13 +23061,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+ea
+uG
+uG
+ea
+ea
 NR
 We
 We
@@ -22428,30 +23078,30 @@ We
 We
 ji
 AX
-We
-We
+ea
+eo
+eo
+eo
+eo
+ea
+eo
+eo
+eo
+eo
+ea
 WJ
-MJ
-HQ
-vg
-vg
-vg
-eV
-fo
+RC
+Cl
+BW
+RC
+Cl
+BW
+RC
+Cl
 WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ea
+ea
+eS
 Sd
 tt
 tt
@@ -22668,13 +23318,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-ms
-We
-We
+bD
+ea
+QS
+uG
+ug
+ea
+ea
 NR
 We
 We
@@ -22688,27 +23338,27 @@ yF
 We
 We
 WJ
-nv
-gj
-TK
-nv
-TK
-zr
-nv
+WJ
+WJ
+Df
+WJ
+WJ
 WJ
 We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-gU
+ea
+WJ
+RC
+Cl
+BW
+RC
+Cl
+BW
+kZ
+Cl
+WJ
+ea
+ea
+eS
 Sd
 Sd
 Sd
@@ -22925,13 +23575,13 @@ tt
 Sd
 tt
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+ea
+uG
+uG
+ea
+ea
 NR
 cb
 We
@@ -22943,29 +23593,29 @@ We
 We
 yF
 We
-We
+WJ
 WJ
 nv
-To
 nv
 nv
 nv
-ub
 nv
 WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+WJ
+ea
+WJ
+RC
+Cl
+BW
+RC
+Cl
+BW
+RC
+Cl
+WJ
+ea
+ea
+eS
 Sd
 Sd
 Sd
@@ -23182,13 +23832,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+ea
+uG
+uG
+ea
+ea
 NR
 WJ
 MF
@@ -23200,29 +23850,29 @@ We
 ji
 AX
 We
-We
 WJ
 MJ
-gf
-TK
-Ok
-TK
-lz
+HQ
+vg
+vg
+vg
+eV
 fo
 WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ea
+WJ
+RC
+Cl
+BW
+RC
+Cl
+BW
+RC
+Cl
+WJ
+ea
+ea
+eS
 Sd
 Sd
 Sd
@@ -23439,13 +24089,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+YB
+uG
+Pi
+ea
+ea
 NR
 ns
 We
@@ -23456,30 +24106,30 @@ We
 We
 We
 yF
-ms
 We
 WJ
 nv
-To
+gj
+TK
 nv
-nv
-nv
-ub
+TK
+su
 nv
 WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ea
+WJ
+nv
+nv
+BW
+nv
+nv
+BW
+nv
+nv
+WJ
+ea
+ea
+eS
 Sd
 tt
 Sd
@@ -23696,13 +24346,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+ea
+uG
+RQ
+ea
+ea
 NR
 We
 We
@@ -23714,29 +24364,29 @@ We
 We
 yF
 We
-We
 WJ
+SV
+To
 nv
-gj
-TK
 nv
-TK
-zr
+nv
+ub
 nv
 WJ
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ea
+WJ
+Su
+za
+WJ
+Su
+WB
+WJ
+Su
+WB
+WJ
+ea
+ea
+eS
 Sd
 Sd
 Sd
@@ -23953,13 +24603,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+ea
+uG
+Se
+ea
+ea
 NR
 We
 We
@@ -23970,30 +24620,30 @@ We
 We
 ji
 AX
-We
-We
+ms
 WJ
 MJ
-SQ
-AG
-Xd
-nP
-sT
+gf
+TK
+Ok
+TK
+lz
 fo
 WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ea
+WJ
+MM
+nv
+nv
+fv
+nv
+nv
+fv
+ea
+WJ
+ea
+ea
+eS
 Sd
 Sd
 Sd
@@ -24210,13 +24860,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+ea
+uG
+uG
+ea
+ea
 NR
 We
 We
@@ -24228,29 +24878,29 @@ We
 We
 yF
 We
-We
-WJ
 WJ
 nv
+To
 nv
 nv
 nv
+ub
 nv
 WJ
+ea
 WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ea
+GP
+nv
+nv
+hB
+nv
+nv
+hB
+WJ
+ea
+ea
+eS
 Sd
 Sd
 Sd
@@ -24467,13 +25117,13 @@ tt
 tt
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+ea
+uG
+uG
+ea
+ea
 sR
 xC
 We
@@ -24485,29 +25135,29 @@ We
 We
 yF
 We
-We
-We
 WJ
+nv
+gj
+TK
+nv
+TK
+zr
+nv
 WJ
+ea
 WJ
+ea
+qW
+nv
+nv
+nL
+nv
+nv
+nL
 WJ
-WJ
-WJ
-WJ
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ea
+ea
+eS
 Sd
 tt
 Sd
@@ -24724,13 +25374,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+ea
+uG
+uG
+ea
+ea
 NR
 WJ
 Qk
@@ -24742,29 +25392,29 @@ Sa
 WJ
 yF
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-gU
+WJ
+MJ
+SQ
+AG
+Xd
+nP
+sT
+fo
+WJ
+ea
+WJ
+ea
+nv
+nv
+nv
+nv
+nv
+tc
+ea
+WJ
+ea
+ea
+eS
 Sd
 Sd
 Sd
@@ -24981,13 +25631,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
+bD
+ea
+ea
+uG
+uG
+ea
+ea
 NR
 Bm
 We
@@ -24999,29 +25649,29 @@ kO
 WJ
 yF
 We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+WJ
+WJ
+nv
+nv
+nv
+nv
+nv
+WJ
+WJ
+ea
+WJ
+qW
+qW
+KA
+ea
+ea
+qW
+qW
+ZB
+WJ
+ea
+ea
+eS
 Sd
 Sd
 Sd
@@ -25238,13 +25888,13 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-ms
-We
-We
-We
+bD
+ea
+ea
+ug
+uG
+ea
+ea
 XX
 sZ
 sZ
@@ -25257,28 +25907,28 @@ lZ
 ki
 We
 We
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
 We
+ea
 We
+WJ
+WJ
+WJ
+in
+WJ
+WJ
+WJ
+WJ
 We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+ea
+ea
+eS
 Sd
 Sd
 tt
@@ -25495,47 +26145,47 @@ Sd
 Sd
 Sd
 Sd
-oM
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-We
-ms
-We
-We
-We
-We
-We
-We
-We
-We
-gU
+bD
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+II
+ea
+ea
+ea
+ea
+ea
+ea
+II
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+II
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+ea
+eS
 Sd
 Sd
 Sd
@@ -25753,45 +26403,45 @@ Sd
 Sd
 xN
 WJ
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
-oo
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
 WJ
 Sd
 Sd
