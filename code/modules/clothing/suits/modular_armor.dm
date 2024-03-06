@@ -222,6 +222,12 @@
 	)
 	slowdown = 1
 
+/obj/item/clothing/accessory/aromor_plate/military/navy
+	name = "konyang navy armor plate"
+	desc = "A military-grade armor plate frequently seen in use by naval landing parties and sailors of the Konyang Navy."
+	icon_state = "plate_navy"
+	item_state = "plate_navy"
+
 /obj/item/clothing/accessory/armor_plate/heavy
 	name = "heavy armor plate"
 	desc = "A heavy and menacing armor plate. Tan armor plates went out of style centuries ago!"
@@ -845,9 +851,3 @@
 	desc = "A light-weight kevlar armor plate in blue colors and a 'PRESS' sticker included. Used by wartime correspondents."
 	icon_state = "plate_press"
 	item_state = "plate_press"
-
-/obj/item/clothing/head/helmet/security/press
-	name = "press helmet"
-	desc = "A helmet in blue colors with a prominent 'PRESS' emblazoned in front. A common sight on journalists in the Wildlands."
-	icon_state = "helm_press"
-	item_state = "helm_press"
