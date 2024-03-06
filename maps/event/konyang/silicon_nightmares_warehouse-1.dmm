@@ -256,6 +256,12 @@
 /obj/machinery/iv_drip,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/scc_evac)
+"bV" = (
+/obj/item/melee/ceremonial_sword{
+	desc = "A ceremonial sword issued to  Konyang navy officers as part of their dress uniform."
+	},
+/turf/simulated/floor/tiled,
+/area/sn_wild)
 "bX" = (
 /obj/machinery/light{
 	dir = 4
@@ -753,6 +759,30 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"gh" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "gj" = (
 /obj/effect/floor_decal/spline/plain/blue{
 	dir = 1
@@ -879,6 +909,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/sn_powerstation)
+"hr" = (
+/obj/structure/table/reinforced/steel,
+/obj/machinery/door/window/westleft{
+	req_access = list(218)
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "hw" = (
 /obj/structure/bed/stool/chair/folding{
 	dir = 2
@@ -1153,12 +1190,6 @@
 /obj/item/ammo_casing/a556/spent,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
-"jB" = (
-/obj/item/melee/ceremonial_sword{
-	desc = "A ceremonial sword issued to  Konyang navy officers as part of their dress uniform."
-	},
-/turf/simulated/floor/tiled,
-/area/sn_wild)
 "jH" = (
 /obj/structure/bed/stool/chair/sofa/right/beige{
 	dir = 1
@@ -1265,13 +1296,6 @@
 /obj/structure/flora/tree/konyang,
 /obj/structure/flora/rock/konyang/small,
 /turf/simulated/floor/exoplanet/konyang,
-/area/sn_wild)
-"kz" = (
-/obj/structure/table/reinforced/steel,
-/obj/machinery/door/window/westleft{
-	req_access = list(218)
-	},
-/turf/unsimulated/floor/concrete,
 /area/sn_wild)
 "kE" = (
 /obj/structure/chainlink_fence{
@@ -1520,6 +1544,15 @@
 /obj/random/tool,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"mj" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "ml" = (
 /obj/effect/landmark/corpse/krc,
 /turf/simulated/floor/carpet,
@@ -2377,15 +2410,6 @@
 /obj/structure/flora/bush/konyang_reeds/water,
 /turf/simulated/floor/exoplanet/water/shallow/konyang,
 /area/sn_wild)
-"sH" = (
-/obj/structure/table/rack/retail_shelf,
-/obj/item/gun/projectile/automatic/tommygun/konyang,
-/obj/item/gun/projectile/automatic/tommygun/konyang,
-/obj/item/gun/projectile/automatic/tommygun/konyang,
-/obj/item/gun/projectile/automatic/tommygun/konyang,
-/obj/item/gun/projectile/automatic/tommygun/konyang,
-/turf/unsimulated/floor/concrete,
-/area/sn_wild)
 "sK" = (
 /obj/structure/table/steel,
 /obj/machinery/chemical_dispenser/coffee/full{
@@ -2990,30 +3014,6 @@
 /obj/structure/bed/stool/chair/folding,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
-"wQ" = (
-/obj/structure/table/rack/retail_shelf,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/obj/item/gun/projectile/pistol/sol/konyang,
-/turf/unsimulated/floor/concrete,
-/area/sn_wild)
 "wR" = (
 /obj/structure/table/steel,
 /obj/item/clothing/mask/smokable/cigarette{
@@ -5241,9 +5241,9 @@
 /area/sn_warehouse)
 "KA" = (
 /obj/structure/table/rack/retail_shelf,
-/obj/item/recharger_backpack,
-/obj/item/recharger_backpack,
-/obj/item/recharger_backpack,
+/obj/item/recharger_backpack/high,
+/obj/item/recharger_backpack/high,
+/obj/item/recharger_backpack/high,
 /turf/unsimulated/floor/concrete,
 /area/sn_wild)
 "KC" = (
@@ -8521,7 +8521,7 @@ Th
 aj
 NQ
 kp
-jB
+bV
 Ef
 Di
 Hv
@@ -24427,10 +24427,10 @@ nv
 WJ
 ea
 WJ
-kz
+hr
 za
 WJ
-kz
+hr
 WB
 WJ
 Su
@@ -25712,13 +25712,13 @@ WJ
 WJ
 ea
 WJ
-sH
-sH
+mj
+mj
 KA
 ea
 ea
-wQ
-wQ
+gh
+gh
 ZB
 WJ
 ea
