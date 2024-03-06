@@ -839,3 +839,15 @@
 	contained_sprite = TRUE
 	slot = ACCESSORY_SLOT_GENERIC
 	flippable = FALSE
+
+/obj/item/clothing/accessory/armor_plate/press
+	name = "press armor plate"
+	desc = "A light-weight kevlar armor plate in blue colors and a 'PRESS' sticker included. Used by wartime correspondents."
+	icon_state = "plate_press"
+	item_state = "plate_press"
+
+/obj/item/clothing/head/helmet/security/press
+	name = "press helmet"
+	desc = "A helmet in blue colors with a prominent 'PRESS' emblazoned in front. A common sight on journalists in the Wildlands."
+	icon_state = "helm_press"
+	item_state = "helm_press"

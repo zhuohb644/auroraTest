@@ -348,6 +348,13 @@
 	dir = SOUTH
 	pixel_y = -4
 
+/obj/machinery/power/apc/silicon_nightmares
+	cell_type = /obj/item/cell/infinite
+	operating = FALSE
+	lighting = CHANNEL_OFF
+	equipment = CHANNEL_OFF
+	environ = CHANNEL_OFF
+
 /obj/machinery/power/apc
 	name = "area power controller"
 	desc = "A control terminal for the area electrical systems."
