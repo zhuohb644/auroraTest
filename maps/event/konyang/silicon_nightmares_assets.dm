@@ -239,3 +239,71 @@
 	if(locked)
 		return
 	..()
+
+/obj/machinery/computer/terminal/silcon_nightmares
+	name = "power control terminal"
+	icon_screen = "power_screen"
+	icon_keyboard = "power_key"
+	var/enabled = FALSE
+	var/id = "warehouse_gate" //id for the blast doors it triggers
+
+/obj/machinery/computer/terminal/silcon_nightmares/attack_hand(mob/user)
+	if(..())
+		return
+	if(stat & (NOPOWER|BROKEN))
+		return
+	if(!enabled)
+		var/choice = tgui_alert(user, "Enable power to Xiangtong Warehouse?", "Power Control", list("Yes", "No"))
+		if(choice == "Yes")
+			var/new_state
+			for(var/obj/machinery/door/blast/M in SSmachinery.machinery)
+				if(M.id == id)
+					if(isnull(new_state))
+						new_state = M.density
+					if(new_state)
+						M.open()
+					else
+						M.close()
+			var/area/warehouse = GLOB.areas_by_type[/area/sn_warehouse]
+			for(var/obj/machinery/power/apc/apc in warehouse)
+				apc.cell = new /obj/item/cell/infinite(src)
+				apc.update_icon()
+			src.visible_message(SPAN_NOTICE("The power station whirs to life, silent machinery beginning to light up as power is restored."))
+	if(enabled)
+		var/choice = tgui_alert(user, "Disable power to Xiangtong Warehouse?", "Power Control", list("Yes", "No"))
+		if(choice == "Yes")
+			var/new_state
+			for(var/obj/machinery/door/blast/M in SSmachinery.machinery)
+				if(M.id == id)
+					if(isnull(new_state))
+						new_state = M.density
+					if(new_state)
+						M.open()
+					else
+						M.close()
+			var/area/warehouse = GLOB.areas_by_type[/area/sn_warehouse]
+			for(var/obj/machinery/power/apc/apc in warehouse)
+				apc.cell = null
+				apc.update_icon()
+			src.visible_message(SPAN_NOTICE("The power station fades into silence, the machinery's lights flickering off as power is severed."))
+
+/datum/shuttle/autodock/ferry/supply/konyang
+	name = "OX Supply Shuttle"
+	location = 1
+	shuttle_area = /area/supply/dock
+	dock_target = "cargo_shuttle"
+	waypoint_station = "nav_cargo_shuttle_dock"
+	waypoint_offsite = "nav_cargo_shuttle_start"
+
+/obj/effect/shuttle_landmark/supply/konyang/start
+	name = "SCCV Horizon Cargo Dock"
+	landmark_tag = "nav_cargo_shuttle_start"
+	base_turf = /turf/unsimulated/floor/plating
+	base_area = /area/centcom
+
+/obj/effect/shuttle_landmark/supply/konyang/dock
+	name = "Planetary Docking Site"
+	landmark_tag = "nav_cargo_shuttle_dock"
+	docking_controller = "cargo_shuttle_dock"
+	base_turf = /turf/simulated/floor/plating
+	base_area = /area/sn_wild

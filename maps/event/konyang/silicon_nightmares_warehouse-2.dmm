@@ -881,7 +881,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/effect/shuttle_landmark/supply/horizon/start{
+/obj/effect/shuttle_landmark/supply/konyang/start{
 	dir = 1
 	},
 /turf/unsimulated/floor/plating,
