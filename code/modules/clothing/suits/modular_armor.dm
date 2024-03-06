@@ -222,7 +222,7 @@
 	)
 	slowdown = 1
 
-/obj/item/clothing/accessory/aromor_plate/military/navy
+/obj/item/clothing/accessory/armor_plate/military/navy
 	name = "konyang navy armor plate"
 	desc = "A military-grade armor plate frequently seen in use by naval landing parties and sailors of the Konyang Navy."
 	icon_state = "plate_navy"
