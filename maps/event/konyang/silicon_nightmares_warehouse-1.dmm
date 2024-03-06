@@ -1002,7 +1002,8 @@
 /area/shuttle/scc_evac)
 "in" = (
 /obj/machinery/door/airlock/hatch{
-	dir = 4
+	dir = 4;
+	req_access = list(218)
 	},
 /turf/unsimulated/floor/concrete,
 /area/sn_wild)
@@ -1152,6 +1153,12 @@
 /obj/item/ammo_casing/a556/spent,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"jB" = (
+/obj/item/melee/ceremonial_sword{
+	desc = "A ceremonial sword issued to  Konyang navy officers as part of their dress uniform."
+	},
+/turf/simulated/floor/tiled,
+/area/sn_wild)
 "jH" = (
 /obj/structure/bed/stool/chair/sofa/right/beige{
 	dir = 1
@@ -1258,6 +1265,13 @@
 /obj/structure/flora/tree/konyang,
 /obj/structure/flora/rock/konyang/small,
 /turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
+"kz" = (
+/obj/structure/table/reinforced/steel,
+/obj/machinery/door/window/westleft{
+	req_access = list(218)
+	},
+/turf/unsimulated/floor/concrete,
 /area/sn_wild)
 "kE" = (
 /obj/structure/chainlink_fence{
@@ -2363,6 +2377,15 @@
 /obj/structure/flora/bush/konyang_reeds/water,
 /turf/simulated/floor/exoplanet/water/shallow/konyang,
 /area/sn_wild)
+"sH" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/obj/item/gun/projectile/automatic/tommygun/konyang,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "sK" = (
 /obj/structure/table/steel,
 /obj/machinery/chemical_dispenser/coffee/full{
@@ -2967,6 +2990,30 @@
 /obj/structure/bed/stool/chair/folding,
 /turf/simulated/floor/tiled,
 /area/sn_warehouse)
+"wQ" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/obj/item/gun/projectile/pistol/sol/konyang,
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "wR" = (
 /obj/structure/table/steel,
 /obj/item/clothing/mask/smokable/cigarette{
@@ -2990,7 +3037,6 @@
 /obj/machinery/computer/cryopod{
 	pixel_y = -32
 	},
-/obj/machinery/light,
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
 "wX" = (
@@ -4604,7 +4650,6 @@
 /obj/item/storage/belt/military,
 /obj/item/clothing/accessory/holster/hip,
 /obj/item/clothing/glasses/night,
-/obj/item/gun/projectile/pistol/sol,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/gun/projectile/automatic/rifle/konyang/k556,
 /obj/item/ammo_magazine/a556/k556,
@@ -4616,6 +4661,7 @@
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/a556/k556,
+/obj/item/gun/projectile/pistol/sol/konyang,
 /turf/simulated/floor/tiled,
 /area/sn_wild)
 "Gy" = (
@@ -4757,7 +4803,6 @@
 /obj/item/storage/belt/military,
 /obj/item/clothing/accessory/holster/hip,
 /obj/item/clothing/glasses/night,
-/obj/item/gun/projectile/pistol/sol,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/gun/projectile/automatic/rifle/konyang/k556,
 /obj/item/ammo_magazine/a556/k556,
@@ -4769,6 +4814,7 @@
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/a556/k556,
+/obj/item/gun/projectile/pistol/sol/konyang,
 /turf/simulated/floor/tiled,
 /area/sn_wild)
 "Hw" = (
@@ -5393,7 +5439,6 @@
 /obj/item/storage/belt/military,
 /obj/item/clothing/accessory/holster/hip,
 /obj/item/clothing/glasses/night/aviator,
-/obj/item/gun/projectile/pistol/sol,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/card/id/syndicate{
 	access = list(218)
@@ -5401,6 +5446,7 @@
 /obj/item/device/radio/headset/syndicate,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/mc9mm,
+/obj/item/gun/projectile/pistol/sol/konyang,
 /turf/simulated/floor/tiled,
 /area/sn_wild)
 "Lw" = (
@@ -6327,8 +6373,12 @@
 /area/sn_powerstation)
 "RQ" = (
 /obj/structure/table/steel,
+/obj/item/clothing/accessory/armor_plate/press,
 /obj/item/clothing/suit/armor/carrier{
 	pixel_x = -10
+	},
+/obj/item/clothing/head/helmet/security/press{
+	pixel_x = 10
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
@@ -6457,7 +6507,9 @@
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
 "Su" = (
-/obj/machinery/door/window/westleft,
+/obj/machinery/door/window/westleft{
+	req_access = list(218)
+	},
 /obj/structure/table/reinforced/steel,
 /turf/unsimulated/floor/concrete,
 /area/sn_wild)
@@ -6598,7 +6650,6 @@
 /obj/item/clothing/accessory/holster/hip,
 /obj/item/storage/belt/military,
 /obj/item/clothing/glasses/night,
-/obj/item/gun/projectile/pistol/sol,
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/gun/projectile/automatic/rifle/konyang/konyang47,
 /obj/item/ammo_magazine/a556/carbine/konyang47,
@@ -6610,6 +6661,7 @@
 /obj/item/ammo_magazine/mc9mm,
 /obj/item/ammo_magazine/a556/carbine/konyang47,
 /obj/item/ammo_magazine/a556/carbine/konyang47,
+/obj/item/gun/projectile/pistol/sol/konyang,
 /turf/simulated/floor/tiled,
 /area/sn_wild)
 "Tx" = (
@@ -8469,7 +8521,7 @@ Th
 aj
 NQ
 kp
-Ef
+jB
 Ef
 Di
 Hv
@@ -14587,7 +14639,7 @@ ul
 UN
 JU
 iy
-FS
+gy
 JU
 jO
 fm
@@ -15872,7 +15924,7 @@ ul
 UN
 JU
 iy
-gy
+FS
 JU
 kt
 PT
@@ -16129,7 +16181,7 @@ ul
 UN
 JU
 iy
-FS
+gy
 JU
 Sm
 Sm
@@ -24375,10 +24427,10 @@ nv
 WJ
 ea
 WJ
-Su
+kz
 za
 WJ
-Su
+kz
 WB
 WJ
 Su
@@ -25660,13 +25712,13 @@ WJ
 WJ
 ea
 WJ
-qW
-qW
+sH
+sH
 KA
 ea
 ea
-qW
-qW
+wQ
+wQ
 ZB
 WJ
 ea

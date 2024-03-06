@@ -645,6 +645,31 @@
 	..()
 	icon_state = (ammo_magazine) ? "assassin_smg" : "assassin_smg-empty"
 
+/obj/item/gun/projectile/automatic/tommygun/konyang
+	name = "konyang police submachine gun"
+	desc = "A compact submachine gun made specifically for the Konyang National Police. Takes .45 ammo."
+	desc_extended = "Produced by one of Einstein Engines' local subsidiaries on Konyang, the K45 'Pogpung' submachine gun is Taepung Arms' entry into the submachine gun market. \
+	The National Police purchased a large number of K45s for their patrol units due to reports that service revolvers were inadequate at stopping rampant IPCs. The K45-P variant \
+	specially designed for the police forces is chambered in the organization's preferred .45 caliber and is limited to 3-round bursts due to the relatively limited firearms training of \
+	National Police officers."
+	icon = 'icons/obj/guns/konyang_weapons.dmi'
+	icon_state = "k45carbine"
+	item_state = "k45carbine"
+	w_class = ITEMSIZE_NORMAL
+	max_shells = 18
+	load_method = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/c45
+	allowed_magazines = list(/obj/item/ammo_magazine/c45m)
+
+	firemodes = list(
+		list(mode_name="semiauto",       can_autofire=0, burst=1, fire_delay=ROF_SMG),
+		list(mode_name="3-round bursts", can_autofire=0, burst=3, burst_accuracy=list(1,0,0), dispersion=list(0, 10, 15))
+		)
+
+/obj/item/gun/projectile/automatic/tommygun/konyang/update_icon()
+	..()
+	icon_state = (ammo_magazine)? "k45carbine" : "k45carbine-e"
+
 /obj/item/gun/projectile/automatic/rifle/dnac
 	name = "dNAC-6.5 assault rifle"
 	desc = "A durable, sleek-looking bullpup rifle manufactured by d.N.A Defense & Aerospace for the All-Xanu Armed Forces. This model has been adopted by a majority of the Coalition's military forces as well due to its simplicity and reliability."

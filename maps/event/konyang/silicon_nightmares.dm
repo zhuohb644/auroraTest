@@ -131,7 +131,7 @@
 	corpseuniform = /obj/item/clothing/under/rank/konyang
 	corpsehelmet = /obj/item/clothing/head/helmet/konyang
 	corpseshoes = /obj/item/clothing/shoes/jackboots
-	corpsebelt = /obj/item/gun/projectile/pistol/sol
+	corpsebelt = /obj/item/gun/projectile/pistol/sol/konyang
 	corpseid = TRUE
 	corpseidjob = "Konyang Army Personnel"
 	species = SPECIES_HUMAN
