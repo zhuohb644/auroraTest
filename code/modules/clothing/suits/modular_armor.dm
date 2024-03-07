@@ -154,6 +154,12 @@
 	icon_state = "plate_blue"
 	item_state = "plate_scc"
 
+/obj/item/clothing/accessory/armor_plate/press
+	name = "press armor plate"
+	desc = "A light-weight kevlar armor plate in blue colors and a 'PRESS' sticker included. Used by wartime correspondents."
+	icon_state = "plate_press"
+	item_state = "plate_press"
+
 /obj/item/clothing/accessory/armor_plate/hos
 	name = "commander armor plate"
 	desc = "A particularly light-weight armor plate with really cool gold bands. Even more stylish when the gold bands are covered in the blood of your goons!"
@@ -215,6 +221,12 @@
 		bomb = ARMOR_BOMB_PADDED,
 	)
 	slowdown = 1
+
+/obj/item/clothing/accessory/armor_plate/military/navy
+	name = "konyang navy armor plate"
+	desc = "A military-grade armor plate frequently seen in use by naval landing parties and sailors of the Konyang Navy."
+	icon_state = "plate_navy"
+	item_state = "plate_navy"
 
 /obj/item/clothing/accessory/armor_plate/heavy
 	name = "heavy armor plate"
@@ -337,6 +349,12 @@
 	desc = "A shiny helmet in grey! Goes well with the respective plate carrier."
 	icon_state = "helm_generic"
 	item_state = "helm_generic"
+
+/obj/item/clothing/head/helmet/security/press
+	name = "press helmet"
+	desc = "A helmet in blue colors with a prominent 'PRESS' emblazoned in front. A common sight on journalists in the Wildlands."
+	icon_state = "helm_press"
+	item_state = "helm_press"
 
 /obj/item/clothing/head/helmet/security/skrell
 	name = "skrellmet"
@@ -833,9 +851,3 @@
 	desc = "A light-weight kevlar armor plate in blue colors and a 'PRESS' sticker included. Used by wartime correspondents."
 	icon_state = "plate_press"
 	item_state = "plate_press"
-
-/obj/item/clothing/head/helmet/security/press
-	name = "press helmet"
-	desc = "A helmet in blue colors with a prominent 'PRESS' emblazoned in front. A common sight on journalists in the Wildlands."
-	icon_state = "helm_press"
-	item_state = "helm_press"
