@@ -141,7 +141,7 @@
 	uniform = /obj/item/clothing/under/rank/konyang/navy
 	shoes = /obj/item/clothing/shoes/jackboots
 	suit = /obj/item/clothing/suit/armor/carrier/navy
-	head = /obj/item/clothing/head/helmet/konyang
+	head = /obj/item/clothing/head/helmet/konyang/navy
 	glasses = /obj/item/clothing/glasses/night
 	l_ear = /obj/item/device/radio/headset/distress
 	accessory = /obj/item/clothing/accessory/holster/hip
@@ -189,7 +189,7 @@
 		/obj/item/grenade/frag = 1,
 		/obj/item/melee/energy/sword/knife/sol = 1,
 		/obj/item/storage/firstaid/stab = 1,
-		/obj/item/ammo_magazine/mc9mm = 4
+		/obj/item/ammo_magazine/mc9mm = 3
 	)
 
 /datum/ghostspawner/human/konyang_navy/mechpilot
@@ -242,7 +242,6 @@
 	shoes = /obj/item/clothing/shoes/konyang
 	l_ear = null
 	id = null
-	back = /obj/item/storage/backpack/satchel
 	l_pocket = /obj/item/storage/wallet/random
 
 /datum/ghostspawner/human/konyang_scientist
@@ -307,6 +306,7 @@
 	back = /obj/item/storage/backpack/satchel/leather
 	l_pocket = /obj/item/storage/wallet/sol_rich
 	id = /obj/item/card/id
+	shoes = /obj/item/clothing/shoes/workboots/brown
 
 /datum/outfit/admin/konyang_merchant/get_id_access()
 	return list(ACCESS_MERCHANT)

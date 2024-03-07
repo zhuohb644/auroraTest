@@ -37,6 +37,7 @@
 	base_turf = /turf/simulated/floor/exoplanet/dirt_konyang
 	requires_power = FALSE
 	ambience = list('sound/effects/wind/wind_2_1.ogg','sound/effects/wind/wind_2_2.ogg','sound/effects/wind/wind_3_1.ogg','sound/effects/wind/wind_4_1.ogg','sound/ambience/eeriejungle2.ogg','sound/ambience/eeriejungle1.ogg')
+	area_flags = AREA_FLAG_INDESTRUCTIBLE_TURFS
 	var/lighting = TRUE
 
 /area/sn_wild/play_ambience(var/mob/living/L)
@@ -48,13 +49,14 @@
 	. = ..()
 	if(lighting)
 		for(var/turf/T in src)
-			T.set_light(MINIMUM_USEFUL_LIGHT_RANGE, 0.2, COLOR_WHITE) //Same light level as Konyang proper
+			T.set_light(MINIMUM_USEFUL_LIGHT_RANGE, 0.4, COLOR_WHITE)
 
 /area/sn_interiors //Generic interior areas
 	name = "Interiors"
 	icon_state = "green"
-	base_turf = /turf/simulated/floor/exoplanet/dirt_konyang
+	base_turf = /turf/simulated/floor/plating
 	requires_power = FALSE
+	area_flags = AREA_FLAG_INDESTRUCTIBLE_TURFS
 
 /area/sn_powerstation
 	name = "KRC Power Station"
@@ -62,6 +64,7 @@
 	requires_power = TRUE //so engineering gets to play around
 	base_turf = /turf/simulated/floor/plating
 	ambience = AMBIENCE_ENGINEERING
+	area_flags = AREA_FLAG_INDESTRUCTIBLE_TURFS
 
 /area/sn_warehouse
 	name = "KRC Warehouse"
@@ -69,6 +72,7 @@
 	base_turf = /turf/simulated/floor/plating
 	requires_power = TRUE
 	ambience = AMBIENCE_FOREBODING
+	area_flags = AREA_FLAG_INDESTRUCTIBLE_TURFS
 
 //Fluff Items & Corpses
 /obj/effect/landmark/corpse/konyang_ipc
