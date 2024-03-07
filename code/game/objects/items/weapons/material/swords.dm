@@ -71,6 +71,10 @@
 	item_state = "katana"
 	slot_flags = SLOT_BELT | SLOT_BACK
 
+/obj/item/material/sword/katana/konyang
+	name = "\improper Konyang naval officer's sword"
+	desc = "A traditional looking sword optionally worn by members of the Konyang Navy as part of their dress uniform. Although most are blunted, a few sharp examples are allowed to slip through the cracks."
+
 /obj/item/material/sword/rapier
 	name = "rapier"
 	desc = "A slender, fancy and sharply pointed sword."

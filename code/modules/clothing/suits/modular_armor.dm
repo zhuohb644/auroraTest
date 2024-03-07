@@ -83,6 +83,20 @@
 		/obj/item/clothing/accessory/storage/modular_pouch/large
 	)
 
+/obj/item/clothing/suit/armor/carrier/navy
+	starting_accessories = list(
+		/obj/item/clothing/accessory/armor_plate/military/navy,
+		/obj/item/clothing/accessory/leg_guard/konyang_navy,
+		/obj/item/clothing/accessory/arm_guard/konyang_navy,
+		/obj/item/clothing/accessory/storage/modular_pouch/large,
+		/obj/item/clothing/accessory/flagpatch/konyang
+	)
+
+/obj/item/clothing/suit/armor/carrier/press
+	starting_accessories = list(
+		/obj/item/clothing/accessory/armor_plate/press
+	)
+
 /obj/item/clothing/suit/armor/carrier/heavy
 	starting_accessories = list(
 		/obj/item/clothing/accessory/armor_plate/heavy,

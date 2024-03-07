@@ -249,7 +249,6 @@
 	inherent_verbs = list(
 		/mob/living/carbon/human/proc/self_destruct,
 		/mob/living/carbon/human/proc/detonate_flechettes,
-		/mob/living/carbon/human/proc/state_laws,
 		/mob/living/carbon/human/proc/self_diagnostics
 	)
 

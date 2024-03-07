@@ -45,7 +45,8 @@
 		/obj/item/rig_module/voice,
 		/obj/item/rig_module/datajack,
 		/obj/item/rig_module/mounted/plasmacutter,
-		/obj/item/rig_module/actuators/combat
+		/obj/item/rig_module/actuators/combat,
+		/obj/item/rig_module/teleporter
 	)
 	species_restricted = list(BODYTYPE_IPC_INDUSTRIAL)
 	allowed_module_types = MODULE_GENERAL | MODULE_LIGHT_COMBAT | MODULE_HEAVY_COMBAT | MODULE_SPECIAL | MODULE_MEDICAL | MODULE_UTILITY | MODULE_VAURCA

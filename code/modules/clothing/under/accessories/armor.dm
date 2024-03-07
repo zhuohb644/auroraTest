@@ -113,6 +113,18 @@
 		bomb = ARMOR_BOMB_PADDED,
 	)
 
+/obj/item/clothing/accessory/leg_guard/konyang_navy
+	name = "\improper Konyang navy leg guards"
+	icon_state = "legguards_navy"
+	item_state = "legguards_navy"
+	armor = list(
+		melee = ARMOR_MELEE_MAJOR,
+		bullet = ARMOR_BALLISTIC_MAJOR,
+		laser = ARMOR_LASER_MEDIUM,
+		energy = ARMOR_ENERGY_SMALL,
+		bomb = ARMOR_BOMB_PADDED,
+	)
+
 /obj/item/clothing/accessory/leg_guard/tcaf
 	name = "\improper TCAF legionnaire leg carapace"
 	desc = "Try to sweep the leg against someone wearing these."
@@ -204,6 +216,18 @@
 	desc = "These arm guards will protect your hands and arms from most things."
 	icon_state = "armguards_military"
 	item_state = "armguards_military"
+	armor = list(
+		melee = ARMOR_MELEE_MAJOR,
+		bullet = ARMOR_BALLISTIC_MAJOR,
+		laser = ARMOR_LASER_MEDIUM,
+		energy = ARMOR_ENERGY_SMALL,
+		bomb = ARMOR_BOMB_PADDED,
+	)
+
+/obj/item/clothing/accessory/arm_guard/konyang_navy
+	name = "\improper Konyang navy arm guards"
+	icon_state = "armguards_navy"
+	item_state = "armguards_navy"
 	armor = list(
 		melee = ARMOR_MELEE_MAJOR,
 		bullet = ARMOR_BALLISTIC_MAJOR,

@@ -37,11 +37,24 @@
 	base_turf = /turf/simulated/floor/exoplanet/dirt_konyang
 	requires_power = FALSE
 	ambience = list('sound/effects/wind/wind_2_1.ogg','sound/effects/wind/wind_2_2.ogg','sound/effects/wind/wind_3_1.ogg','sound/effects/wind/wind_4_1.ogg','sound/ambience/eeriejungle2.ogg','sound/ambience/eeriejungle1.ogg')
+	var/lighting = TRUE
 
 /area/sn_wild/play_ambience(var/mob/living/L)
 	..()
 	if(L && L.client && (L.client.prefs.sfx_toggles & ASFX_AMBIENCE) && !L.ear_deaf)
 		L.playsound_to(get_turf(L),sound('sound/ambience/jungle.ogg', repeat = 1, wait = 0, volume = 25, channel = 1))
+
+/area/sn_wild/Initialize()
+	. = ..()
+	if(lighting)
+		for(var/turf/T in src)
+			T.set_light(MINIMUM_USEFUL_LIGHT_RANGE, 0.2, COLOR_WHITE) //Same light level as Konyang proper
+
+/area/sn_interiors //Generic interior areas
+	name = "Interiors"
+	icon_state = "green"
+	base_turf = /turf/simulated/floor/exoplanet/dirt_konyang
+	requires_power = FALSE
 
 /area/sn_powerstation
 	name = "KRC Power Station"
