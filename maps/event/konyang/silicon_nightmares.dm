@@ -93,7 +93,7 @@
 
 /obj/effect/landmark/corpse/einstein_goon
 	name = "Einstein Engines Operative"
-	corpseuniform = /obj/item/clothing/under/rank/einstein
+	corpseuniform = /obj/item/clothing/under/rank/security/einstein
 	corpseshoes = /obj/item/clothing/shoes/jackboots
 	corpseid = TRUE
 	corpseidjob = "Asset Protection Agent"
