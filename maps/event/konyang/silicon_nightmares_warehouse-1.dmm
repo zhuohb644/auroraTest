@@ -5033,6 +5033,10 @@
 /obj/item/ammo_casing/peac,
 /obj/item/ammo_casing/peac,
 /obj/item/ammo_casing/peac,
+/obj/item/ammo_casing/peac/he,
+/obj/item/ammo_casing/peac/he,
+/obj/item/ammo_casing/peac/shrapnel,
+/obj/item/ammo_casing/peac/shrapnel,
 /obj/item/toy/plushie/shark{
 	throwforce = 30;
 	name = "weighted shark plush";
@@ -6919,6 +6923,7 @@
 /obj/item/ammo_casing/peac,
 /obj/item/ammo_casing/peac,
 /obj/effect/floor_decal/industrial/outline/security,
+/obj/item/ammo_casing/peac,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
 "BS" = (
