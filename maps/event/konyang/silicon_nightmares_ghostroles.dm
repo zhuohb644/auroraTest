@@ -11,6 +11,7 @@
 	possible_species = list(SPECIES_IPC, SPECIES_IPC_G1, SPECIES_IPC_G2, SPECIES_IPC_XION, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	uses_species_whitelist = FALSE
+	extra_languages = list(LANGUAGE_EAL, LANGUAGE_SOL_COMMON)
 
 	assigned_role = "Konyang Army Personnel"
 	special_role = "Konyang Army Personnel"
@@ -130,6 +131,7 @@
 	outfit = /datum/outfit/admin/konyang_navy
 	possible_species = list(SPECIES_HUMAN)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
+	extra_languages = list(LANGUAGE_SOL_COMMON)
 
 	assigned_role = "Konyang Navy Personnel"
 	special_role = "Konyang Navy Personnel"
@@ -229,6 +231,7 @@
 	outfit = /datum/outfit/admin/konyang_survivor
 	possible_species = list(SPECIES_HUMAN)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
+	extra_languages = list(LANGUAGE_SOL_COMMON)
 
 	assigned_role = "Konyang Survivor"
 	special_role = "Konyang Survivor"
@@ -256,6 +259,7 @@
 	outfit = /datum/outfit/admin/konyang_scientist
 	possible_species = list(SPECIES_HUMAN)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
+	extra_languages = list(LANGUAGE_SOL_COMMON)
 
 	assigned_role = "KRC Scientist"
 	special_role = "KRC Scientist"
@@ -289,6 +293,7 @@
 	outfit = /datum/outfit/admin/konyang_merchant
 	possible_species = list(SPECIES_HUMAN)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
+	extra_languages = list(LANGUAGE_SOL_COMMON)
 
 	assigned_role = "Merchant"
 	special_role = "Merchant"
