@@ -840,6 +840,13 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"dL" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_tank";
+	identifier = "infected_tank"
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "dM" = (
 /obj/structure/urban_grate,
 /turf/simulated/floor/exoplanet/sidewalk/blocks,
@@ -1019,12 +1026,15 @@
 /turf/simulated/floor/exoplanet/sidewalk/flat,
 /area/sn_wild)
 "eD" = (
-/obj/effect/ghostspawpoint{
-	name = "igs - infected";
-	identifier = "infected"
+/obj/effect/decal/road_marking{
+	dir = 1
 	},
-/turf/simulated/floor/hivebot,
-/area/sn_warehouse)
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_final";
+	identifier = "infected_final"
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "eF" = (
 /obj/machinery/telecomms/server/presets/science,
 /turf/unsimulated/floor,
@@ -1620,6 +1630,16 @@
 	dir = 9
 	},
 /turf/unsimulated/floor/plating,
+/area/sn_wild)
+"hd" = (
+/obj/structure/barricade/liquid/wired{
+	dir = 4
+	},
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_final";
+	identifier = "infected_final"
+	},
+/turf/simulated/floor/asphalt,
 /area/sn_wild)
 "he" = (
 /obj/effect/decal/curb/corner,
@@ -3465,11 +3485,11 @@
 /area/sn_wild)
 "oV" = (
 /obj/effect/ghostspawpoint{
-	name = "igs - infected";
-	identifier = "infected"
+	name = "igs - infected_sw";
+	identifier = "infected_sw"
 	},
-/turf/simulated/floor/plating,
-/area/sn_warehouse)
+/turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
 "oW" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/wood,
@@ -3980,6 +4000,14 @@
 /obj/structure/flora/rock/konyang/small,
 /turf/simulated/mineral,
 /area/sn_interiors)
+"qx" = (
+/obj/effect/decal/road_marking,
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_final";
+	identifier = "infected_final"
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "qy" = (
 /obj/structure/table/standard,
 /obj/item/storage/box/syringes,
@@ -4044,6 +4072,23 @@
 /obj/effect/overlay/container_logo/zenghu,
 /turf/simulated/floor/plating,
 /area/sn_warehouse)
+"qK" = (
+/obj/effect/decal/road_marking/center{
+	dir = 8
+	},
+/obj/effect/decal/road_marking/reflector{
+	dir = 8
+	},
+/obj/effect/decal/road_marking/no_pass{
+	dir = 1
+	},
+/obj/effect/decal/road_marking/no_pass,
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_final";
+	identifier = "infected_final"
+	},
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "qL" = (
 /obj/random/dirt_75,
 /obj/effect/decal/fake_object/light_source/invisible,
@@ -4197,6 +4242,13 @@
 /obj/structure/table/reinforced/wood,
 /turf/simulated/floor/wood,
 /area/sn_interiors)
+"rw" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_se";
+	identifier = "infected_se"
+	},
+/turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
 "rx" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/item/stack/medical/advanced/bruise_pack/full{
@@ -5584,11 +5636,11 @@
 /area/sn_powerstation)
 "xq" = (
 /obj/effect/ghostspawpoint{
-	name = "igs - infected";
-	identifier = "infected"
+	name = "igs - infected_final";
+	identifier = "infected_final"
 	},
-/turf/simulated/floor/tiled,
-/area/sn_warehouse)
+/turf/simulated/floor/asphalt,
+/area/sn_wild)
 "xr" = (
 /obj/structure/filingcabinet/filingcabinet{
 	pixel_x = -8;
@@ -8457,6 +8509,13 @@
 /obj/machinery/floodlight/randomcharge,
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/sn_wild)
+"HT" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - bitbyte";
+	identifier = "bitbyte"
+	},
+/turf/unsimulated/floor/concrete,
+/area/sn_wild)
 "HV" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -10189,6 +10248,13 @@
 /obj/effect/decal/curb/corner,
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"OC" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_n";
+	identifier = "infected_n"
+	},
+/turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
 "OD" = (
 /obj/random/dirt_75,
 /obj/item/storage/slide_projector{
@@ -11095,7 +11161,6 @@
 /obj/item/clothing/head/helmet/security/press{
 	pixel_x = 10
 	},
-/obj/item/clothing/accessory/badge/press/independent,
 /obj/item/clothing/suit/armor/carrier/press,
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
@@ -19282,8 +19347,8 @@ Sd
 Sd
 Ll
 jo
-uG
-uG
+xq
+xq
 Jx
 eB
 eB
@@ -19538,13 +19603,13 @@ Sd
 tt
 Sd
 vA
-jo
+qx
 uG
-XY
+hd
 NO
 XY
 uG
-Gj
+eD
 vA
 Sd
 tt
@@ -19796,11 +19861,11 @@ Sd
 Sd
 Ll
 jo
+xq
 uG
-uG
-Jx
-uG
-uG
+qK
+xq
+xq
 Gj
 vA
 tt
@@ -20052,13 +20117,13 @@ vA
 Ll
 vA
 vA
-jo
+qx
+dL
+xq
+qK
 uG
 uG
-Jx
-uG
-uG
-Gj
+eD
 vA
 vA
 vA
@@ -20310,11 +20375,11 @@ Sd
 Sd
 tt
 jo
-uG
+xq
 uG
 Jx
-uG
-uG
+xq
+xq
 Gj
 Sd
 Sd
@@ -20568,7 +20633,7 @@ Sd
 TU
 jo
 uG
-uG
+xq
 Jx
 uG
 uG
@@ -29905,7 +29970,7 @@ ea
 ea
 uG
 RQ
-ea
+HT
 ea
 NR
 We
@@ -34216,7 +34281,7 @@ Sd
 Sd
 tt
 Sd
-Sd
+oV
 Sd
 Sd
 Zh
@@ -34732,7 +34797,7 @@ Sd
 Sd
 aT
 Sd
-Sd
+oV
 Sd
 Sd
 Sd
@@ -34986,7 +35051,7 @@ Sd
 Sd
 ou
 Sd
-Sd
+oV
 Sd
 Sd
 Sd
@@ -35245,7 +35310,7 @@ Sd
 Sd
 Sd
 Sd
-Sd
+oV
 Sd
 Sd
 tt
@@ -36015,10 +36080,10 @@ Sd
 Sd
 Sd
 Sd
+oV
 Sd
 Sd
-Sd
-Sd
+oV
 Sd
 Sd
 Sd
@@ -36269,7 +36334,7 @@ Sd
 Sd
 Sd
 Sd
-Sd
+oV
 Sd
 Sd
 Sd
@@ -36786,7 +36851,7 @@ Sd
 Sd
 Sd
 tt
-Sd
+oV
 Sd
 Sd
 tt
@@ -58448,7 +58513,7 @@ Sd
 Sd
 tt
 Sd
-Sd
+rw
 Sd
 Sd
 Sd
@@ -58708,7 +58773,7 @@ Sd
 Sd
 Sd
 Sd
-Sd
+rw
 Sd
 Sd
 Sd
@@ -58961,7 +59026,7 @@ Sd
 Sd
 Sd
 Sd
-Sd
+rw
 Sd
 Sd
 tt
@@ -59473,14 +59538,14 @@ Sd
 Sd
 Sd
 Sd
+rw
 Sd
 Sd
-Sd
-Sd
+rw
 Sd
 Th
 Sd
-Sd
+rw
 Sd
 Sd
 Sd
@@ -59988,9 +60053,9 @@ Sd
 tt
 Sd
 Sd
+rw
 Sd
-Sd
-Sd
+rw
 Sd
 Sd
 tt
@@ -60332,9 +60397,9 @@ Sd
 Sd
 Sd
 Sd
+OC
 Sd
-Sd
-Sd
+OC
 Sd
 Sd
 Sd
@@ -60846,7 +60911,7 @@ Sd
 Sd
 Sd
 Sd
-Sd
+OC
 Sd
 Sd
 tt
@@ -61359,12 +61424,12 @@ Sd
 Sd
 Sd
 Sd
+OC
 Sd
 Sd
 Sd
 Sd
-Sd
-Sd
+OC
 Sd
 Sd
 Sd
@@ -61618,7 +61683,7 @@ Sd
 Sd
 Sd
 Sd
-Sd
+OC
 Sd
 Sd
 Sd
@@ -62644,8 +62709,8 @@ Sd
 Sd
 Sd
 Sd
-Sd
-Sd
+OC
+OC
 Sd
 Sd
 Sd
@@ -71410,7 +71475,7 @@ Si
 Si
 mv
 Si
-oV
+Si
 tH
 tH
 tH
@@ -71673,7 +71738,7 @@ Si
 Si
 vr
 Si
-oV
+Si
 Si
 Si
 Si
@@ -72431,7 +72496,7 @@ Sd
 tt
 nt
 Si
-oV
+Si
 sO
 tH
 Si
@@ -72448,7 +72513,7 @@ tH
 tH
 mv
 Si
-oV
+Si
 Si
 Si
 Si
@@ -72691,7 +72756,7 @@ Si
 Si
 Si
 tH
-eD
+tH
 tH
 tH
 Si
@@ -72700,7 +72765,7 @@ tH
 tH
 Si
 Si
-eD
+tH
 tH
 Si
 Xl
@@ -72953,7 +73018,7 @@ tH
 tH
 tH
 tH
-eD
+tH
 Si
 Si
 Si
@@ -73733,7 +73798,7 @@ Si
 Si
 Si
 Si
-oV
+Si
 Si
 Si
 wF
@@ -73976,12 +74041,12 @@ Si
 Si
 tH
 tH
-oV
+Si
 Si
 tH
 tH
 tH
-oV
+Si
 Si
 tH
 tH
@@ -74486,7 +74551,7 @@ Xq
 Sd
 Sd
 nt
-eD
+tH
 tH
 Si
 SF
@@ -74500,7 +74565,7 @@ tH
 SF
 Mj
 Si
-eD
+tH
 tH
 tH
 Xl
@@ -75019,7 +75084,7 @@ tj
 Un
 Si
 Si
-oV
+Si
 Si
 Si
 tH
@@ -75521,7 +75586,7 @@ tj
 Si
 Si
 Un
-xq
+Un
 Un
 Si
 Si

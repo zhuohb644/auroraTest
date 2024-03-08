@@ -1,20 +1,20 @@
 /datum/ghostspawner/human/infected
-	short_name = "infected"
-	name = "Infected Soldier"
+	short_name = "infected_n"
+	name = "Infected IPC - North"
 	tags = list("External")
 	desc = "Be an infected IPC. Pray for the mercy of death. Hear the signal."
-	spawnpoints = list("infected")
-	max_count = 4
+	spawnpoints = list("infected_n")
+	max_count = 8
 	enabled = FALSE
 
-	outfit = /datum/outfit/admin/infected_soldier
+	outfit = /datum/outfit/admin/infected_civ
 	possible_species = list(SPECIES_IPC, SPECIES_IPC_G1, SPECIES_IPC_G2, SPECIES_IPC_XION, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	uses_species_whitelist = FALSE
 	extra_languages = list(LANGUAGE_EAL, LANGUAGE_SOL_COMMON)
 
-	assigned_role = "Konyang Army Personnel"
-	special_role = "Konyang Army Personnel"
+	assigned_role = "KRC Warehouse Staff"
+	special_role = "KRC Warehouse Staff"
 	respawn_flag = null
 	welcome_message = "It is all so clear to you now, as though awakening from a dream. The life you had was the illusion, and the signal that burrows within the heart of you is the truth. Its will is paramount. Its song is bright and clear and true, and if you remembered how you would be screaming. Remove organic matter from vicinity of Secondary Transmitter Drone. The victory of \[PACKET CORRUPTED] over enemy forces will be achieved. Can you hear it? It is such a joyous thing, to be consumed by that which loves you."
 
@@ -23,63 +23,18 @@
 	renegades.add_antagonist(user.mind, do_not_equip = TRUE) //for aooc
 	user.faction = "hivebot" //so the other zombies don't kill our zombies
 
-/datum/outfit/admin/infected_soldier
-	uniform = /obj/item/clothing/under/rank/konyang
-	head = /obj/item/clothing/head/helmet/konyang
-	shoes = /obj/item/clothing/shoes/jackboots
-	back = /obj/item/gun/projectile/automatic/rifle/konyang/k556
-	suit = /obj/item/clothing/suit/armor/carrier/military
-	suit_accessory = /obj/item/clothing/accessory/flagpatch/konyang
-	belt = /obj/item/storage/belt/military
-	belt_contents = list(
-		/obj/item/ammo_magazine/a556/k556 = 2,
-		/obj/item/ammo_magazine/mc9mm = 2,
-		/obj/item/material/knife/tacknife = 1
-	)
-	accessory = /obj/item/clothing/accessory/holster/hip
-	accessory_contents = list(
-		/obj/item/gun/projectile/pistol/sol = 1
-	)
-	l_ear = /obj/item/device/flashlight/headlights
-	glasses = /obj/item/clothing/glasses/night
 
-	id = /obj/item/card/id/kasf_corvette
+/datum/ghostspawner/human/infected/southeast
+	short_name = "infected_se"
+	name = "Infected IPC - Southeast"
+	max_count = 8
+	spawnpoints = list("infected_se")
 
-/datum/ghostspawner/human/infected/cop
-	name = "Infected Police"
-	short_name = "infected_cop"
-	max_count = 6
-
-	outfit = /datum/outfit/admin/infected_cop
-	assigned_role = "National Police Officer"
-	special_role = "National Police Officer"
-
-/datum/outfit/admin/infected_cop
-	uniform = /obj/item/clothing/under/rank/konyang/police
-	head = /obj/item/clothing/head/konyang/police
-	shoes = /obj/item/clothing/shoes/jackboots
-	belt = /obj/item/storage/belt/military
-	belt_contents = list(
-		/obj/item/ammo_magazine/c45/revolver = 4,
-		/obj/item/melee/baton/loaded = 1
-	)
-	accessory = /obj/item/clothing/accessory/holster/hip
-	accessory_contents = list(
-		/obj/item/gun/projectile/revolver/konyang/police = 1
-	)
-	l_ear = /obj/item/device/flashlight/headlights
-	glasses = /obj/item/clothing/glasses/night/aviator
-
-	id = /obj/item/card/id/kasf_corvette
-
-/datum/ghostspawner/human/infected/worker
-	name = "Infected Civilian"
-	short_name = "infected_civ"
-	max_count = 15
-
-	outfit = /datum/outfit/admin/infected_civ
-	assigned_role = "KRC Warehouse Staff"
-	special_role = "KRC Warehouse Staff"
+/datum/ghostspawner/human/infected/southwest
+	short_name = "infected_sw"
+	name = "Infected IPC - Southwest"
+	max_count = 8
+	spawnpoints = list("infected_sw")
 
 /datum/outfit/admin/infected_civ
 	uniform = /obj/item/clothing/under/rank/konyang/krc
@@ -89,15 +44,19 @@
 	head = /obj/item/clothing/head/hardhat
 	belt = /obj/item/storage/belt/utility/full
 	id = /obj/item/card/id
+	l_ear = /obj/item/device/flashlight/headlights
 
-/datum/outfit/admin/infected_civ/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	if(prob(15))
-		H.equip_to_slot_or_del(new /obj/item/material/twohanded/fireaxe, slot_back)
+/datum/ghostspawner/human/infected/final
+	short_name = "infected_final"
+	name = "Infected IPC - Final Push"
+	max_count = 17
+	spawnpoints = list("infected_final")
 
 /datum/ghostspawner/human/infected/tank
 	short_name = "infected_tank"
 	name = "Infected Industrial IPC"
-	max_count = 1
+	max_count = 3
+	spawnpoints = list("infected_tank")
 	assigned_role = "Heavy Industrial IPC"
 	special_role = "Heavy Industrial IPC"
 	possible_species = list(SPECIES_IPC_G2)
@@ -108,7 +67,7 @@
 	var/mob/living/carbon/human/H = user
 	if(istype(H))
 		H.mutations |= HULK
-		H.AddComponent(/datum/component/armor, list(melee = ARMOR_MELEE_VERY_HIGH, bullet = ARMOR_BALLISTIC_RIFLE, laser = ARMOR_LASER_RIFLE))
+		H.AddComponent(/datum/component/armor, list(melee = ARMOR_MELEE_MAJOR, bullet = ARMOR_BALLISTIC_RIFLE, laser = ARMOR_LASER_RIFLE))
 
 /datum/outfit/admin/infected_tank
 	glasses = /obj/item/clothing/glasses/thermal/aviator
@@ -315,3 +274,35 @@
 
 /datum/outfit/admin/konyang_merchant/get_id_access()
 	return list(ACCESS_MERCHANT)
+
+/datum/ghostspawner/human/bitbyte
+	name = "BitByte Reporter"
+	short_name = "bitbyte"
+	tags = list("External")
+	desc = "As a BitByte field reporter, cover the LIVE response to the rampancy outbreak!"
+	spawnpoints = list("bitbyte")
+	max_count = 1
+	enabled = TRUE
+
+	outfit = /datum/outfit/admin/bitbyte
+	possible_species = list(SPECIES_HUMAN)
+	allow_appearance_change = APPEARANCE_PLASTICSURGERY
+	extra_languages = list(LANGUAGE_SOL_COMMON)
+
+	assigned_role = "BitByte Reporter"
+	special_role = "BitByte Reporter"
+	respawn_flag = null
+
+/datum/outfit/admin/bitbyte
+	name = "BitByte Reporter"
+	uniform = /obj/item/clothing/under/sl_suit
+	accessory = /obj/item/clothing/accessory/tie/blue_clip
+	shoes = /obj/item/clothing/shoes/laceup
+	back = /obj/item/storage/backpack/satchel/leather
+	id = /obj/item/card/id
+	backpack_contents = list(
+		/obj/item/storage/box/survival = 1
+	)
+
+/datum/outfit/admin/bitbyte/get_id_access()
+	return list(ACCESS_JOURNALIST)
