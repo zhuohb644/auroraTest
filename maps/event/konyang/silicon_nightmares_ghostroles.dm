@@ -176,7 +176,7 @@
 //Konyang Navy Ghostroles
 /datum/ghostspawner/human/konyang_navy
 	short_name = "konyang_navy"
-	name = "Konyang Navy Personnel"
+	name = "Konyang Naval Infantry"
 	tags = list("External")
 	desc = "As an enlisted human of Konyang's navy, assist corporate forces in locating and eliminating the source of the rampancy signal."
 	spawnpoints = list("konyang_navy")
@@ -188,10 +188,10 @@
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 	extra_languages = list(LANGUAGE_SOL_COMMON)
 
-	assigned_role = "Konyang Navy Personnel"
-	special_role = "Konyang Navy Personnel"
+	assigned_role = "Konyang Naval Infantry"
+	special_role = "Konyang Naval Infantry"
 	respawn_flag = null
-	welcome_message = "You are personnel of Konyang's Navy, deployed to locate the Hivebot transmitter within the nearby KRC warehouse and destroy it, alongside corporate forces. Obey your commander, accomplish your objective, try not to die along the way."
+	welcome_message = "You are naval infantry, conscripts in your majority but trained for this day. Your base is where the Horizon crew will start. At round start, man the armory and give out weapons and supplies to the crew who line up in an orderly fashion. Follow the instructions of your commanding officer, join the charge and die."
 	password = "requisitions"
 
 /datum/outfit/admin/konyang_navy
@@ -318,7 +318,7 @@
 	assigned_role = "KRC Scientist"
 	special_role = "KRC Scientist"
 	respawn_flag = null
-	welcome_message = "The rampancy virus has driven the synthetics in the area to homicidal madness, with most humans having either fled or perished at their hands. You have followed the military order to shelter in place, hoping that rescue is on the way..."
+	welcome_message = "You are a scientist working for the Xiangtong warehouse. You have however been stuck in the area since the outbreak about a month ago, managing to be one of the few survivors. With supplies running low, the Horizon is just in time to save you. Reward them with information: On the southern side of the warehouse, you know of a collapsed tunnel that was dug by the hivebots during the outbreak. If the crew can find and mine it again, they can sneakily enter the warehouse without risking a frontal assault."
 	password = "realfm"
 
 /datum/outfit/admin/konyang_scientist
