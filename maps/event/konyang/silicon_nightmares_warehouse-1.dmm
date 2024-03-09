@@ -453,7 +453,7 @@
 /area/shuttle/scc_evac)
 "bV" = (
 /mob/living/silicon/robot/purpose,
-/turf/simulated/floor/tiled,
+/turf/unsimulated/floor,
 /area/sn_interiors)
 "bX" = (
 /obj/machinery/light{
@@ -1462,7 +1462,7 @@
 /obj/effect/floor_decal/industrial/loading/security{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/unsimulated/floor,
 /area/sn_interiors)
 "gm" = (
 /obj/effect/decal/cleanable/blood/gibs/robot,
@@ -2601,7 +2601,7 @@
 	icon = 'icons/obj/stationobjs.dmi';
 	icon_state = "portal"
 	},
-/turf/simulated/floor/tiled,
+/turf/unsimulated/floor,
 /area/sn_interiors)
 "lt" = (
 /obj/structure/bed/stool/chair/sofa/corner/concave/beige{
@@ -2756,7 +2756,7 @@
 /area/shuttle/scc_evac)
 "lY" = (
 /obj/effect/floor_decal/industrial/loading/security,
-/turf/simulated/floor/tiled,
+/turf/unsimulated/floor,
 /area/sn_interiors)
 "lZ" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -4290,7 +4290,7 @@
 /obj/effect/floor_decal/industrial/loading/security{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/unsimulated/floor,
 /area/sn_interiors)
 "rB" = (
 /obj/effect/decal/curb{
@@ -5053,7 +5053,7 @@
 /obj/machinery/light{
 	must_start_working = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/unsimulated/floor,
 /area/sn_interiors)
 "uG" = (
 /turf/simulated/floor/asphalt,
@@ -7566,9 +7566,6 @@
 /mob/living/simple_animal/hostile/ipc_zombie,
 /turf/simulated/floor/asphalt,
 /area/sn_powerstation)
-"Ef" = (
-/turf/simulated/floor/tiled,
-/area/sn_interiors)
 "Eg" = (
 /obj/structure/utility_pole/street/on{
 	dir = 1
@@ -9515,7 +9512,7 @@
 /area/sn_wild)
 "Lu" = (
 /mob/living/carbon/human/hunter_killer,
-/turf/simulated/floor/tiled,
+/turf/unsimulated/floor,
 /area/sn_interiors)
 "Lw" = (
 /obj/machinery/atm{
@@ -10668,7 +10665,7 @@
 	icon_state = "tube_empty";
 	must_start_working = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/unsimulated/floor,
 /area/sn_interiors)
 "PW" = (
 /obj/structure/table/rack,
@@ -13871,8 +13868,8 @@ Sd
 NQ
 kp
 PV
-Ef
-Ef
+Bh
+Bh
 uF
 kp
 NQ
@@ -14128,9 +14125,9 @@ aj
 NQ
 kp
 bV
-Ef
-Ef
-Ef
+Bh
+Bh
+Bh
 kp
 NQ
 "}
@@ -14387,7 +14384,7 @@ kp
 Lu
 Lu
 Lu
-Ef
+Bh
 kp
 NQ
 "}
@@ -14642,8 +14639,8 @@ tt
 NQ
 kp
 PV
-Ef
-Ef
+Bh
+Bh
 uF
 kp
 NQ
@@ -14898,10 +14895,10 @@ Sd
 Sd
 NQ
 kp
-Ef
-Ef
-Ef
-Ef
+Bh
+Bh
+Bh
+Bh
 kp
 NQ
 "}
@@ -15155,10 +15152,10 @@ tt
 Sd
 NQ
 kp
-Ef
-Ef
-Ef
-Ef
+Bh
+Bh
+Bh
+Bh
 kp
 NQ
 "}
@@ -15414,7 +15411,7 @@ NQ
 kp
 PV
 gl
-Ef
+Bh
 uF
 kp
 NQ
@@ -15672,7 +15669,7 @@ kp
 lY
 ls
 rz
-Ef
+Bh
 kp
 NQ
 "}
