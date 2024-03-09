@@ -176,6 +176,10 @@ SUBSYSTEM_DEF(ghostroles)
 			if(isnewplayer(usr))
 				var/mob/abstract/new_player/N = usr
 				N.close_spawn_windows()
+			if(S.password)
+				var/password = tgui_input_text(usr, "Password", "Password")
+				if(password != S.password)
+					to_chat(usr, SPAN_WARNING("Incorrect password for [S.name]!"))
 			if(!S.pre_spawn(usr))
 				to_chat(usr, "Unable to spawn: pre_spawn failed. Report this on GitHub")
 				return

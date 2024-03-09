@@ -1550,6 +1550,13 @@
 /obj/item/material/shard,
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/sn_warehouse)
+"gG" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_soldier";
+	identifier = "infected_soldier"
+	},
+/turf/simulated/floor/plating,
+/area/sn_warehouse)
 "gH" = (
 /obj/structure/girder,
 /turf/simulated/floor/exoplanet/dirt_konyang,
@@ -1619,6 +1626,13 @@
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/sn_wild)
+"gW" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_soldier";
+	identifier = "infected_soldier"
+	},
+/turf/simulated/floor/hivebot,
+/area/sn_warehouse)
 "gX" = (
 /obj/machinery/light/colored/dying{
 	dir = 1
@@ -3238,13 +3252,6 @@
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /turf/simulated/floor/reinforced,
 /area/sn_powerstation)
-"oc" = (
-/obj/effect/ghostspawpoint{
-	name = "igs - infected_tank";
-	identifier = "infected_tank"
-	},
-/turf/simulated/floor/plating,
-/area/sn_warehouse)
 "od" = (
 /obj/random/dirt_75,
 /obj/random/dirt_75,
@@ -4615,6 +4622,13 @@
 /obj/item/paper_bin,
 /obj/item/pen/black,
 /turf/simulated/floor/foundation,
+/area/sn_warehouse)
+"sX" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_cop";
+	identifier = "infected_cop"
+	},
+/turf/simulated/floor/tiled,
 /area/sn_warehouse)
 "sY" = (
 /obj/structure/flora/bush/konyang_reeds,
@@ -8188,6 +8202,13 @@
 	},
 /turf/simulated/floor/sidewalk/blocks,
 /area/sn_wild)
+"GE" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_tank";
+	identifier = "infected_tank"
+	},
+/turf/simulated/floor/plating,
+/area/sn_warehouse)
 "GF" = (
 /obj/structure/closet/cabinet,
 /turf/simulated/floor/wood,
@@ -9709,6 +9730,13 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"MB" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_cop";
+	identifier = "infected_cop"
+	},
+/turf/simulated/floor/plating,
+/area/sn_warehouse)
 "MD" = (
 /obj/structure/closet/crate/freezer,
 /obj/item/ammo_magazine/mc9mm,
@@ -65596,10 +65624,10 @@ Si
 Si
 tH
 Si
-Si
-Si
+MB
+MB
 Un
-Un
+sX
 nt
 xA
 xA
@@ -66109,10 +66137,10 @@ tH
 Si
 Si
 Si
-Si
+MB
 Un
-Un
-Un
+sX
+sX
 Un
 nt
 xA
@@ -66620,12 +66648,12 @@ Si
 Si
 tH
 Si
-Si
+gG
 Un
 Un
 SF
 Un
-Un
+sX
 Un
 Un
 FH
@@ -66876,15 +66904,15 @@ tH
 tH
 tH
 tH
+gG
 Si
-Si
-Si
+gG
 Si
 mv
 Si
 Si
 Un
-Un
+sX
 nt
 Si
 Si
@@ -67132,7 +67160,7 @@ Si
 Si
 tH
 tj
-tH
+gW
 Si
 Si
 Si
@@ -67390,9 +67418,9 @@ Si
 tH
 qJ
 tH
+gW
 tH
-tH
-tH
+gW
 Si
 Si
 Si
@@ -73027,7 +73055,7 @@ tH
 tH
 tH
 Si
-oc
+GE
 Si
 Si
 Si

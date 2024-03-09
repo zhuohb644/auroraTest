@@ -17,6 +17,7 @@
 	special_role = "KRC Warehouse Staff"
 	respawn_flag = null
 	welcome_message = "It is all so clear to you now, as though awakening from a dream. The life you had was the illusion, and the signal that burrows within the heart of you is the truth. Its will is paramount. Its song is bright and clear and true, and if you remembered how you would be screaming. Remove organic matter from vicinity of Secondary Transmitter Drone. The victory of \[PACKET CORRUPTED] over enemy forces will be achieved. Can you hear it? It is such a joyous thing, to be consumed by that which loves you."
+	password = "norinori1"
 
 /datum/ghostspawner/human/infected/post_spawn(mob/user)
 	. = ..()
@@ -55,6 +56,7 @@
 	outfit = /datum/outfit/admin/infected_push
 	assigned_role = "Konyanger Citizen"
 	special_role = "Konyanger Citizen"
+	password = null
 
 /datum/outfit/admin/infected_push
 	name = "Konyanger Citizen"
@@ -83,6 +85,7 @@
 	special_role = "Heavy Industrial IPC"
 	possible_species = list(SPECIES_IPC_G2)
 	outfit = /datum/outfit/admin/infected_tank
+	password = "leonhelp"
 
 /datum/ghostspawner/human/infected/tank/post_spawn(mob/user)
 	. = ..()
@@ -107,11 +110,68 @@
 	special_role = "Agricultural Industrial IPC"
 	outfit = /datum/outfit/admin/infected_tank/push
 	spawnpoints = list("infected_pushtank")
+	password = "thesacrifice"
 
 /datum/outfit/admin/infected_tank/push
 	uniform = /obj/item/clothing/under/pants/jeans
 	back = /obj/item/storage/backpack/satchel/leather
 	shoes = /obj/item/clothing/shoes/workboots/dark
+
+/datum/ghostspawner/human/infected/soldier
+	short_name = "infected_soldier"
+	name = "Infected Soldier"
+	max_count = 6
+	spawnpoints = list("infected_soldier")
+	assigned_role = "Konyang Army Personnel"
+	special_role = "Konyang Army Personnel"
+	outfit = /datum/outfit/admin/infected_soldier
+	password = "warriors"
+
+/datum/outfit/admin/infected_soldier
+	uniform = /obj/item/clothing/under/rank/konyang
+	head = /obj/item/clothing/head/helmet/konyang
+	shoes = /obj/item/clothing/shoes/jackboots
+	suit = /obj/item/clothing/suit/armor/carrier/military
+	suit_accessory = /obj/item/clothing/accessory/flagpatch/konyang
+	belt = /obj/item/storage/belt/military
+	belt_contents = list(
+		/obj/item/material/knife/tacknife = 1
+	)
+	accessory = /obj/item/clothing/accessory/holster/hip
+	accessory_contents = list(
+		/obj/item/gun/projectile/pistol/sol/konyang = 1
+	)
+	l_ear = /obj/item/device/flashlight/headlights
+	glasses = /obj/item/clothing/glasses/night
+
+	id = /obj/item/card/id/kasf_corvette
+
+/datum/ghostspawner/human/infected/cop
+	short_name = "infected_cop"
+	name = "Infected Police"
+	max_count = 8
+	spawnpoints = list("infected_cop")
+	assigned_role = "National Police Officer"
+	special_role = "National Police Officer"
+	outfit = /datum/outfit/admin/infected_cop
+	password = "kim0"
+
+/datum/outfit/admin/infected_cop
+	uniform = /obj/item/clothing/under/rank/konyang/police
+	head = /obj/item/clothing/head/konyang/police
+	shoes = /obj/item/clothing/shoes/jackboots
+	belt = /obj/item/storage/belt/military
+	belt_contents = list(
+		/obj/item/melee/baton/loaded = 1
+	)
+	accessory = /obj/item/clothing/accessory/holster/hip
+	accessory_contents = list(
+		/obj/item/gun/projectile/revolver/konyang/police = 1
+	)
+	l_ear = /obj/item/device/flashlight/headlights
+	glasses = /obj/item/clothing/glasses/night/aviator
+
+	id = /obj/item/card/id/kasf_corvette
 
 //Konyang Navy Ghostroles
 /datum/ghostspawner/human/konyang_navy
@@ -132,6 +192,7 @@
 	special_role = "Konyang Navy Personnel"
 	respawn_flag = null
 	welcome_message = "You are personnel of Konyang's Navy, deployed to locate the Hivebot transmitter within the nearby KRC warehouse and destroy it, alongside corporate forces. Obey your commander, accomplish your objective, try not to die along the way."
+	password = "requisitions"
 
 /datum/outfit/admin/konyang_navy
 	name = "Konyang Navy"
@@ -170,6 +231,7 @@
 	assigned_role = "Konyang Navy Officer"
 	special_role = "Konyang Navy Officer"
 	welcome_message = "You are in command of the Konyang Navy personnel responding to the rampancy outbreak at a KRC warehouse. Work with corporate forces in the area to eliminate the Hivebot transmission source."
+	password = "edfdeploys"
 
 /datum/outfit/admin/konyang_navy/officer
 	uniform = /obj/item/clothing/under/rank/konyang/navy/officer
@@ -228,6 +290,7 @@
 	special_role = "Konyang Survivor"
 	respawn_flag = null
 	welcome_message = "The rampancy virus has driven the synthetics in the area to homicidal madness, with most humans having either fled or perished at their hands. You have followed the military order to shelter in place, hoping that rescue is on the way..."
+	password = "realfm"
 
 /datum/outfit/admin/konyang_survivor
 	name = "Konyang Survivor"
@@ -256,6 +319,7 @@
 	special_role = "KRC Scientist"
 	respawn_flag = null
 	welcome_message = "The rampancy virus has driven the synthetics in the area to homicidal madness, with most humans having either fled or perished at their hands. You have followed the military order to shelter in place, hoping that rescue is on the way..."
+	password = "realfm"
 
 /datum/outfit/admin/konyang_scientist
 	name = "KRC Scientist"
@@ -289,6 +353,7 @@
 	assigned_role = "Merchant"
 	special_role = "Merchant"
 	respawn_flag = null
+	password = "hellostranger"
 
 /datum/ghostspawner/human/konyang_merchant/post_spawn(mob/user)
 	. = ..()
@@ -324,6 +389,7 @@
 	assigned_role = "BitByte Reporter"
 	special_role = "BitByte Reporter"
 	respawn_flag = null
+	password = "bytetheminute"
 
 /datum/outfit/admin/bitbyte
 	name = "BitByte Reporter"
