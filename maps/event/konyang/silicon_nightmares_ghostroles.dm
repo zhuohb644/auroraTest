@@ -85,7 +85,7 @@
 	desc = "As an enlisted human of Konyang's navy, assist corporate forces in locating and eliminating the source of the rampancy signal."
 	spawnpoints = list("konyang_navy")
 	max_count = 4
-	enabled = FALSE
+	enabled = TRUE
 
 	outfit = /datum/outfit/admin/konyang_navy
 	possible_species = list(SPECIES_HUMAN)
