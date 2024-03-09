@@ -2597,6 +2597,10 @@
 	desc = "This portal will teleport you to the event area - it is one-way only, so make sure you've got your gear and character set up before going through!";
 	invisibility = 0
 	},
+/obj/effect/decal/fake_object{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "portal"
+	},
 /turf/simulated/floor/tiled,
 /area/sn_interiors)
 "lt" = (
