@@ -9874,6 +9874,10 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
+"HP" = (
+/obj/abstract/weather_marker/konyang,
+/turf/simulated/floor/exoplanet/konyang,
+/area/sn_wild)
 "HQ" = (
 /obj/effect/floor_decal/spline/plain/blue{
 	dir = 9
@@ -67057,7 +67061,7 @@ tt
 Sd
 Sd
 Sd
-Sd
+HP
 NQ
 "}
 (203,1,1) = {"

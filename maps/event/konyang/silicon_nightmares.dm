@@ -38,6 +38,7 @@
 	requires_power = FALSE
 	ambience = list('sound/effects/wind/wind_2_1.ogg','sound/effects/wind/wind_2_2.ogg','sound/effects/wind/wind_3_1.ogg','sound/effects/wind/wind_4_1.ogg','sound/ambience/eeriejungle2.ogg','sound/ambience/eeriejungle1.ogg')
 	area_flags = AREA_FLAG_INDESTRUCTIBLE_TURFS
+	is_outside = OUTSIDE_YES
 	var/lighting = TRUE
 
 /area/sn_wild/play_ambience(var/mob/living/L)
@@ -57,6 +58,7 @@
 	base_turf = /turf/simulated/floor/plating
 	requires_power = FALSE
 	area_flags = AREA_FLAG_INDESTRUCTIBLE_TURFS
+	is_outside = OUTSIDE_NO
 
 /area/sn_powerstation
 	name = "KRC Power Station"
