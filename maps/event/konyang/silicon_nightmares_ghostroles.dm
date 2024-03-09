@@ -47,15 +47,37 @@
 	l_ear = /obj/item/device/flashlight/headlights
 
 /datum/ghostspawner/human/infected/final
+	name = "Countryside Infected"
 	short_name = "infected_final"
-	name = "Infected IPC - Final Push"
-	max_count = 17
+	desc = "The commotion of gunfire has attracted you to the area. Break those who would disrupt the signal."
+	max_count = 20
 	spawnpoints = list("infected_final")
+	outfit = /datum/outfit/admin/infected_push
+	assigned_role = "Konyanger Citizen"
+	special_role = "Konyanger Citizen"
+
+/datum/outfit/admin/infected_push
+	name = "Konyanger Citizen"
+
+	uniform = list(
+		/obj/item/clothing/under/konyang,
+		/obj/item/clothing/under/konyang/blue,
+		/obj/item/clothing/under/konyang/male,
+		/obj/item/clothing/under/konyang/pink,
+		/obj/item/clothing/under/konyang/male/sleeveless,
+		/obj/item/clothing/under/konyang/male/shortsleeve
+	)
+	shoes = /obj/item/clothing/shoes/konyang
+	back = /obj/item/storage/backpack/satchel/leather
+	belt = /obj/item/material/hatchet/machete
+	l_ear = null
+	id = null
+	l_pocket = /obj/item/storage/wallet/random
 
 /datum/ghostspawner/human/infected/tank
 	short_name = "infected_tank"
 	name = "Infected Industrial IPC"
-	max_count = 3
+	max_count = 1
 	spawnpoints = list("infected_tank")
 	assigned_role = "Heavy Industrial IPC"
 	special_role = "Heavy Industrial IPC"
@@ -76,6 +98,20 @@
 	head = /obj/item/clothing/head/fedora/dark
 	back = /obj/item/storage/backpack/satchel/leather
 	shoes = /obj/item/clothing/shoes/laceup
+
+/datum/ghostspawner/human/infected/tank/push
+	short_name = "infected_pushtank"
+	name = "Infected Agricultural Industrial IPC"
+	max_count = 2
+	assigned_role = "Agricultural Industrial IPC"
+	special_role = "Agricultural Industrial IPC"
+	outfit = /datum/outfit/admin/infected_tank/push
+	spawnpoints = list("infected_pushtank")
+
+/datum/outfit/admin/infected_tank/push
+	uniform = /obj/item/clothing/under/pants/jeans
+	back = /obj/item/storage/backpack/satchel/leather
+	shoes = /obj/item/clothing/shoes/workboots/dark
 
 //Konyang Navy Ghostroles
 /datum/ghostspawner/human/konyang_navy
@@ -103,20 +139,18 @@
 	shoes = /obj/item/clothing/shoes/jackboots
 	suit = /obj/item/clothing/suit/armor/carrier/navy
 	head = /obj/item/clothing/head/helmet/konyang/navy
-	glasses = /obj/item/clothing/glasses/night
 	l_ear = /obj/item/device/radio/headset/distress
 	accessory = /obj/item/clothing/accessory/holster/hip
 	accessory_contents = list(/obj/item/gun/projectile/pistol/sol/konyang = 1)
 	back = /obj/item/storage/backpack/rucksack/navy
 	belt = /obj/item/storage/belt/military
 	belt_contents = list(
-		/obj/item/ammo_magazine/mc9mm = 3,
-		/obj/item/ammo_magazine/a556/k556 = 3
+		/obj/item/ammo_magazine/mc9mm = 2,
+		/obj/item/ammo_magazine/a556/k556 = 2
 	)
 	suit_store = /obj/item/gun/projectile/automatic/rifle/konyang/k556
 	backpack_contents = list(
 		/obj/item/handcuffs/ziptie = 2,
-		/obj/item/grenade/frag = 1,
 		/obj/item/melee/energy/sword/knife/sol = 1,
 		/obj/item/storage/firstaid/stab = 1
 	)
@@ -142,12 +176,10 @@
 	head = /obj/item/clothing/head/konyang/navy
 	suit = null
 	suit_store = null
-	glasses = /obj/item/clothing/glasses/night/aviator
 	belt = /obj/item/material/sword/katana/konyang
 	belt_contents = null
 	backpack_contents = list(
 		/obj/item/handcuffs/ziptie = 2,
-		/obj/item/grenade/frag = 1,
 		/obj/item/melee/energy/sword/knife/sol = 1,
 		/obj/item/storage/firstaid/stab = 1,
 		/obj/item/ammo_magazine/mc9mm = 3
@@ -173,7 +205,7 @@
 	back = /obj/item/gun/projectile/automatic/rifle/konyang/konyang47
 	backpack_contents = null
 	belt_contents = list(
-		/obj/item/ammo_magazine/mc9mm = 3,
+		/obj/item/ammo_magazine/mc9mm = 1,
 		/obj/item/ammo_magazine/a556/carbine/konyang47 = 2,
 		/obj/item/melee/energy/sword/knife/sol = 1
 	)

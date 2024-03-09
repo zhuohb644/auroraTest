@@ -842,8 +842,8 @@
 /area/sn_wild)
 "dL" = (
 /obj/effect/ghostspawpoint{
-	name = "igs - infected_tank";
-	identifier = "infected_tank"
+	name = "igs - infected_pushtank";
+	identifier = "infected_pushtank"
 	},
 /turf/simulated/floor/asphalt,
 /area/sn_wild)
@@ -3238,6 +3238,13 @@
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /turf/simulated/floor/reinforced,
 /area/sn_powerstation)
+"oc" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - infected_tank";
+	identifier = "infected_tank"
+	},
+/turf/simulated/floor/plating,
+/area/sn_warehouse)
 "od" = (
 /obj/random/dirt_75,
 /obj/random/dirt_75,
@@ -20635,7 +20642,7 @@ jo
 uG
 xq
 Jx
-uG
+dL
 uG
 Gj
 CY
@@ -73020,7 +73027,7 @@ tH
 tH
 tH
 Si
-Si
+oc
 Si
 Si
 Si

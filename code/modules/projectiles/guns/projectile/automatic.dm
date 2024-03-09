@@ -656,10 +656,10 @@
 	icon_state = "k45carbine"
 	item_state = "k45carbine"
 	w_class = ITEMSIZE_NORMAL
-	max_shells = 18
+	max_shells = 30
 	load_method = MAGAZINE
 	ammo_type = /obj/item/ammo_casing/c45
-	allowed_magazines = list(/obj/item/ammo_magazine/c45m)
+	allowed_magazines = list(/obj/item/ammo_magazine/c45m, /obj/item/ammo_magazine/submachinemag)
 
 	firemodes = list(
 		list(mode_name="semiauto",       can_autofire=0, burst=1, fire_delay=ROF_SMG),
